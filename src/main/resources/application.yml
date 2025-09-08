@@ -1,0 +1,17 @@
+# Mon Sep 08 20:22:32 BRT 2025
+micronaut:
+  application:
+    name: ai-summary-transactions
+  router:
+    static-resources:
+      swagger-ui:
+        mapping: /swagger-ui/**
+        paths: classpath:META-INF/swagger/views/swagger-ui
+      swagger:
+        mapping: /swagger/**
+        paths: classpath:META-INF/swagger
+
+langchain4j:
+  open-ai:
+    api-key: ${OPENAI_API_KEY}
+    model-name: gpt-4o-mini

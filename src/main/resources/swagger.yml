@@ -1,0 +1,60 @@
+openapi: 3.0.1
+info:
+  title: AI Summary Transactions API
+  description: API for AI-powered transaction summarization
+  version: 1.0.0
+  contact:
+    name: API Support
+    email: support@example.com
+servers:
+  - url: http://localhost:8080
+    description: Development server
+paths:
+  /ping:
+    get:
+      summary: Ping endpoint
+      description: Simple ping/pong endpoint to check if the API is running
+      operationId: ping
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "pong"
+                  timestamp:
+                    type: string
+                    format: date-time
+                    example: "2025-01-08T20:22:32Z"
+              example:
+                message: "pong"
+                timestamp: "2025-01-08T20:22:32Z"
+        "500":
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Internal server error"
+components:
+  schemas:
+    PingResponse:
+      type: object
+      properties:
+        message:
+          type: string
+          description: Response message
+        timestamp:
+          type: string
+          format: date-time
+          description: Response timestamp
+      required:
+        - message
+        - timestamp
