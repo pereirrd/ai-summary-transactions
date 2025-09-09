@@ -41,6 +41,13 @@
   </repositories>
 
   <dependencies>
+    <!-- OpenSearch dependencies -->
+    <dependency>
+      <groupId>org.opensearch.client</groupId>
+      <artifactId>opensearch-java</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+
     <!-- AI dependencies -->
     <dependency>
       <groupId>io.micronaut.langchain4j</groupId>
