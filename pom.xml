@@ -17,6 +17,7 @@
     <packaging>jar</packaging>
     <jdk.version>21</jdk.version>
     <release.version>21</release.version>
+
     <micronaut.version>4.9.1</micronaut.version>
     <micronaut.aot.enabled>false</micronaut.aot.enabled>
     <micronaut.aot.packageName>ai.summary.transactions.aot.generated</micronaut.aot.packageName>
@@ -25,7 +26,7 @@
 
     <micronaut.openapi.generate.server>true</micronaut.openapi.generate.server>
     <micronaut.openapi.definition>src/main/resources/swagger.yml</micronaut.openapi.definition>
-    <micronaut.openapi.api.package.name>ai.summary.transactions.api</micronaut.openapi.api.package.name>
+    <micronaut.openapi.api.package.name>ai.summary.transactions.controller</micronaut.openapi.api.package.name>
     <micronaut.openapi.model.package.name>ai.summary.transactions.model</micronaut.openapi.model.package.name>
     <micronaut.openapi.invoker.package.name>ai.summary.transactions</micronaut.openapi.invoker.package.name>
     <micronaut.openapi.use.reactive>false</micronaut.openapi.use.reactive>
@@ -45,7 +46,12 @@
     <dependency>
       <groupId>org.opensearch.client</groupId>
       <artifactId>opensearch-java</artifactId>
-      <version>3.0.0</version>
+      <version>3.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents.client5</groupId>
+      <artifactId>httpclient5</artifactId>
+      <version>5.3.1</version>
     </dependency>
 
     <!-- AI dependencies -->

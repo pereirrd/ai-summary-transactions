@@ -15,3 +15,12 @@ langchain4j:
   open-ai:
     api-key: ${OPENAI_API_KEY}
     model-name: gpt-4o-mini
+
+opensearch:
+  host: ${OPENSEARCH_HOST:localhost}
+  port: ${OPENSEARCH_PORT:5601}
+  scheme: ${OPENSEARCH_SCHEME:http}
+  username: ${OPENSEARCH_USERNAME:admin}
+  password: ${OPENSEARCH_INITIAL_ADMIN_PASSWORD}
+  index:
+    transactions: ${OPENSEARCH_TRANSACTIONS_INDEX:transactions}

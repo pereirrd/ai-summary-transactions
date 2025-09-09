@@ -1,38 +1,52 @@
-openapi: 3.0.1
+openapi: 3.0.0
 info:
-  title: AI Summary Transactions API
-  description: API for AI-powered transaction summarization
+  description: This is a summary of the transactions API
   version: 1.0.0
-  contact:
-    name: API Support
-    email: support@example.com
+  title: Summary Transactions API
+  license:
+    name: Apache-2.0
+    url: "https://www.apache.org/licenses/LICENSE-2.0.html"
+tags:
+  - name: transactions
+    description: Generate and validate transactions using AI and regular expression
+
 servers:
   - url: http://localhost:8080
-    description: Development server
+    description: Local server
+
 paths:
-  /ping:
+  /transactions/{id}:
     get:
-      summary: Ping endpoint
-      description: Simple ping/pong endpoint to check if the API is running
-      operationId: ping
+      tags:
+        - name: transactions
+      summary: Get transaction by ID
+      description: Retrieve a specific transaction by its ID
+      operationId: getTransactionById
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: Transaction ID
+          schema:
+            type: string
+            example: "123e4567-e89b-12d3-a456-426614174000"
       responses:
         "200":
-          description: Successful response
+          description: Transaction found successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Transaction"
+        "404":
+          description: Transaction not found
           content:
             application/json:
               schema:
                 type: object
                 properties:
-                  message:
+                  error:
                     type: string
-                    example: "pong"
-                  timestamp:
-                    type: string
-                    format: date-time
-                    example: "2025-01-08T20:22:32Z"
-              example:
-                message: "pong"
-                timestamp: "2025-01-08T20:22:32Z"
+                    example: "Transaction not found"
         "500":
           description: Internal server error
           content:
@@ -45,16 +59,46 @@ paths:
                     example: "Internal server error"
 components:
   schemas:
-    PingResponse:
+    Transaction:
       type: object
       properties:
-        message:
+        id:
           type: string
-          description: Response message
-        timestamp:
+          description: Transaction unique identifier
+          example: "123e4567-e89b-12d3-a456-426614174000"
+        date:
           type: string
           format: date-time
-          description: Response timestamp
+          description: Transaction date and time
+          example: "2025-01-08T20:22:32Z"
+        amount:
+          type: number
+          format: decimal
+          description: Transaction amount
+          example: 29.99
+        description:
+          type: string
+          description: Transaction description
+          example: "Purchase at grocery store"
+        merchant:
+          $ref: "#/components/schemas/Merchant"
       required:
-        - message
-        - timestamp
+        - id
+        - date
+        - amount
+        - description
+        - merchant
+    Merchant:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Merchant name
+          example: "Walmart"
+        category:
+          type: string
+          description: Merchant category
+          example: "Groceries"
+      required:
+        - name
+        - category
