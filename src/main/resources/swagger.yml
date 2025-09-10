@@ -1,20 +1,115 @@
 openapi: 3.0.0
 info:
-  description: This is a summary of the transactions API
-  version: 1.0.0
   title: Summary Transactions API
+  description: It allows you to summarize transactions using AI.
+  version: 1.0.0
   license:
     name: Apache-2.0
     url: "https://www.apache.org/licenses/LICENSE-2.0.html"
 tags:
   - name: transactions
-    description: Generate and validate transactions using AI and regular expression
+    description: Summarize transactions using AI
 
 servers:
   - url: http://localhost:8080
     description: Local server
 
 paths:
+  /transactions:
+    get:
+      tags:
+        - name: transactions
+      summary: Get all transactions
+      description: Retrieve a list of all transactions
+      operationId: getAllTransactions
+      parameters:
+        - name: limit
+          in: query
+          required: false
+          description: Maximum number of transactions to return
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+            default: 20
+        - name: offset
+          in: query
+          required: false
+          description: Number of transactions to skip
+          schema:
+            type: integer
+            minimum: 0
+            default: 0
+      responses:
+        "200":
+          description: List of transactions retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  transactions:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/TransactionApiResponse"
+                  total:
+                    type: integer
+                    description: Total number of transactions
+                  limit:
+                    type: integer
+                    description: Number of transactions per page
+                  offset:
+                    type: integer
+                    description: Number of transactions skipped
+        "500":
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Internal server error"
+    post:
+      tags:
+        - name: transactions
+      summary: Create a new transaction
+      description: Create a new transaction with the provided data
+      operationId: createTransaction
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateTransactionRequest"
+      responses:
+        "201":
+          description: Transaction created successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TransactionApiResponse"
+        "400":
+          description: Bad request - invalid input data
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Invalid input data"
+        "500":
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Internal server error"
   /transactions/{id}:
     get:
       tags:
@@ -36,7 +131,101 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/Transaction"
+                $ref: "#/components/schemas/TransactionApiResponse"
+        "404":
+          description: Transaction not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Transaction not found"
+        "500":
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Internal server error"
+    put:
+      tags:
+        - name: transactions
+      summary: Update transaction by ID
+      description: Update an existing transaction with the provided data
+      operationId: updateTransaction
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: Transaction ID
+          schema:
+            type: string
+            example: "123e4567-e89b-12d3-a456-426614174000"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UpdateTransactionRequest"
+      responses:
+        "200":
+          description: Transaction updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TransactionApiResponse"
+        "400":
+          description: Bad request - invalid input data
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Invalid input data"
+        "404":
+          description: Transaction not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Transaction not found"
+        "500":
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Internal server error"
+    delete:
+      tags:
+        - name: transactions
+      summary: Delete transaction by ID
+      description: Delete a specific transaction by its ID
+      operationId: deleteTransaction
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: Transaction ID
+          schema:
+            type: string
+            example: "123e4567-e89b-12d3-a456-426614174000"
+      responses:
+        "204":
+          description: Transaction deleted successfully
         "404":
           description: Transaction not found
           content:
@@ -59,7 +248,7 @@ paths:
                     example: "Internal server error"
 components:
   schemas:
-    Transaction:
+    TransactionApiResponse:
       type: object
       properties:
         id:
@@ -102,3 +291,51 @@ components:
       required:
         - name
         - category
+    CreateTransactionRequest:
+      type: object
+      properties:
+        date:
+          type: string
+          format: date-time
+          description: Transaction date and time
+          example: "2025-01-08T20:22:32Z"
+        amount:
+          type: number
+          format: decimal
+          description: Transaction amount
+          example: 29.99
+        description:
+          type: string
+          description: Transaction description
+          example: "Purchase at grocery store"
+        merchant:
+          $ref: "#/components/schemas/Merchant"
+      required:
+        - date
+        - amount
+        - description
+        - merchant
+    UpdateTransactionRequest:
+      type: object
+      properties:
+        date:
+          type: string
+          format: date-time
+          description: Transaction date and time
+          example: "2025-01-08T20:22:32Z"
+        amount:
+          type: number
+          format: decimal
+          description: Transaction amount
+          example: 29.99
+        description:
+          type: string
+          description: Transaction description
+          example: "Purchase at grocery store"
+        merchant:
+          $ref: "#/components/schemas/Merchant"
+      required:
+        - date
+        - amount
+        - description
+        - merchant

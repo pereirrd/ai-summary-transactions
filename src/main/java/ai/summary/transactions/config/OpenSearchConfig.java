@@ -25,8 +25,8 @@ public class OpenSearchConfig {
     @Bean
     @Singleton
     public OpenSearchClient openSearchClient() {
-        HttpHost httpHost = new HttpHost(scheme, host, port);
-        OpenSearchTransport transport = ApacheHttpClient5TransportBuilder.builder(httpHost).build();
+        var httpHost = new HttpHost(scheme, host, port);
+        var transport = ApacheHttpClient5TransportBuilder.builder(httpHost).build();
 
         return new OpenSearchClient(transport);
     }

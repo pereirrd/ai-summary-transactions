@@ -10,9 +10,12 @@ import lombok.extern.slf4j.Slf4j;
 
 import org.opensearch.client.opensearch.OpenSearchClient;
 import org.opensearch.client.opensearch._types.Result;
+import org.opensearch.client.opensearch._types.query_dsl.Query;
 import org.opensearch.client.opensearch.core.*;
 import java.io.IOException;
+import java.util.List;
 import java.util.UUID;
+import java.util.stream.Collectors;
 
 @Slf4j
 @Singleton
@@ -31,13 +34,35 @@ public class TransactionServiceImpl implements TransactionService {
     }
 
     @Override
+    public List<Transaction> getAllTransactions(int limit, int offset) {
+        try {
+            var searchRequest = SearchRequest.of(s -> s
+                    .index(transactionsIndex)
+                    .query(Query.of(q -> q.matchAll(m -> m)))
+                    .from(offset)
+                    .size(limit)
+                    .sort(sort -> sort.field(
+                            f -> f.field("date").order(org.opensearch.client.opensearch._types.SortOrder.Desc))));
+
+            var response = openSearchClient.search(searchRequest, Object.class);
+
+            return response.hits().hits().stream()
+                    .map(hit -> objectMapper.convertValue(hit.source(), Transaction.class))
+                    .collect(Collectors.toList());
+        } catch (IOException e) {
+            log.error("Error retrieving all transactions", e);
+            throw new RuntimeException("Failed to retrieve transactions", e);
+        }
+    }
+
+    @Override
     public Transaction getTransactionById(String id) {
         try {
-            GetRequest getRequest = GetRequest.of(g -> g
+            var getRequest = GetRequest.of(g -> g
                     .index(transactionsIndex)
                     .id(id));
 
-            GetResponse<Object> response = openSearchClient.get(getRequest, Object.class);
+            var response = openSearchClient.get(getRequest, Object.class);
 
             if (response.found()) {
                 return objectMapper.convertValue(response.source(), Transaction.class);
@@ -55,22 +80,22 @@ public class TransactionServiceImpl implements TransactionService {
     public Transaction createTransaction(Transaction transaction) {
         try {
             // Gerar ID se não fornecido
-            String transactionId = transaction.id() != null ? transaction.id().toString()
+            var transactionId = transaction.id() != null ? transaction.id().toString()
                     : UUID.randomUUID().toString();
 
-            Transaction transactionWithId = new Transaction(
+            var transactionWithId = new Transaction(
                     UUID.fromString(transactionId),
                     transaction.date(),
                     transaction.amount(),
                     transaction.description(),
                     transaction.merchant());
 
-            IndexRequest<Transaction> indexRequest = IndexRequest.of(i -> i
+            var indexRequest = IndexRequest.of(i -> i
                     .index(transactionsIndex)
                     .id(transactionId)
                     .document(transactionWithId));
 
-            IndexResponse response = openSearchClient.index(indexRequest);
+            var response = openSearchClient.index(indexRequest);
 
             if (response.result() == Result.Created || response.result() == Result.Updated) {
                 log.info("Transaction created/updated with id: {}", transactionId);
@@ -88,26 +113,26 @@ public class TransactionServiceImpl implements TransactionService {
     public Transaction updateTransaction(String id, Transaction transaction) {
         try {
             // Verificar se a transação existe
-            Transaction existingTransaction = getTransactionById(id);
+            var existingTransaction = getTransactionById(id);
             if (existingTransaction == null) {
                 log.warn("Transaction with id {} not found for update", id);
                 return null;
             }
 
             // Criar nova transação com o ID existente
-            Transaction updatedTransaction = new Transaction(
+            var updatedTransaction = new Transaction(
                     UUID.fromString(id),
                     transaction.date() != null ? transaction.date() : existingTransaction.date(),
                     transaction.amount() != null ? transaction.amount() : existingTransaction.amount(),
                     transaction.description() != null ? transaction.description() : existingTransaction.description(),
                     transaction.merchant() != null ? transaction.merchant() : existingTransaction.merchant());
 
-            IndexRequest<Transaction> indexRequest = IndexRequest.of(i -> i
+            var indexRequest = IndexRequest.of(i -> i
                     .index(transactionsIndex)
                     .id(id)
                     .document(updatedTransaction));
 
-            IndexResponse response = openSearchClient.index(indexRequest);
+            var response = openSearchClient.index(indexRequest);
 
             if (response.result() == Result.Updated || response.result() == Result.Created) {
                 log.info("Transaction updated with id: {}", id);
@@ -124,11 +149,11 @@ public class TransactionServiceImpl implements TransactionService {
     @Override
     public void deleteTransaction(String id) {
         try {
-            DeleteRequest deleteRequest = DeleteRequest.of(d -> d
+            var deleteRequest = DeleteRequest.of(d -> d
                     .index(transactionsIndex)
                     .id(id));
 
-            DeleteResponse response = openSearchClient.delete(deleteRequest);
+            var response = openSearchClient.delete(deleteRequest);
 
             if (response.result() == Result.Deleted) {
                 log.info("Transaction deleted with id: {}", id);
