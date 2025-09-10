@@ -1,11 +1,11 @@
 package ai.summary.transactions.domain.transaction.impl;
 
+import ai.summary.transactions.core.config.OpenSearchConfig;
 import ai.summary.transactions.domain.transaction.TransactionService;
 import ai.summary.transactions.domain.transaction.model.Transaction;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import io.micronaut.context.annotation.Value;
-import jakarta.inject.Inject;
 import jakarta.inject.Singleton;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 import org.opensearch.client.opensearch.OpenSearchClient;
@@ -19,25 +19,18 @@ import java.util.stream.Collectors;
 
 @Slf4j
 @Singleton
+@RequiredArgsConstructor
 public class TransactionServiceImpl implements TransactionService {
 
-    @Value("${opensearch.index.transactions:transactions}")
-    private String transactionsIndex;
-
     private final OpenSearchClient openSearchClient;
+    private final OpenSearchConfig openSearchConfig;
     private final ObjectMapper objectMapper;
-
-    @Inject
-    public TransactionServiceImpl(OpenSearchClient openSearchClient, ObjectMapper objectMapper) {
-        this.openSearchClient = openSearchClient;
-        this.objectMapper = objectMapper;
-    }
 
     @Override
     public List<Transaction> getAllTransactions(int limit, int offset) {
         try {
             var searchRequest = SearchRequest.of(s -> s
-                    .index(transactionsIndex)
+                    .index(openSearchConfig.getTransactionsIndex())
                     .query(Query.of(q -> q.matchAll(m -> m)))
                     .from(offset)
                     .size(limit)
@@ -59,7 +52,7 @@ public class TransactionServiceImpl implements TransactionService {
     public Transaction getTransactionById(String id) {
         try {
             var getRequest = GetRequest.of(g -> g
-                    .index(transactionsIndex)
+                    .index(openSearchConfig.getTransactionsIndex())
                     .id(id));
 
             var response = openSearchClient.get(getRequest, Object.class);
@@ -91,7 +84,7 @@ public class TransactionServiceImpl implements TransactionService {
                     transaction.merchant());
 
             var indexRequest = IndexRequest.of(i -> i
-                    .index(transactionsIndex)
+                    .index(openSearchConfig.getTransactionsIndex())
                     .id(transactionId)
                     .document(transactionWithId));
 
@@ -128,7 +121,7 @@ public class TransactionServiceImpl implements TransactionService {
                     transaction.merchant() != null ? transaction.merchant() : existingTransaction.merchant());
 
             var indexRequest = IndexRequest.of(i -> i
-                    .index(transactionsIndex)
+                    .index(openSearchConfig.getTransactionsIndex())
                     .id(id)
                     .document(updatedTransaction));
 
@@ -150,7 +143,7 @@ public class TransactionServiceImpl implements TransactionService {
     public void deleteTransaction(String id) {
         try {
             var deleteRequest = DeleteRequest.of(d -> d
-                    .index(transactionsIndex)
+                    .index(openSearchConfig.getTransactionsIndex())
                     .id(id));
 
             var response = openSearchClient.delete(deleteRequest);

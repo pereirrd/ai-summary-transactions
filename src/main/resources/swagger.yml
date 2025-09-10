@@ -270,14 +270,14 @@ components:
           description: Transaction description
           example: "Purchase at grocery store"
         merchant:
-          $ref: "#/components/schemas/Merchant"
+          $ref: "#/components/schemas/MerchantApiResponse"
       required:
         - id
         - date
         - amount
         - description
         - merchant
-    Merchant:
+    MerchantApiResponse:
       type: object
       properties:
         name:
@@ -309,7 +309,7 @@ components:
           description: Transaction description
           example: "Purchase at grocery store"
         merchant:
-          $ref: "#/components/schemas/Merchant"
+          $ref: "#/components/schemas/MerchantApiResponse"
       required:
         - date
         - amount
@@ -333,7 +333,7 @@ components:
           description: Transaction description
           example: "Purchase at grocery store"
         merchant:
-          $ref: "#/components/schemas/Merchant"
+          $ref: "#/components/schemas/MerchantApiResponse"
       required:
         - date
         - amount

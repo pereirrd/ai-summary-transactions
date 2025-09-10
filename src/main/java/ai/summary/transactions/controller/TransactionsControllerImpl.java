@@ -1,7 +1,13 @@
 package ai.summary.transactions.controller;
 
-import ai.summary.transactions.model.*;
+import ai.summary.transactions.model.CreateTransactionRequest;
+import ai.summary.transactions.model.GetAllTransactions200Response;
+import ai.summary.transactions.model.MerchantApiResponse;
+import ai.summary.transactions.model.TransactionApiResponse;
+import ai.summary.transactions.model.UpdateTransactionRequest;
 import ai.summary.transactions.domain.transaction.TransactionService;
+import ai.summary.transactions.domain.transaction.model.Merchant;
+import ai.summary.transactions.domain.transaction.model.Transaction;
 import io.micronaut.http.HttpResponse;
 import io.micronaut.http.annotation.Controller;
 import jakarta.validation.Valid;
@@ -21,8 +27,7 @@ public class TransactionsControllerImpl implements DefaultApi {
     @Override
     public HttpResponse<@Valid GetAllTransactions200Response> getAllTransactions(Integer limit, Integer offset) {
         try {
-            var domainTransactions = transactionService
-                    .getAllTransactions(limit, offset);
+            var domainTransactions = transactionService.getAllTransactions(limit, offset);
 
             var apiTransactions = domainTransactions.stream()
                     .map(this::convertToApiTransaction)
@@ -45,10 +50,8 @@ public class TransactionsControllerImpl implements DefaultApi {
     public HttpResponse<@Valid TransactionApiResponse> createTransaction(
             @NotNull @Valid CreateTransactionRequest createTransactionRequest) {
         try {
-            var domainTransaction = convertToDomainTransaction(
-                    createTransactionRequest);
-            var createdTransaction = transactionService
-                    .createTransaction(domainTransaction);
+            var domainTransaction = convertToDomainTransaction(createTransactionRequest);
+            var createdTransaction = transactionService.createTransaction(domainTransaction);
 
             var apiTransaction = convertToApiTransaction(createdTransaction);
             return HttpResponse.created(apiTransaction);
@@ -61,8 +64,7 @@ public class TransactionsControllerImpl implements DefaultApi {
     @Override
     public HttpResponse<@Valid TransactionApiResponse> getTransactionById(@NotNull String id) {
         try {
-            var domainTransaction = transactionService
-                    .getTransactionById(id);
+            var domainTransaction = transactionService.getTransactionById(id);
 
             if (domainTransaction == null) {
                 return HttpResponse.notFound();
@@ -80,10 +82,8 @@ public class TransactionsControllerImpl implements DefaultApi {
     public HttpResponse<@Valid TransactionApiResponse> updateTransaction(@NotNull String id,
             @NotNull @Valid UpdateTransactionRequest updateTransactionRequest) {
         try {
-            var domainTransaction = convertToDomainTransaction(
-                    updateTransactionRequest);
-            var updatedTransaction = transactionService
-                    .updateTransaction(id, domainTransaction);
+            var domainTransaction = convertToDomainTransaction(updateTransactionRequest);
+            var updatedTransaction = transactionService.updateTransaction(id, domainTransaction);
 
             if (updatedTransaction == null) {
                 return HttpResponse.notFound();
@@ -108,8 +108,7 @@ public class TransactionsControllerImpl implements DefaultApi {
         }
     }
 
-    private TransactionApiResponse convertToApiTransaction(
-            ai.summary.transactions.domain.transaction.model.Transaction domainTransaction) {
+    private TransactionApiResponse convertToApiTransaction(Transaction domainTransaction) {
         var apiTransaction = new TransactionApiResponse(
                 domainTransaction.id().toString(),
                 domainTransaction.date().atZone(java.time.ZoneId.systemDefault()),
@@ -118,7 +117,7 @@ public class TransactionsControllerImpl implements DefaultApi {
                 null);
 
         if (domainTransaction.merchant() != null) {
-            var apiMerchant = new ai.summary.transactions.model.Merchant(
+            var apiMerchant = new MerchantApiResponse(
                     domainTransaction.merchant().name(),
                     domainTransaction.merchant().category());
             apiTransaction.setMerchant(apiMerchant);
@@ -127,13 +126,12 @@ public class TransactionsControllerImpl implements DefaultApi {
         return apiTransaction;
     }
 
-    private ai.summary.transactions.domain.transaction.model.Transaction convertToDomainTransaction(
-            CreateTransactionRequest request) {
-        var domainMerchant = new ai.summary.transactions.domain.transaction.model.Merchant(
+    private Transaction convertToDomainTransaction(CreateTransactionRequest request) {
+        var domainMerchant = new Merchant(
                 request.getMerchant().getName(),
                 request.getMerchant().getCategory());
 
-        return new ai.summary.transactions.domain.transaction.model.Transaction(
+        return new Transaction(
                 null, // ID will be generated by the service
                 request.getDate().toLocalDateTime(),
                 request.getAmount(),
@@ -141,13 +139,12 @@ public class TransactionsControllerImpl implements DefaultApi {
                 domainMerchant);
     }
 
-    private ai.summary.transactions.domain.transaction.model.Transaction convertToDomainTransaction(
-            UpdateTransactionRequest request) {
-        var domainMerchant = new ai.summary.transactions.domain.transaction.model.Merchant(
+    private Transaction convertToDomainTransaction(UpdateTransactionRequest request) {
+        var domainMerchant = new Merchant(
                 request.getMerchant().getName(),
                 request.getMerchant().getCategory());
 
-        return new ai.summary.transactions.domain.transaction.model.Transaction(
+        return new Transaction(
                 null, // ID will be set by the service
                 request.getDate().toLocalDateTime(),
                 request.getAmount(),
