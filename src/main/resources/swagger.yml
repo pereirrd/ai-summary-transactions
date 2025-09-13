@@ -18,7 +18,7 @@ paths:
   /transactions:
     get:
       tags:
-        - name: transactions
+        - transactions
       summary: Get all transactions
       description: Retrieve a list of all transactions
       operationId: getAllTransactions
@@ -73,7 +73,7 @@ paths:
                     example: "Internal server error"
     post:
       tags:
-        - name: transactions
+        - transactions
       summary: Create a new transaction
       description: Create a new transaction with the provided data
       operationId: createTransaction
@@ -113,7 +113,7 @@ paths:
   /transactions/{id}:
     get:
       tags:
-        - name: transactions
+        - transactions
       summary: Get transaction by ID
       description: Retrieve a specific transaction by its ID
       operationId: getTransactionById
@@ -154,7 +154,7 @@ paths:
                     example: "Internal server error"
     put:
       tags:
-        - name: transactions
+        - transactions
       summary: Update transaction by ID
       description: Update an existing transaction with the provided data
       operationId: updateTransaction
@@ -211,7 +211,7 @@ paths:
                     example: "Internal server error"
     delete:
       tags:
-        - name: transactions
+        - transactions
       summary: Delete transaction by ID
       description: Delete a specific transaction by its ID
       operationId: deleteTransaction

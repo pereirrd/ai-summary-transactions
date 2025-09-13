@@ -21,4 +21,10 @@ public class OpenSearchConfig {
     @Value("${opensearch.index.transactions:transactions}")
     private String transactionsIndex;
 
+    @Value("${opensearch.username:admin}")
+    private String username;
+
+    @Value("${opensearch.password:}")
+    private String password;
+
 }
