@@ -2,8 +2,8 @@ package ai.summary.transactions.domain.transaction.impl;
 
 import ai.summary.transactions.core.config.OpenSearchConfig;
 import ai.summary.transactions.domain.transaction.TransactionService;
+import ai.summary.transactions.domain.transaction.mapper.TransactionMapper;
 import ai.summary.transactions.domain.transaction.model.Transaction;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.inject.Singleton;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -24,7 +24,7 @@ public class TransactionServiceImpl implements TransactionService {
 
     private final OpenSearchClient openSearchClient;
     private final OpenSearchConfig openSearchConfig;
-    private final ObjectMapper objectMapper;
+    private final TransactionMapper transactionMapper;
 
     @Override
     public List<Transaction> getAllTransactions(int limit, int offset) {
@@ -40,7 +40,7 @@ public class TransactionServiceImpl implements TransactionService {
             var response = openSearchClient.search(searchRequest, Object.class);
 
             return response.hits().hits().stream()
-                    .map(hit -> objectMapper.convertValue(hit.source(), Transaction.class))
+                    .map(hit -> transactionMapper.fromOpenSearchObject(hit.source()))
                     .collect(Collectors.toList());
         } catch (IOException e) {
             log.error("Error retrieving all transactions", e);
@@ -58,7 +58,7 @@ public class TransactionServiceImpl implements TransactionService {
             var response = openSearchClient.get(getRequest, Object.class);
 
             if (response.found()) {
-                return objectMapper.convertValue(response.source(), Transaction.class);
+                return transactionMapper.fromOpenSearchObject(response.source());
             } else {
                 log.warn("Transaction with id {} not found", id);
                 return null;

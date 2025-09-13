@@ -48,11 +48,6 @@
       <artifactId>opensearch-java</artifactId>
       <version>3.1.0</version>
     </dependency>
-    <dependency>
-      <groupId>org.apache.httpcomponents.client5</groupId>
-      <artifactId>httpclient5</artifactId>
-      <version>5.3.1</version>
-    </dependency>
 
     <!-- AI dependencies -->
     <dependency>
@@ -64,6 +59,13 @@
       <artifactId>micronaut-langchain4j-core</artifactId>
     </dependency>
 
+    <!-- Mapstruct dependency -->
+    <dependency>
+      <groupId>org.mapstruct</groupId>
+      <artifactId>mapstruct</artifactId>
+      <version>1.6.3</version>
+    </dependency>
+
     <dependency>
       <groupId>io.micronaut</groupId>
       <artifactId>micronaut-http-server-netty</artifactId>
@@ -72,6 +74,11 @@
     <dependency>
       <groupId>io.micronaut.serde</groupId>
       <artifactId>micronaut-serde-jackson</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.datatype</groupId>
+      <artifactId>jackson-datatype-jsr310</artifactId>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -142,6 +149,7 @@
 
   <build>
     <plugins>
+
       <plugin>
         <groupId>io.micronaut.maven</groupId>
         <artifactId>micronaut-maven-plugin</artifactId>
@@ -189,6 +197,11 @@
               <groupId>org.projectlombok</groupId>
               <artifactId>lombok</artifactId>
               <version>1.18.30</version>
+            </path>
+            <path>
+              <groupId>org.mapstruct</groupId>
+              <artifactId>mapstruct-processor</artifactId>
+              <version>1.6.3</version>
             </path>
             <path>
               <groupId>io.micronaut.langchain4j</groupId>
