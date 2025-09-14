@@ -2,7 +2,7 @@ package ai.summary.transactions.domain.transaction.impl;
 
 import ai.summary.transactions.core.config.OpenSearchConfig;
 import ai.summary.transactions.domain.transaction.TransactionService;
-import ai.summary.transactions.domain.transaction.mapper.TransactionMapper;
+import ai.summary.transactions.domain.transaction.mapper.OpenSearchTransactionMapper;
 import ai.summary.transactions.domain.transaction.model.Transaction;
 import jakarta.inject.Singleton;
 import lombok.RequiredArgsConstructor;
@@ -10,10 +10,12 @@ import lombok.extern.slf4j.Slf4j;
 
 import org.opensearch.client.opensearch.OpenSearchClient;
 import org.opensearch.client.opensearch._types.Result;
+import org.opensearch.client.opensearch._types.SortOrder;
 import org.opensearch.client.opensearch._types.query_dsl.Query;
 import org.opensearch.client.opensearch.core.*;
 import java.io.IOException;
 import java.util.List;
+import java.util.Optional;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
@@ -24,48 +26,48 @@ public class TransactionServiceImpl implements TransactionService {
 
     private final OpenSearchClient openSearchClient;
     private final OpenSearchConfig openSearchConfig;
-    private final TransactionMapper transactionMapper;
+    private final OpenSearchTransactionMapper openSearchTransactionMapper;
 
     @Override
-    public List<Transaction> getAllTransactions(int limit, int offset) {
+    public Optional<List<Transaction>> getAllTransactions(int limit, int offset) {
         try {
-            var searchRequest = SearchRequest.of(s -> s
+            var searchRequest = SearchRequest.of(transactions -> transactions
                     .index(openSearchConfig.getTransactionsIndex())
-                    .query(Query.of(q -> q.matchAll(m -> m)))
+                    .query(Query.of(query -> query.matchAll(m -> m)))
                     .from(offset)
                     .size(limit)
                     .sort(sort -> sort.field(
-                            f -> f.field("date").order(org.opensearch.client.opensearch._types.SortOrder.Desc))));
+                            f -> f.field("date").order(SortOrder.Desc))));
 
             var response = openSearchClient.search(searchRequest, Object.class);
 
-            return response.hits().hits().stream()
-                    .map(hit -> transactionMapper.fromOpenSearchObject(hit.source()))
-                    .collect(Collectors.toList());
-        } catch (IOException e) {
-            log.error("Error retrieving all transactions", e);
-            throw new RuntimeException("Failed to retrieve transactions", e);
+            return Optional.of(response.hits().hits().stream()
+                    .map(hit -> openSearchTransactionMapper.fromOpenSearchObject(hit.source()))
+                    .collect(Collectors.toList()));
+        } catch (IOException exception) {
+            log.error("Error retrieving all transactions", exception);
+            throw new RuntimeException("Failed to retrieve transactions", exception);
         }
     }
 
     @Override
-    public Transaction getTransactionById(String id) {
+    public Optional<Transaction> getTransactionById(String id) {
         try {
-            var getRequest = GetRequest.of(g -> g
+            var getRequest = GetRequest.of(transactions -> transactions
                     .index(openSearchConfig.getTransactionsIndex())
                     .id(id));
 
             var response = openSearchClient.get(getRequest, Object.class);
 
             if (response.found()) {
-                return transactionMapper.fromOpenSearchObject(response.source());
+                return Optional.of(openSearchTransactionMapper.fromOpenSearchObject(response.source()));
             } else {
                 log.warn("Transaction with id {} not found", id);
-                return null;
+                return Optional.empty();
             }
-        } catch (IOException e) {
-            log.error("Error retrieving transaction with id: {}", id, e);
-            throw new RuntimeException("Failed to retrieve transaction", e);
+        } catch (IOException exception) {
+            log.error("Error retrieving transaction with id: {}", id, exception);
+            throw new RuntimeException("Failed to retrieve transaction", exception);
         }
     }
 
@@ -96,29 +98,30 @@ public class TransactionServiceImpl implements TransactionService {
             } else {
                 throw new RuntimeException("Failed to create transaction");
             }
-        } catch (IOException e) {
-            log.error("Error creating transaction", e);
-            throw new RuntimeException("Failed to create transaction", e);
+        } catch (IOException exception) {
+            log.error("Error creating transaction", exception);
+            throw new RuntimeException("Failed to create transaction", exception);
         }
     }
 
     @Override
-    public Transaction updateTransaction(String id, Transaction transaction) {
+    public Optional<Transaction> updateTransaction(String id, Transaction transaction) {
         try {
             // Verificar se a transação existe
             var existingTransaction = getTransactionById(id);
-            if (existingTransaction == null) {
+            if (existingTransaction.isEmpty()) {
                 log.warn("Transaction with id {} not found for update", id);
-                return null;
+                return Optional.empty();
             }
 
             // Criar nova transação com o ID existente
             var updatedTransaction = new Transaction(
                     UUID.fromString(id),
-                    transaction.date() != null ? transaction.date() : existingTransaction.date(),
-                    transaction.amount() != null ? transaction.amount() : existingTransaction.amount(),
-                    transaction.description() != null ? transaction.description() : existingTransaction.description(),
-                    transaction.merchant() != null ? transaction.merchant() : existingTransaction.merchant());
+                    transaction.date() != null ? transaction.date() : existingTransaction.get().date(),
+                    transaction.amount() != null ? transaction.amount() : existingTransaction.get().amount(),
+                    transaction.description() != null ? transaction.description()
+                            : existingTransaction.get().description(),
+                    transaction.merchant() != null ? transaction.merchant() : existingTransaction.get().merchant());
 
             var indexRequest = IndexRequest.of(i -> i
                     .index(openSearchConfig.getTransactionsIndex())
@@ -129,20 +132,20 @@ public class TransactionServiceImpl implements TransactionService {
 
             if (response.result() == Result.Updated || response.result() == Result.Created) {
                 log.info("Transaction updated with id: {}", id);
-                return updatedTransaction;
+                return Optional.of(updatedTransaction);
             } else {
                 throw new RuntimeException("Failed to update transaction");
             }
-        } catch (IOException e) {
-            log.error("Error updating transaction with id: {}", id, e);
-            throw new RuntimeException("Failed to update transaction", e);
+        } catch (IOException exception) {
+            log.error("Error updating transaction with id: {}", id, exception);
+            throw new RuntimeException("Failed to update transaction", exception);
         }
     }
 
     @Override
     public void deleteTransaction(String id) {
         try {
-            var deleteRequest = DeleteRequest.of(d -> d
+            var deleteRequest = DeleteRequest.of(transaction -> transaction
                     .index(openSearchConfig.getTransactionsIndex())
                     .id(id));
 
@@ -155,9 +158,9 @@ public class TransactionServiceImpl implements TransactionService {
             } else {
                 throw new RuntimeException("Failed to delete transaction");
             }
-        } catch (IOException e) {
-            log.error("Error deleting transaction with id: {}", id, e);
-            throw new RuntimeException("Failed to delete transaction", e);
+        } catch (IOException exception) {
+            log.error("Error deleting transaction with id: {}", id, exception);
+            throw new RuntimeException("Failed to delete transaction", exception);
         }
     }
 }

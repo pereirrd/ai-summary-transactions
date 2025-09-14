@@ -39,7 +39,6 @@ public class OpenSearchClientFactory {
         var httpHost = new HttpHost(openSearchConfig.getScheme(), openSearchConfig.getHost(),
                 openSearchConfig.getPort());
 
-        // Configure authentication if credentials are provided
         var transportBuilder = ApacheHttpClient5TransportBuilder.builder(httpHost)
                 .setMapper(jsonpMapper);
 
@@ -47,6 +46,7 @@ public class OpenSearchClientFactory {
         var username = openSearchConfig.getUsername();
         var password = openSearchConfig.getPassword();
 
+        // Configure authentication if credentials are provided
         if (username != null && password != null && !username.isEmpty() && !password.isEmpty()) {
             // Create credentials provider
             var credentialsProvider = new BasicCredentialsProvider();
