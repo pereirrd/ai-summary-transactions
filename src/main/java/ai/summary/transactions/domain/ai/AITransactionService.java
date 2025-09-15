@@ -53,11 +53,17 @@ public interface AITransactionService {
 
          - Entenda "compras no cartão" como as transações que foram feitas com o cartão de crédito e que estamos buscando no Opensearch.
          - Essas são apenas alguns exemplos de como o usuário pode fazer perguntas.
-         - Você deve retornar a query em formato JSON com sintaxe DSL.
-         - Crie duas queries:
-            1. Primeira query para buscar as transações que atendam todos os critérios possíveis do usuário.
-            2. Segunda query para buscar as transações que seja menos específica que a primeira query e que seja mais genérica.
-         - Essas duas queries devem ser retornadas em um array de strings sem nenhum tipo de formatação, somente texto puro.
+         - Você deve retornar a query em formato JSON com sintaxe DSL sem nenhum tipo de formatação, somente texto puro.
          """)
-   String serachTransactions(String userQuestion);
+   String createQuery(String userQuestion);
+
+   /*
+    * - Crie duas queries:
+    * 1. Primeira query para buscar as transações que atendam todos os critérios
+    * possíveis do usuário.
+    * 2. Segunda query para buscar as transações que seja menos específica que a
+    * primeira query e que seja mais genérica.
+    * - Essas duas queries devem ser retornadas em um array de strings sem nenhum
+    * tipo de formatação, somente texto puro.
+    */
 }

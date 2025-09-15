@@ -13,6 +13,7 @@ import org.opensearch.client.opensearch._types.Result;
 import org.opensearch.client.opensearch._types.SortOrder;
 import org.opensearch.client.opensearch._types.query_dsl.Query;
 import org.opensearch.client.opensearch.core.*;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;
 import java.util.List;
 import java.util.Optional;
@@ -163,4 +164,48 @@ public class TransactionServiceImpl implements TransactionService {
             throw new RuntimeException("Failed to delete transaction", exception);
         }
     }
+
+    @Override
+    public Optional<List<Transaction>> searchTransactionsByDsl(String dslQuery, int limit, int offset) {
+        try {
+            log.info("Executing DSL search query: {}", dslQuery);
+
+            // Parse da query DSL JSON para Query usando Jackson
+            var objectMapper = new ObjectMapper();
+            var queryNode = objectMapper.readTree(dslQuery);
+
+            // Se a query tem wrapper "query", extrair o conteúdo
+            if (queryNode.has("query")) {
+                queryNode = queryNode.get("query");
+            }
+
+            // Converter JsonNode para Query usando ObjectMapper
+            var query = objectMapper.treeToValue(queryNode, Query.class);
+
+            // Criar a requisição de busca
+            var searchRequest = SearchRequest.of(search -> search
+                    .index(openSearchConfig.getTransactionsIndex())
+                    .query(query)
+                    .from(offset)
+                    .size(limit)
+                    .sort(sort -> sort.field(
+                            f -> f.field("date").order(SortOrder.Desc))));
+
+            var response = openSearchClient.search(searchRequest, Object.class);
+
+            var totalHits = response.hits().total() != null ? response.hits().total().value() : 0L;
+            log.info("DSL search returned {} hits", totalHits);
+
+            return Optional.of(response.hits().hits().stream()
+                    .map(hit -> openSearchTransactionMapper.fromOpenSearchObject(hit.source()))
+                    .collect(Collectors.toList()));
+        } catch (IOException exception) {
+            log.error("Error executing DSL search query: {}", dslQuery, exception);
+            throw new RuntimeException("Failed to execute DSL search", exception);
+        } catch (Exception exception) {
+            log.error("Error parsing DSL query: {}", dslQuery, exception);
+            throw new RuntimeException("Invalid DSL query format", exception);
+        }
+    }
+
 }
