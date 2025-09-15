@@ -16,5 +16,5 @@ public interface TransactionService {
 
     void deleteTransaction(String id);
 
-    Optional<List<Transaction>> searchTransactionsByDsl(String dslQuery, int limit, int offset);
+    Optional<List<Transaction>> searchTransactionsByDsl(String dslQuery);
 }

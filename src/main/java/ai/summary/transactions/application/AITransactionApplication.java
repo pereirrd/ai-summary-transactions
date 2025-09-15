@@ -21,7 +21,7 @@ public class AITransactionApplication {
             // Use the AI service to process the question
             var query = aiTransactionService.createQuery(question);
 
-            var transactions = transactionService.searchTransactionsByDsl(query, 10, 0);
+            var transactions = transactionService.searchTransactionsByDsl(query);
             if (transactions.isEmpty()) {
                 return "Não foi possível encontrar transações";
             }

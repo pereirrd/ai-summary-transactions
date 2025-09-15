@@ -3,7 +3,7 @@ package ai.summary.transactions.domain.ai;
 import dev.langchain4j.service.SystemMessage;
 import io.micronaut.langchain4j.annotation.AiService;
 
-@AiService
+@AiService(tools = { ReferenceDateTool.class })
 public interface AITransactionService {
 
    @SystemMessage("""
@@ -53,7 +53,8 @@ public interface AITransactionService {
 
          - Entenda "compras no cartão" como as transações que foram feitas com o cartão de crédito e que estamos buscando no Opensearch.
          - Essas são apenas alguns exemplos de como o usuário pode fazer perguntas.
-         - Você deve retornar a query em formato JSON com sintaxe DSL sem nenhum tipo de formatação, somente texto puro.
+         - Você deve retornar somente a query em formato JSON com sintaxe DSL sem nenhum tipo de formatação e sem comentários.
+         - A query deve ser somente texto puro.
          """)
    String createQuery(String userQuestion);
 
