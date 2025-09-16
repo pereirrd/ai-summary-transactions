@@ -4,6 +4,7 @@ import ai.summary.transactions.core.config.OpenSearchConfig;
 import ai.summary.transactions.domain.transaction.TransactionService;
 import ai.summary.transactions.domain.transaction.mapper.OpenSearchTransactionMapper;
 import ai.summary.transactions.domain.transaction.model.Transaction;
+import ai.summary.transactions.infrastructure.TransactionOpensearchClient;
 import jakarta.inject.Singleton;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -25,6 +26,7 @@ import java.util.stream.Collectors;
 public class TransactionServiceImpl implements TransactionService {
 
     private final OpenSearchClient openSearchClient;
+    private final TransactionOpensearchClient transactionOpensearchClient;
     private final OpenSearchConfig openSearchConfig;
     private final OpenSearchTransactionMapper openSearchTransactionMapper;
 
@@ -163,4 +165,10 @@ public class TransactionServiceImpl implements TransactionService {
             throw new RuntimeException("Failed to delete transaction", exception);
         }
     }
+
+    @Override
+    public Optional<List<Transaction>> searchTransactionsByDsl(String dslQuery) {
+        return transactionOpensearchClient.searchTransactionsByDsl(dslQuery);
+    }
+
 }

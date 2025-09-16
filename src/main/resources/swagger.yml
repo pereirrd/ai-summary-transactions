@@ -246,6 +246,58 @@ paths:
                   error:
                     type: string
                     example: "Internal server error"
+  /ai/transactions:
+    post:
+      tags:
+        - AI transactions
+      summary: Process AI transaction query
+      description: Process a natural language query about transactions using AI
+      operationId: processAITransaction
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                question:
+                  type: string
+                  description: Natural language question about transactions
+                  example: "Quais foram as transações de hoje?"
+              required:
+                - question
+      responses:
+        "200":
+          description: AI processed query successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  result:
+                    type: string
+                    description: AI processed result
+                    example: "Encontrei 5 transações de hoje: compra no supermercado, pagamento de conta, etc."
+        "400":
+          description: Bad request - invalid question
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Invalid question parameter"
+        "500":
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Internal server error"
 components:
   schemas:
     TransactionApiResponse:
