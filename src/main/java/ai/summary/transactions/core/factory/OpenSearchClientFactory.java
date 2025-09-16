@@ -28,12 +28,12 @@ public class OpenSearchClientFactory {
     @Bean
     @Singleton
     public OpenSearchClient openSearchClient() {
-        // Configure Jackson with Java 8 time support
+        // Configurar Jackson com suporte ao Java 8 time
         var objectMapper = new ObjectMapper();
         objectMapper.registerModule(new JavaTimeModule());
         objectMapper.disable(com.fasterxml.jackson.databind.SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
 
-        // Create JacksonJsonpMapper with configured ObjectMapper
+        // Criar JacksonJsonpMapper com ObjectMapper configurado
         var jsonpMapper = new JacksonJsonpMapper(objectMapper);
 
         var httpHost = new HttpHost(openSearchConfig.getScheme(), openSearchConfig.getHost(),
@@ -42,29 +42,30 @@ public class OpenSearchClientFactory {
         var transportBuilder = ApacheHttpClient5TransportBuilder.builder(httpHost)
                 .setMapper(jsonpMapper);
 
-        // Add authentication if username and password are configured
+        // Adicionar autenticação se nome de usuário e senha estiverem configurados
         var username = openSearchConfig.getUsername();
         var password = openSearchConfig.getPassword();
 
-        // Configure authentication if credentials are provided
+        // Configurar autenticação se credenciais forem fornecidas
         if (username != null && password != null && !username.isEmpty() && !password.isEmpty()) {
-            // Create credentials provider
+            // Criar provedor de credenciais
             var credentialsProvider = new BasicCredentialsProvider();
             credentialsProvider.setCredentials(
                     new AuthScope(httpHost),
                     new UsernamePasswordCredentials(username, password.toCharArray()));
 
-            // Create auth cache
+            // Criar cache de autenticação
             var authCache = new BasicAuthCache();
             authCache.put(httpHost, new BasicScheme());
 
-            // Create HTTP context
+            // Criar contexto HTTP
             var context = HttpClientContext.create();
             context.setAuthCache(authCache);
             context.setCredentialsProvider(credentialsProvider);
 
             transportBuilder.setHttpClientConfigCallback(
-                    httpClientBuilder -> httpClientBuilder.setDefaultCredentialsProvider(credentialsProvider));
+                    httpClientBuilder -> httpClientBuilder
+                            .setDefaultCredentialsProvider(credentialsProvider));
         }
 
         var transport = transportBuilder.build();

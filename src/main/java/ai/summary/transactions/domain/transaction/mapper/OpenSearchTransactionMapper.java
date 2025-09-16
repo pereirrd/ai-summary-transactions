@@ -10,7 +10,7 @@ import org.mapstruct.Mapper;
 @Mapper(componentModel = "jsr330")
 public interface OpenSearchTransactionMapper {
 
-    // Method to convert from OpenSearch Object to Transaction
+    // Método para converter de objeto OpenSearch para Transaction
     @SuppressWarnings("unchecked")
     default Transaction fromOpenSearchObject(Object source) {
         if (source == null) {
@@ -33,7 +33,7 @@ public interface OpenSearchTransactionMapper {
         throw new IllegalArgumentException("Cannot convert object to Transaction: " + source.getClass());
     }
 
-    // Helper method to convert merchant map to Merchant object
+    // Método auxiliar para converter mapa de merchant para objeto Merchant
     default Merchant fromMerchantMap(Map<String, Object> merchantMap) {
         if (merchantMap == null) {
             return null;

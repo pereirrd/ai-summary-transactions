@@ -18,7 +18,7 @@ public class AITransactionApplication {
         try {
             log.info("Processing AI transaction question: {}", question);
 
-            // Use the AI service to process the question
+            // Usar o serviço de IA para processar a pergunta
             var query = aiTransactionService.createQuery(question);
 
             var transactions = transactionService.searchTransactionsByDsl(query);
