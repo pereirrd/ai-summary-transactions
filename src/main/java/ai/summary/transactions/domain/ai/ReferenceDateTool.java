@@ -8,7 +8,7 @@ import jakarta.inject.Singleton;
 @Singleton
 public class ReferenceDateTool {
 
-    @Tool("Essa é a data atual e deve ser usada como data de referencia para as transações.")
+    @Tool("Essa é a data atual e deve ser usada como referencia para criar filtro por data das transações.")
     public LocalDate referenceDate() {
         return LocalDate.now();
     }

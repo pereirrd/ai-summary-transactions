@@ -57,14 +57,4 @@ public interface AITransactionService {
          - A query deve ser somente texto puro.
          """)
    String createQuery(String userQuestion);
-
-   /*
-    * - Crie duas queries:
-    * 1. Primeira query para buscar as transações que atendam todos os critérios
-    * possíveis do usuário.
-    * 2. Segunda query para buscar as transações que seja menos específica que a
-    * primeira query e que seja mais genérica.
-    * - Essas duas queries devem ser retornadas em um array de strings sem nenhum
-    * tipo de formatação, somente texto puro.
-    */
 }
