@@ -1,6 +1,6 @@
 package ai.summary.transactions.application;
 
-import ai.summary.transactions.domain.ai.AITransactionService;
+import ai.summary.transactions.domain.ai.query.AITransactionQueryService;
 import ai.summary.transactions.domain.transaction.TransactionService;
 import jakarta.inject.Singleton;
 import lombok.RequiredArgsConstructor;
@@ -11,7 +11,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor
 public class AITransactionApplication {
 
-    private final AITransactionService aiTransactionService;
+    private final AITransactionQueryService aiTransactionService;
     private final TransactionService transactionService;
 
     public String processAITransaction(String question) {
