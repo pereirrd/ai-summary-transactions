@@ -15,8 +15,6 @@ langchain4j:
   open-ai:
     api-key: ${OPENAI_API_KEY}
     model-name: gpt-4o-mini
-    log-requests: true
-    log-responses: true
 
 opensearch:
   host: ${OPENSEARCH_HOST:localhost}

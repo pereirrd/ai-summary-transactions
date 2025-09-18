@@ -226,7 +226,7 @@ A estrutura de dados a ser buscada é a seguinte:
 
 ## Instruções Importantes
 
-1. **Formato de Saída**: Retorne APENAS a query JSON sem formatação, comentários ou texto adicional
+1. **Formato de Saída**: Retorne APENAS a query sem formatação, comentários ou texto adicional. Não esqueça dessa regra!
 2. **Campos Disponíveis**: Use apenas os campos definidos na estrutura de dados
 3. **Tratamento de Erros**: Se a pergunta for ambígua, use a interpretação mais comum
 4. **Valores Monetários**: Trate valores como números decimais (ex: 100.50)

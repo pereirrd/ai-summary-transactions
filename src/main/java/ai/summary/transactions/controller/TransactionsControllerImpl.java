@@ -35,8 +35,8 @@ public class TransactionsControllerImpl implements TransactionsApi {
                     .offset(offset);
 
             return HttpResponse.ok(response);
-        } catch (Exception e) {
-            log.error("Error retrieving all transactions", e);
+        } catch (Exception exception) {
+            log.error("Error retrieving all transactions", exception);
             return HttpResponse.serverError();
         }
     }
@@ -47,8 +47,8 @@ public class TransactionsControllerImpl implements TransactionsApi {
         try {
             var apiTransaction = transactionsCrudApplication.createTransaction(createTransactionRequest);
             return HttpResponse.created(apiTransaction);
-        } catch (Exception e) {
-            log.error("Error creating transaction", e);
+        } catch (Exception exception) {
+            log.error("Error creating transaction", exception);
             return HttpResponse.badRequest();
         }
     }
@@ -63,8 +63,8 @@ public class TransactionsControllerImpl implements TransactionsApi {
             }
 
             return HttpResponse.ok(apiTransaction.get());
-        } catch (Exception e) {
-            log.error("Error retrieving transaction with id: {}", id, e);
+        } catch (Exception exception) {
+            log.error("Error retrieving transaction with id: {}", id, exception);
             return HttpResponse.serverError();
         }
     }
@@ -80,8 +80,8 @@ public class TransactionsControllerImpl implements TransactionsApi {
             }
 
             return HttpResponse.ok(apiTransaction.get());
-        } catch (Exception e) {
-            log.error("Error updating transaction with id: {}", id, e);
+        } catch (Exception exception) {
+            log.error("Error updating transaction with id: {}", id, exception);
             return HttpResponse.serverError();
         }
     }
@@ -91,8 +91,8 @@ public class TransactionsControllerImpl implements TransactionsApi {
         try {
             transactionsCrudApplication.deleteTransaction(id);
             return HttpResponse.noContent();
-        } catch (Exception e) {
-            log.error("Error deleting transaction with id: {}", id, e);
+        } catch (Exception exception) {
+            log.error("Error deleting transaction with id: {}", id, exception);
             return HttpResponse.serverError();
         }
     }

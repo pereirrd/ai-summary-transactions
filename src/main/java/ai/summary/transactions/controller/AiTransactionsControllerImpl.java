@@ -28,8 +28,9 @@ public class AiTransactionsControllerImpl implements AiTransactionsApi {
                     .result(result);
 
             return HttpResponse.ok(response);
-        } catch (Exception e) {
-            log.error("Error processing AI transaction query: {}", processAITransactionRequest.getQuestion(), e);
+        } catch (Exception exception) {
+            log.error("Error processing AI transaction query: {}", processAITransactionRequest.getQuestion(),
+                    exception);
             return HttpResponse.serverError();
         }
     }
