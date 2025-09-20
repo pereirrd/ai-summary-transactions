@@ -1,0 +1,9002 @@
+[
+  {
+    "date": "2025-04-09T00:00:00Z",
+    "amount": 70.8,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Extra",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-03-16T00:00:00Z",
+    "amount": 49.84,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "Subway",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-07-23T00:00:00Z",
+    "amount": 52.27,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "McDonald's",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-06-04T00:00:00Z",
+    "amount": 8267.66,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-08-06T00:00:00Z",
+    "amount": 44375.33,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-02-19T00:00:00Z",
+    "amount": 779.45,
+    "description": "Tablet",
+    "merchant": {
+      "name": "Casas Bahia",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-08-28T00:00:00Z",
+    "amount": 28.21,
+    "description": "Vitamina C",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-08-28T00:00:00Z",
+    "amount": 39.57,
+    "description": "Mouse sem fio",
+    "merchant": {
+      "name": "Mercado Livre",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-01-27T00:00:00Z",
+    "amount": 47.29,
+    "description": "Jantar em família",
+    "merchant": {
+      "name": "Extra",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-07-16T00:00:00Z",
+    "amount": 216.52,
+    "description": "Fone de ouvido",
+    "merchant": {
+      "name": "Mercado Livre",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-01-16T00:00:00Z",
+    "amount": 6.0,
+    "description": "Analgésico",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-11-15T00:00:00Z",
+    "amount": 150.95,
+    "description": "Seguro do veículo",
+    "merchant": {
+      "name": "Escola Municipal",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-12-02T00:00:00Z",
+    "amount": 647.74,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-11-13T00:00:00Z",
+    "amount": 29.72,
+    "description": "Acessórios",
+    "merchant": {
+      "name": "Riachuelo",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-05-26T00:00:00Z",
+    "amount": 33.2,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-01-02T00:00:00Z",
+    "amount": 48.72,
+    "description": "Camiseta",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-08-21T00:00:00Z",
+    "amount": 53.78,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Extra",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-08-20T00:00:00Z",
+    "amount": 102.23,
+    "description": "Suplemento alimentar",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-03-01T00:00:00Z",
+    "amount": 77.43,
+    "description": "Aula particular",
+    "merchant": {
+      "name": "Colégio São José",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-03-01T00:00:00Z",
+    "amount": 21.42,
+    "description": "Carregador",
+    "merchant": {
+      "name": "Amazon",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-05-12T00:00:00Z",
+    "amount": 43.53,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Extra",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-04-09T00:00:00Z",
+    "amount": 50.91,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Pão de Açúcar",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-10-22T00:00:00Z",
+    "amount": 2986.05,
+    "description": "Notebook",
+    "merchant": {
+      "name": "Kabum",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-03-21T00:00:00Z",
+    "amount": 8.81,
+    "description": "Café da manhã",
+    "merchant": {
+      "name": "Subway",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-09-25T00:00:00Z",
+    "amount": 793.77,
+    "description": "Tablet",
+    "merchant": {
+      "name": "Amazon",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-05-26T00:00:00Z",
+    "amount": 54.0,
+    "description": "Vitamina C",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-04-21T00:00:00Z",
+    "amount": 50.14,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Starbucks",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-07-08T00:00:00Z",
+    "amount": 18.13,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-05-05T00:00:00Z",
+    "amount": 19.54,
+    "description": "Produtos de higiene",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-04-04T00:00:00Z",
+    "amount": 22.51,
+    "description": "Camiseta",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-12-22T00:00:00Z",
+    "amount": 34.43,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-04-25T00:00:00Z",
+    "amount": 24468.33,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-08-18T00:00:00Z",
+    "amount": 95983.46,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-03-30T00:00:00Z",
+    "amount": 50.17,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "Renner",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-06-30T00:00:00Z",
+    "amount": 74.61,
+    "description": "Aula particular",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-02-15T00:00:00Z",
+    "amount": 107.62,
+    "description": "Mouse sem fio",
+    "merchant": {
+      "name": "Magazine Luiza",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-06-22T00:00:00Z",
+    "amount": 42.08,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-10-03T00:00:00Z",
+    "amount": 215.58,
+    "description": "Seguro do veículo",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-01-17T00:00:00Z",
+    "amount": 161.05,
+    "description": "Compra de mantimentos",
+    "merchant": {
+      "name": "Pão de Açúcar",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-01-16T00:00:00Z",
+    "amount": 63.47,
+    "description": "Carregador",
+    "merchant": {
+      "name": "Amazon",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-07-12T00:00:00Z",
+    "amount": 118.02,
+    "description": "Medicamentos prescritos",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-07-06T00:00:00Z",
+    "amount": 13.25,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "Burger King",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-03-15T00:00:00Z",
+    "amount": 456.79,
+    "description": "Fone de ouvido",
+    "merchant": {
+      "name": "Submarino",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-04-17T00:00:00Z",
+    "amount": 15252.89,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-01-27T00:00:00Z",
+    "amount": 139.46,
+    "description": "Fone de ouvido",
+    "merchant": {
+      "name": "Magazine Luiza",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-03-30T00:00:00Z",
+    "amount": 122.5,
+    "description": "Consulta médica",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-03-31T00:00:00Z",
+    "amount": 78417.8,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-12-07T00:00:00Z",
+    "amount": 73.37,
+    "description": "Suplemento alimentar",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-05-18T00:00:00Z",
+    "amount": 75.24,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "McDonald's",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-06-02T00:00:00Z",
+    "amount": 19651.65,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-08-06T00:00:00Z",
+    "amount": 52434.92,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-04-21T00:00:00Z",
+    "amount": 105.86,
+    "description": "Jantar em família",
+    "merchant": {
+      "name": "Subway",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-06-08T00:00:00Z",
+    "amount": 13.33,
+    "description": "Café da manhã",
+    "merchant": {
+      "name": "Starbucks",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-11-03T00:00:00Z",
+    "amount": 117.63,
+    "description": "Medicamentos prescritos",
+    "merchant": {
+      "name": "Droga Raia",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-29T00:00:00Z",
+    "amount": 8.71,
+    "description": "Lanche rápido",
+    "merchant": {
+      "name": "Carrefour",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-02-12T00:00:00Z",
+    "amount": 116.55,
+    "description": "Suplemento alimentar",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-09-14T00:00:00Z",
+    "amount": 1547.89,
+    "description": "Smartphone",
+    "merchant": {
+      "name": "Mercado Livre",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-02-11T00:00:00Z",
+    "amount": 15805.11,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-12-10T00:00:00Z",
+    "amount": 16.04,
+    "description": "Shampoo e condicionador",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-07-24T00:00:00Z",
+    "amount": 7.92,
+    "description": "Analgésico",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-25T00:00:00Z",
+    "amount": 24.96,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Burger King",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-08-20T00:00:00Z",
+    "amount": 142.32,
+    "description": "Vestido",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-07-04T00:00:00Z",
+    "amount": 69.85,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Burger King",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-09-01T00:00:00Z",
+    "amount": 24.49,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "Café do Brasil",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-09-17T00:00:00Z",
+    "amount": 52.64,
+    "description": "Vestido",
+    "merchant": {
+      "name": "Zara",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-10-10T00:00:00Z",
+    "amount": 1192.22,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-08-24T00:00:00Z",
+    "amount": 1209.02,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-10-20T00:00:00Z",
+    "amount": 96.48,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-11-27T00:00:00Z",
+    "amount": 134.7,
+    "description": "Exame laboratorial",
+    "merchant": {
+      "name": "Posto Shell",
+      "category": "Combustível"
+    }
+  },
+  {
+    "date": "2025-06-20T00:00:00Z",
+    "amount": 124.61,
+    "description": "Compra de mantimentos",
+    "merchant": {
+      "name": "Starbucks",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-03-22T00:00:00Z",
+    "amount": 113.07,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "Zara",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-05-15T00:00:00Z",
+    "amount": 22.22,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "McDonald's",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-10-09T00:00:00Z",
+    "amount": 58.92,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-09-16T00:00:00Z",
+    "amount": 83.35,
+    "description": "Mouse sem fio",
+    "merchant": {
+      "name": "Amazon",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-01-14T00:00:00Z",
+    "amount": 20.69,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Subway",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-05-12T00:00:00Z",
+    "amount": 129.06,
+    "description": "Abastecimento",
+    "merchant": {
+      "name": "Colégio São José",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-09-18T00:00:00Z",
+    "amount": 99.05,
+    "description": "Vestido",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-01-06T00:00:00Z",
+    "amount": 197.83,
+    "description": "Fone de ouvido",
+    "merchant": {
+      "name": "Submarino",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-09-21T00:00:00Z",
+    "amount": 29.84,
+    "description": "Medicamentos prescritos",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-01-08T00:00:00Z",
+    "amount": 143.37,
+    "description": "Exame laboratorial",
+    "merchant": {
+      "name": "Posto Shell",
+      "category": "Combustível"
+    }
+  },
+  {
+    "date": "2025-12-07T00:00:00Z",
+    "amount": 324.78,
+    "description": "Teclado mecânico",
+    "merchant": {
+      "name": "Pichau",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-10-12T00:00:00Z",
+    "amount": 53.43,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-01-14T00:00:00Z",
+    "amount": 22.49,
+    "description": "Analgésico",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-12-02T00:00:00Z",
+    "amount": 52.32,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Pão de Açúcar",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-09-06T00:00:00Z",
+    "amount": 2613.87,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-12-15T00:00:00Z",
+    "amount": 16.79,
+    "description": "Medicamentos prescritos",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-01-17T00:00:00Z",
+    "amount": 43895.01,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-07-08T00:00:00Z",
+    "amount": 37.13,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Mercado Central",
+      "category": "Feira"
+    }
+  },
+  {
+    "date": "2025-02-09T00:00:00Z",
+    "amount": 43.95,
+    "description": "Vitamina C",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-03-23T00:00:00Z",
+    "amount": 9306.47,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-06-17T00:00:00Z",
+    "amount": 1082.48,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-11-30T00:00:00Z",
+    "amount": 79.51,
+    "description": "Aula particular",
+    "merchant": {
+      "name": "Escola Municipal",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-06-20T00:00:00Z",
+    "amount": 50.56,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "Carrefour",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-03-19T00:00:00Z",
+    "amount": 956.77,
+    "description": "Monitor",
+    "merchant": {
+      "name": "Mercado Livre",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-06-25T00:00:00Z",
+    "amount": 128.0,
+    "description": "Medicamentos prescritos",
+    "merchant": {
+      "name": "Droga Raia",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-12-04T00:00:00Z",
+    "amount": 228.51,
+    "description": "Tênis esportivo",
+    "merchant": {
+      "name": "C&A",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-01-05T00:00:00Z",
+    "amount": 24124.56,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-08-07T00:00:00Z",
+    "amount": 279.24,
+    "description": "Jaqueta",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-07-31T00:00:00Z",
+    "amount": 278.88,
+    "description": "Seguro do veículo",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-10-14T00:00:00Z",
+    "amount": 21.53,
+    "description": "Analgésico",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-01-08T00:00:00Z",
+    "amount": 78.88,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-06-26T00:00:00Z",
+    "amount": 19540.61,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-10-25T00:00:00Z",
+    "amount": 966.89,
+    "description": "Smartphone",
+    "merchant": {
+      "name": "Mercado Livre",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-08-23T00:00:00Z",
+    "amount": 16.05,
+    "description": "Shampoo e condicionador",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-10-24T00:00:00Z",
+    "amount": 98.13,
+    "description": "Abastecimento",
+    "merchant": {
+      "name": "Escola Municipal",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-04-12T00:00:00Z",
+    "amount": 78296.47,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-10-12T00:00:00Z",
+    "amount": 36.93,
+    "description": "Mouse sem fio",
+    "merchant": {
+      "name": "Submarino",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-08-15T00:00:00Z",
+    "amount": 15.45,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Extra",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-04-12T00:00:00Z",
+    "amount": 11323.18,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-04-15T00:00:00Z",
+    "amount": 25.94,
+    "description": "Shampoo e condicionador",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-02-16T00:00:00Z",
+    "amount": 166.44,
+    "description": "Seguro do veículo",
+    "merchant": {
+      "name": "Clínica São Lucas",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-06-19T00:00:00Z",
+    "amount": 1724.7,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-07-19T00:00:00Z",
+    "amount": 78.83,
+    "description": "Roupa de cama",
+    "merchant": {
+      "name": "C&A",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-02-02T00:00:00Z",
+    "amount": 115.9,
+    "description": "Consulta médica",
+    "merchant": {
+      "name": "Dr. João Silva",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-07-20T00:00:00Z",
+    "amount": 244.29,
+    "description": "Seguro do veículo",
+    "merchant": {
+      "name": "Posto Shell",
+      "category": "Combustível"
+    }
+  },
+  {
+    "date": "2025-03-28T00:00:00Z",
+    "amount": 2500.34,
+    "description": "Smartphone",
+    "merchant": {
+      "name": "Magazine Luiza",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-06-28T00:00:00Z",
+    "amount": 12564.32,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-10-11T00:00:00Z",
+    "amount": 59.09,
+    "description": "Pilhas recarregáveis",
+    "merchant": {
+      "name": "Pichau",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-11-22T00:00:00Z",
+    "amount": 1787.24,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-03-04T00:00:00Z",
+    "amount": 129.6,
+    "description": "Abastecimento",
+    "merchant": {
+      "name": "Escola Municipal",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-07-30T00:00:00Z",
+    "amount": 22.36,
+    "description": "Acessórios",
+    "merchant": {
+      "name": "Zara",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-03-08T00:00:00Z",
+    "amount": 42.45,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "Burger King",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-08-15T00:00:00Z",
+    "amount": 249.59,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Dr. João Silva",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-07-29T00:00:00Z",
+    "amount": 20.43,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-10-23T00:00:00Z",
+    "amount": 23.53,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Supermercado BH",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-06-16T00:00:00Z",
+    "amount": 23.15,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-06-06T00:00:00Z",
+    "amount": 189.49,
+    "description": "Tênis esportivo",
+    "merchant": {
+      "name": "Zara",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-06-20T00:00:00Z",
+    "amount": 8.4,
+    "description": "Analgésico",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-12-14T00:00:00Z",
+    "amount": 550.04,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-11-03T00:00:00Z",
+    "amount": 160097.35,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-07-17T00:00:00Z",
+    "amount": 91.61,
+    "description": "Mouse sem fio",
+    "merchant": {
+      "name": "Magazine Luiza",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-09-02T00:00:00Z",
+    "amount": 407.98,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-08-28T00:00:00Z",
+    "amount": 65.37,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-12-25T00:00:00Z",
+    "amount": 86.02,
+    "description": "Abastecimento",
+    "merchant": {
+      "name": "Posto Shell",
+      "category": "Combustível"
+    }
+  },
+  {
+    "date": "2025-07-08T00:00:00Z",
+    "amount": 3558.49,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-12-18T00:00:00Z",
+    "amount": 175.75,
+    "description": "Consulta médica",
+    "merchant": {
+      "name": "Clínica São Lucas",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-09-20T00:00:00Z",
+    "amount": 15.75,
+    "description": "Analgésico",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-04-30T00:00:00Z",
+    "amount": 43.75,
+    "description": "Protetor solar",
+    "merchant": {
+      "name": "Droga Raia",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-08-23T00:00:00Z",
+    "amount": 31.86,
+    "description": "Produtos de higiene",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-12-16T00:00:00Z",
+    "amount": 1841.31,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-09-13T00:00:00Z",
+    "amount": 109.73,
+    "description": "Jaqueta",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-04-06T00:00:00Z",
+    "amount": 166.16,
+    "description": "Consulta médica",
+    "merchant": {
+      "name": "Dr. João Silva",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-01-07T00:00:00Z",
+    "amount": 28.21,
+    "description": "Cabo USB",
+    "merchant": {
+      "name": "Magazine Luiza",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-04-25T00:00:00Z",
+    "amount": 60.48,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-12-04T00:00:00Z",
+    "amount": 104.82,
+    "description": "Vestido",
+    "merchant": {
+      "name": "Renner",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-10-13T00:00:00Z",
+    "amount": 332.08,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-06-29T00:00:00Z",
+    "amount": 28.26,
+    "description": "Compra de mantimentos",
+    "merchant": {
+      "name": "Pão de Açúcar",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-09-16T00:00:00Z",
+    "amount": 24.73,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "Extra",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-09-20T00:00:00Z",
+    "amount": 54.95,
+    "description": "Vitamina C",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-07T00:00:00Z",
+    "amount": 170747.33,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-01-02T00:00:00Z",
+    "amount": 35.97,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-01-19T00:00:00Z",
+    "amount": 23.7,
+    "description": "Acessórios",
+    "merchant": {
+      "name": "C&A",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-12-06T00:00:00Z",
+    "amount": 47.56,
+    "description": "Suplemento alimentar",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-05-23T00:00:00Z",
+    "amount": 35215.85,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-02-20T00:00:00Z",
+    "amount": 25383.67,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-05-24T00:00:00Z",
+    "amount": 20.65,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "McDonald's",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-07-15T00:00:00Z",
+    "amount": 2221.27,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-03-12T00:00:00Z",
+    "amount": 164.29,
+    "description": "Tênis esportivo",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-11-04T00:00:00Z",
+    "amount": 59.06,
+    "description": "Aula particular",
+    "merchant": {
+      "name": "Escola Municipal",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-09-22T00:00:00Z",
+    "amount": 163.34,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "C&A",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-05-20T00:00:00Z",
+    "amount": 34.1,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "Café do Brasil",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-08-03T00:00:00Z",
+    "amount": 307.56,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Escola Municipal",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-09-17T00:00:00Z",
+    "amount": 51.32,
+    "description": "Jantar em família",
+    "merchant": {
+      "name": "Starbucks",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-10-12T00:00:00Z",
+    "amount": 64.14,
+    "description": "Compra de mantimentos",
+    "merchant": {
+      "name": "Pão de Açúcar",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-12-02T00:00:00Z",
+    "amount": 31.24,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Carrefour",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-04-11T00:00:00Z",
+    "amount": 35.45,
+    "description": "Pilhas recarregáveis",
+    "merchant": {
+      "name": "Amazon",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-05-25T00:00:00Z",
+    "amount": 383.21,
+    "description": "Teclado mecânico",
+    "merchant": {
+      "name": "Casas Bahia",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-04-25T00:00:00Z",
+    "amount": 1145.74,
+    "description": "Smartphone",
+    "merchant": {
+      "name": "Pichau",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-03-13T00:00:00Z",
+    "amount": 452.09,
+    "description": "Monitor",
+    "merchant": {
+      "name": "Kabum",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-06-12T00:00:00Z",
+    "amount": 171.35,
+    "description": "Compra de mantimentos",
+    "merchant": {
+      "name": "Café do Brasil",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-10-15T00:00:00Z",
+    "amount": 46.22,
+    "description": "Pilhas recarregáveis",
+    "merchant": {
+      "name": "Amazon",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-09-27T00:00:00Z",
+    "amount": 41067.53,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-01-18T00:00:00Z",
+    "amount": 47.84,
+    "description": "Jantar em família",
+    "merchant": {
+      "name": "Mercado Central",
+      "category": "Feira"
+    }
+  },
+  {
+    "date": "2025-02-10T00:00:00Z",
+    "amount": 1439.83,
+    "description": "Tablet",
+    "merchant": {
+      "name": "Casas Bahia",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-05-19T00:00:00Z",
+    "amount": 876.8,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-01-31T00:00:00Z",
+    "amount": 22.08,
+    "description": "Analgésico",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-01-01T00:00:00Z",
+    "amount": 1496.87,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-05-14T00:00:00Z",
+    "amount": 1231.73,
+    "description": "Tablet",
+    "merchant": {
+      "name": "Americanas",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-10-16T00:00:00Z",
+    "amount": 198.21,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "Zara",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-12-06T00:00:00Z",
+    "amount": 80131.55,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-11-02T00:00:00Z",
+    "amount": 141.16,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-11-07T00:00:00Z",
+    "amount": 17.33,
+    "description": "Analgésico",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-01-13T00:00:00Z",
+    "amount": 397.71,
+    "description": "Tênis esportivo",
+    "merchant": {
+      "name": "Renner",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-10-08T00:00:00Z",
+    "amount": 27.42,
+    "description": "Vitamina C",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-10-19T00:00:00Z",
+    "amount": 428.62,
+    "description": "Fone de ouvido",
+    "merchant": {
+      "name": "Pichau",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-03-24T00:00:00Z",
+    "amount": 21.77,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "Pão de Açúcar",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-07-11T00:00:00Z",
+    "amount": 135.38,
+    "description": "Consulta médica",
+    "merchant": {
+      "name": "Clínica São Lucas",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-09-04T00:00:00Z",
+    "amount": 16.96,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "Café do Brasil",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-09-02T00:00:00Z",
+    "amount": 104.37,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-11-17T00:00:00Z",
+    "amount": 389.58,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-09-12T00:00:00Z",
+    "amount": 13.6,
+    "description": "Produtos de higiene",
+    "merchant": {
+      "name": "Droga Raia",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-16T00:00:00Z",
+    "amount": 32.85,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Mercado Central",
+      "category": "Feira"
+    }
+  },
+  {
+    "date": "2025-02-13T00:00:00Z",
+    "amount": 49.62,
+    "description": "Carregador",
+    "merchant": {
+      "name": "Magazine Luiza",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-10-26T00:00:00Z",
+    "amount": 477.42,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-09-18T00:00:00Z",
+    "amount": 1303.94,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-07-13T00:00:00Z",
+    "amount": 35.26,
+    "description": "Suplemento alimentar",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-05-30T00:00:00Z",
+    "amount": 20.88,
+    "description": "Pilhas recarregáveis",
+    "merchant": {
+      "name": "Kabum",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-06-22T00:00:00Z",
+    "amount": 122.58,
+    "description": "Abastecimento",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-10-31T00:00:00Z",
+    "amount": 74.42,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Carrefour",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-12-21T00:00:00Z",
+    "amount": 163.7,
+    "description": "Jaqueta",
+    "merchant": {
+      "name": "Renner",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-01-30T00:00:00Z",
+    "amount": 4921.94,
+    "description": "Notebook",
+    "merchant": {
+      "name": "Kabum",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-02-08T00:00:00Z",
+    "amount": 38.49,
+    "description": "Protetor solar",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-01-23T00:00:00Z",
+    "amount": 82.75,
+    "description": "Aula particular",
+    "merchant": {
+      "name": "Colégio São José",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-06-04T00:00:00Z",
+    "amount": 496.97,
+    "description": "Fone de ouvido",
+    "merchant": {
+      "name": "Mercado Livre",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-04-17T00:00:00Z",
+    "amount": 14006.18,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-03-15T00:00:00Z",
+    "amount": 23.33,
+    "description": "Camiseta",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-07-30T00:00:00Z",
+    "amount": 79984.08,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-07-04T00:00:00Z",
+    "amount": 110.31,
+    "description": "Suplemento alimentar",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-02-22T00:00:00Z",
+    "amount": 16.01,
+    "description": "Shampoo e condicionador",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-23T00:00:00Z",
+    "amount": 51.98,
+    "description": "Suplemento alimentar",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-11-14T00:00:00Z",
+    "amount": 134.82,
+    "description": "Compra de mantimentos",
+    "merchant": {
+      "name": "Extra",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-01-26T00:00:00Z",
+    "amount": 25.67,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Subway",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-12-26T00:00:00Z",
+    "amount": 70.4,
+    "description": "Exame laboratorial",
+    "merchant": {
+      "name": "Clínica São Lucas",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-05-03T00:00:00Z",
+    "amount": 19.29,
+    "description": "Café da manhã",
+    "merchant": {
+      "name": "Starbucks",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-02-03T00:00:00Z",
+    "amount": 187.88,
+    "description": "Consulta médica",
+    "merchant": {
+      "name": "Colégio São José",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-05-05T00:00:00Z",
+    "amount": 119.39,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-11-13T00:00:00Z",
+    "amount": 868.73,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-02-20T00:00:00Z",
+    "amount": 4264.68,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-02-16T00:00:00Z",
+    "amount": 19.28,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Burger King",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-04-10T00:00:00Z",
+    "amount": 259.29,
+    "description": "Jaqueta",
+    "merchant": {
+      "name": "Riachuelo",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-03-21T00:00:00Z",
+    "amount": 17.1,
+    "description": "Medicamentos prescritos",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-12-31T00:00:00Z",
+    "amount": 54.97,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-06-08T00:00:00Z",
+    "amount": 89.4,
+    "description": "Medicamentos prescritos",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-05-04T00:00:00Z",
+    "amount": 66155.99,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-07-04T00:00:00Z",
+    "amount": 34173.49,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-03-10T00:00:00Z",
+    "amount": 15.2,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-01-05T00:00:00Z",
+    "amount": 61.56,
+    "description": "Compra de mantimentos",
+    "merchant": {
+      "name": "Burger King",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-06-26T00:00:00Z",
+    "amount": 22423.42,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-09-02T00:00:00Z",
+    "amount": 30.61,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "Pão de Açúcar",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-03-29T00:00:00Z",
+    "amount": 154.73,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-08-13T00:00:00Z",
+    "amount": 15.24,
+    "description": "Shampoo e condicionador",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-01-23T00:00:00Z",
+    "amount": 17012.19,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-09-04T00:00:00Z",
+    "amount": 73.35,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Colégio São José",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-01-25T00:00:00Z",
+    "amount": 43428.9,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-06-08T00:00:00Z",
+    "amount": 134.23,
+    "description": "Medicamentos prescritos",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-02-04T00:00:00Z",
+    "amount": 80930.9,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-12-20T00:00:00Z",
+    "amount": 90.51,
+    "description": "Consulta médica",
+    "merchant": {
+      "name": "Maria da Limpeza",
+      "category": "Serviços Domésticos"
+    }
+  },
+  {
+    "date": "2025-07-24T00:00:00Z",
+    "amount": 34.08,
+    "description": "Produtos de higiene",
+    "merchant": {
+      "name": "Droga Raia",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-02-23T00:00:00Z",
+    "amount": 33.9,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "Zara",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-11-21T00:00:00Z",
+    "amount": 95.37,
+    "description": "Roupa de cama",
+    "merchant": {
+      "name": "C&A",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-05-31T00:00:00Z",
+    "amount": 159.89,
+    "description": "Consulta médica",
+    "merchant": {
+      "name": "Clínica São Lucas",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-11-15T00:00:00Z",
+    "amount": 27.12,
+    "description": "Produtos de higiene",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-09-04T00:00:00Z",
+    "amount": 3400.95,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-06-15T00:00:00Z",
+    "amount": 72.27,
+    "description": "Carregador",
+    "merchant": {
+      "name": "Americanas",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-07-04T00:00:00Z",
+    "amount": 54.43,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "Mercado Central",
+      "category": "Feira"
+    }
+  },
+  {
+    "date": "2025-01-15T00:00:00Z",
+    "amount": 1129.66,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-02-05T00:00:00Z",
+    "amount": 62.32,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Carrefour",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-05-11T00:00:00Z",
+    "amount": 72.99,
+    "description": "Aula particular",
+    "merchant": {
+      "name": "Dr. João Silva",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-02-01T00:00:00Z",
+    "amount": 34547.09,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-08-16T00:00:00Z",
+    "amount": 35.69,
+    "description": "Suplemento alimentar",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-12-07T00:00:00Z",
+    "amount": 57167.96,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-09-21T00:00:00Z",
+    "amount": 2460.29,
+    "description": "Smartphone",
+    "merchant": {
+      "name": "Pichau",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-05-10T00:00:00Z",
+    "amount": 43.9,
+    "description": "Cabo USB",
+    "merchant": {
+      "name": "Americanas",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-04-28T00:00:00Z",
+    "amount": 106.95,
+    "description": "Jantar em família",
+    "merchant": {
+      "name": "Pão de Açúcar",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-07-03T00:00:00Z",
+    "amount": 43.33,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "Subway",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-12-14T00:00:00Z",
+    "amount": 52.5,
+    "description": "Carregador",
+    "merchant": {
+      "name": "Submarino",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-08-15T00:00:00Z",
+    "amount": 126.74,
+    "description": "Jaqueta",
+    "merchant": {
+      "name": "Riachuelo",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-10-02T00:00:00Z",
+    "amount": 50.05,
+    "description": "Exame laboratorial",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-11-14T00:00:00Z",
+    "amount": 74.28,
+    "description": "Vestido",
+    "merchant": {
+      "name": "Riachuelo",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-11-19T00:00:00Z",
+    "amount": 1700.55,
+    "description": "Notebook",
+    "merchant": {
+      "name": "Kabum",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-03-15T00:00:00Z",
+    "amount": 45.35,
+    "description": "Cabo USB",
+    "merchant": {
+      "name": "Pichau",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-03-05T00:00:00Z",
+    "amount": 12.38,
+    "description": "Cabo USB",
+    "merchant": {
+      "name": "Submarino",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-09-21T00:00:00Z",
+    "amount": 25.36,
+    "description": "Pilhas recarregáveis",
+    "merchant": {
+      "name": "Kabum",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-03-17T00:00:00Z",
+    "amount": 15.36,
+    "description": "Café da manhã",
+    "merchant": {
+      "name": "Mercado Central",
+      "category": "Feira"
+    }
+  },
+  {
+    "date": "2025-06-19T00:00:00Z",
+    "amount": 36.99,
+    "description": "Vitamina C",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-13T00:00:00Z",
+    "amount": 1605.76,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-04-08T00:00:00Z",
+    "amount": 70.61,
+    "description": "Exame laboratorial",
+    "merchant": {
+      "name": "Escola Municipal",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-07-20T00:00:00Z",
+    "amount": 143.66,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-06-02T00:00:00Z",
+    "amount": 20211.18,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-04-06T00:00:00Z",
+    "amount": 518.41,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-11-11T00:00:00Z",
+    "amount": 581.16,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-03-23T00:00:00Z",
+    "amount": 41.89,
+    "description": "Exame laboratorial",
+    "merchant": {
+      "name": "Posto Shell",
+      "category": "Combustível"
+    }
+  },
+  {
+    "date": "2025-11-15T00:00:00Z",
+    "amount": 119.78,
+    "description": "Mouse sem fio",
+    "merchant": {
+      "name": "Kabum",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-02-10T00:00:00Z",
+    "amount": 46.19,
+    "description": "Cabo USB",
+    "merchant": {
+      "name": "Amazon",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-10-27T00:00:00Z",
+    "amount": 38.1,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-02-02T00:00:00Z",
+    "amount": 71.42,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Colégio São José",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-05-04T00:00:00Z",
+    "amount": 90.68,
+    "description": "Consulta médica",
+    "merchant": {
+      "name": "Escola Municipal",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-01-17T00:00:00Z",
+    "amount": 26671.36,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-10-12T00:00:00Z",
+    "amount": 42.65,
+    "description": "Acessórios",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-03-11T00:00:00Z",
+    "amount": 25.56,
+    "description": "Produtos de higiene",
+    "merchant": {
+      "name": "Droga Raia",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-22T00:00:00Z",
+    "amount": 162.08,
+    "description": "Fone de ouvido",
+    "merchant": {
+      "name": "Magazine Luiza",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-12-10T00:00:00Z",
+    "amount": 372.9,
+    "description": "Mensalidade escolar",
+    "merchant": {
+      "name": "Dr. João Silva",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-06-26T00:00:00Z",
+    "amount": 173766.12,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-02-19T00:00:00Z",
+    "amount": 25.73,
+    "description": "Acessórios",
+    "merchant": {
+      "name": "Riachuelo",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-04-13T00:00:00Z",
+    "amount": 14.28,
+    "description": "Acessórios",
+    "merchant": {
+      "name": "C&A",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-04-11T00:00:00Z",
+    "amount": 74.98,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-10-10T00:00:00Z",
+    "amount": 14967.56,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-11-15T00:00:00Z",
+    "amount": 22.54,
+    "description": "Café da manhã",
+    "merchant": {
+      "name": "McDonald's",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-08-26T00:00:00Z",
+    "amount": 26.86,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Extra",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-06-22T00:00:00Z",
+    "amount": 83.96,
+    "description": "Roupa de cama",
+    "merchant": {
+      "name": "Renner",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-09-29T00:00:00Z",
+    "amount": 1045.86,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-02-19T00:00:00Z",
+    "amount": 42.22,
+    "description": "Suplemento alimentar",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-05-24T00:00:00Z",
+    "amount": 99.65,
+    "description": "Abastecimento",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-02-20T00:00:00Z",
+    "amount": 67.58,
+    "description": "Carregador",
+    "merchant": {
+      "name": "Casas Bahia",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-03-03T00:00:00Z",
+    "amount": 77.17,
+    "description": "Jantar em família",
+    "merchant": {
+      "name": "Carrefour",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-11-19T00:00:00Z",
+    "amount": 37.71,
+    "description": "Camiseta",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-11-11T00:00:00Z",
+    "amount": 33070.03,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-06-10T00:00:00Z",
+    "amount": 20.1,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Mercado Central",
+      "category": "Feira"
+    }
+  },
+  {
+    "date": "2025-01-26T00:00:00Z",
+    "amount": 144.17,
+    "description": "Consulta médica",
+    "merchant": {
+      "name": "Posto Shell",
+      "category": "Combustível"
+    }
+  },
+  {
+    "date": "2025-06-19T00:00:00Z",
+    "amount": 34.21,
+    "description": "Shampoo e condicionador",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-02-03T00:00:00Z",
+    "amount": 225.38,
+    "description": "Tênis esportivo",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-03-02T00:00:00Z",
+    "amount": 111.81,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Posto Shell",
+      "category": "Combustível"
+    }
+  },
+  {
+    "date": "2025-10-26T00:00:00Z",
+    "amount": 796.92,
+    "description": "Monitor",
+    "merchant": {
+      "name": "Amazon",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-01-10T00:00:00Z",
+    "amount": 24.84,
+    "description": "Produtos de higiene",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-05-08T00:00:00Z",
+    "amount": 194.25,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "Zara",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-12-27T00:00:00Z",
+    "amount": 70.56,
+    "description": "Camiseta",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-10-18T00:00:00Z",
+    "amount": 20.96,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "Zara",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-03-01T00:00:00Z",
+    "amount": 17.29,
+    "description": "Lanche rápido",
+    "merchant": {
+      "name": "McDonald's",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-06-30T00:00:00Z",
+    "amount": 45.93,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-05-23T00:00:00Z",
+    "amount": 32.68,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Mercado Central",
+      "category": "Feira"
+    }
+  },
+  {
+    "date": "2025-02-17T00:00:00Z",
+    "amount": 41.99,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Supermercado BH",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-09-26T00:00:00Z",
+    "amount": 38.11,
+    "description": "Vitamina C",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-05-24T00:00:00Z",
+    "amount": 262.97,
+    "description": "Teclado mecânico",
+    "merchant": {
+      "name": "Americanas",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-07-07T00:00:00Z",
+    "amount": 56.0,
+    "description": "Pilhas recarregáveis",
+    "merchant": {
+      "name": "Mercado Livre",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-01-19T00:00:00Z",
+    "amount": 58.85,
+    "description": "Vitamina C",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-11-12T00:00:00Z",
+    "amount": 189323.07,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-02-11T00:00:00Z",
+    "amount": 45.19,
+    "description": "Vitamina C",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-26T00:00:00Z",
+    "amount": 1670.77,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-08-06T00:00:00Z",
+    "amount": 29.42,
+    "description": "Produtos de higiene",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-01-08T00:00:00Z",
+    "amount": 20.87,
+    "description": "Protetor solar",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-08-10T00:00:00Z",
+    "amount": 239.69,
+    "description": "Mensalidade escolar",
+    "merchant": {
+      "name": "Escola Municipal",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-08-01T00:00:00Z",
+    "amount": 202.62,
+    "description": "Seguro do veículo",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-05-27T00:00:00Z",
+    "amount": 41233.64,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-09-08T00:00:00Z",
+    "amount": 29.66,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-08-27T00:00:00Z",
+    "amount": 64.36,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Droga Raia",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-04-17T00:00:00Z",
+    "amount": 67.41,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Starbucks",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-09-20T00:00:00Z",
+    "amount": 18.59,
+    "description": "Analgésico",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-23T00:00:00Z",
+    "amount": 148.06,
+    "description": "Medicamentos prescritos",
+    "merchant": {
+      "name": "Droga Raia",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-03-13T00:00:00Z",
+    "amount": 34.49,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "McDonald's",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-06-13T00:00:00Z",
+    "amount": 16.36,
+    "description": "Café da manhã",
+    "merchant": {
+      "name": "Starbucks",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-01-13T00:00:00Z",
+    "amount": 101.84,
+    "description": "Tênis esportivo",
+    "merchant": {
+      "name": "Renner",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-05-21T00:00:00Z",
+    "amount": 64.29,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "McDonald's",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-12-01T00:00:00Z",
+    "amount": 78.66,
+    "description": "Medicamentos prescritos",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-09-27T00:00:00Z",
+    "amount": 59.74,
+    "description": "Medicamentos prescritos",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-01-05T00:00:00Z",
+    "amount": 388.36,
+    "description": "Teclado mecânico",
+    "merchant": {
+      "name": "Amazon",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-09-14T00:00:00Z",
+    "amount": 42.27,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-10-12T00:00:00Z",
+    "amount": 9.94,
+    "description": "Lanche rápido",
+    "merchant": {
+      "name": "Supermercado BH",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-01-13T00:00:00Z",
+    "amount": 22.03,
+    "description": "Produtos de higiene",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-04-05T00:00:00Z",
+    "amount": 39676.73,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-11-22T00:00:00Z",
+    "amount": 99.42,
+    "description": "Aula particular",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-04-09T00:00:00Z",
+    "amount": 76750.53,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-05-07T00:00:00Z",
+    "amount": 182.62,
+    "description": "Tênis esportivo",
+    "merchant": {
+      "name": "Zara",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-06-12T00:00:00Z",
+    "amount": 21.8,
+    "description": "Café da manhã",
+    "merchant": {
+      "name": "Mercado Central",
+      "category": "Feira"
+    }
+  },
+  {
+    "date": "2025-09-24T00:00:00Z",
+    "amount": 246.06,
+    "description": "Tênis esportivo",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-02-03T00:00:00Z",
+    "amount": 72.82,
+    "description": "Carregador",
+    "merchant": {
+      "name": "Mercado Livre",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-01-15T00:00:00Z",
+    "amount": 143.14,
+    "description": "Tênis esportivo",
+    "merchant": {
+      "name": "Riachuelo",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-07-16T00:00:00Z",
+    "amount": 37.84,
+    "description": "Cabo USB",
+    "merchant": {
+      "name": "Mercado Livre",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-04-28T00:00:00Z",
+    "amount": 240.35,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Escola Municipal",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-06-28T00:00:00Z",
+    "amount": 143290.87,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-08-23T00:00:00Z",
+    "amount": 28.44,
+    "description": "Camiseta",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-07-29T00:00:00Z",
+    "amount": 24.94,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "McDonald's",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-12-20T00:00:00Z",
+    "amount": 14.97,
+    "description": "Shampoo e condicionador",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-12-04T00:00:00Z",
+    "amount": 6.01,
+    "description": "Lanche rápido",
+    "merchant": {
+      "name": "Burger King",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-06-06T00:00:00Z",
+    "amount": 51.73,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "Riachuelo",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-03-05T00:00:00Z",
+    "amount": 23.92,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-07-28T00:00:00Z",
+    "amount": 996.85,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-11-30T00:00:00Z",
+    "amount": 150.15,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "C&A",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-08-28T00:00:00Z",
+    "amount": 1882.88,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-09-18T00:00:00Z",
+    "amount": 74.47,
+    "description": "Jantar em família",
+    "merchant": {
+      "name": "Extra",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-11-24T00:00:00Z",
+    "amount": 2974.91,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-09-20T00:00:00Z",
+    "amount": 30.66,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Mercado Central",
+      "category": "Feira"
+    }
+  },
+  {
+    "date": "2025-09-23T00:00:00Z",
+    "amount": 57.57,
+    "description": "Pilhas recarregáveis",
+    "merchant": {
+      "name": "Magazine Luiza",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-04-28T00:00:00Z",
+    "amount": 18.6,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Café do Brasil",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-10-03T00:00:00Z",
+    "amount": 18137.15,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-06-06T00:00:00Z",
+    "amount": 45.75,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "Riachuelo",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-08-27T00:00:00Z",
+    "amount": 492.32,
+    "description": "Tablet",
+    "merchant": {
+      "name": "Kabum",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-09-10T00:00:00Z",
+    "amount": 3648.0,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-08-07T00:00:00Z",
+    "amount": 8077.96,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-03-12T00:00:00Z",
+    "amount": 171.02,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Colégio São José",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-02-10T00:00:00Z",
+    "amount": 8.54,
+    "description": "Café da manhã",
+    "merchant": {
+      "name": "Burger King",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-08-27T00:00:00Z",
+    "amount": 22.0,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "Mercado Central",
+      "category": "Feira"
+    }
+  },
+  {
+    "date": "2025-05-23T00:00:00Z",
+    "amount": 55.24,
+    "description": "Jantar em família",
+    "merchant": {
+      "name": "Carrefour",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-03-04T00:00:00Z",
+    "amount": 12.24,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Extra",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-10-15T00:00:00Z",
+    "amount": 78.2,
+    "description": "Camiseta",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-02-14T00:00:00Z",
+    "amount": 38.25,
+    "description": "Camiseta",
+    "merchant": {
+      "name": "Renner",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-07-24T00:00:00Z",
+    "amount": 260.96,
+    "description": "Seguro do veículo",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-02-17T00:00:00Z",
+    "amount": 29.51,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Carrefour",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-05-15T00:00:00Z",
+    "amount": 20.79,
+    "description": "Carregador",
+    "merchant": {
+      "name": "Kabum",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-09-09T00:00:00Z",
+    "amount": 54234.1,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-06-30T00:00:00Z",
+    "amount": 148.74,
+    "description": "Jaqueta",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-11-02T00:00:00Z",
+    "amount": 71504.09,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-03-20T00:00:00Z",
+    "amount": 35.69,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "Pão de Açúcar",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-07-11T00:00:00Z",
+    "amount": 13536.67,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-06-07T00:00:00Z",
+    "amount": 43.88,
+    "description": "Vestido",
+    "merchant": {
+      "name": "C&A",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-01-08T00:00:00Z",
+    "amount": 775.59,
+    "description": "Mensalidade escolar",
+    "merchant": {
+      "name": "Maria da Limpeza",
+      "category": "Serviços Domésticos"
+    }
+  },
+  {
+    "date": "2025-07-21T00:00:00Z",
+    "amount": 32.99,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Café do Brasil",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-11-01T00:00:00Z",
+    "amount": 77.62,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-08-29T00:00:00Z",
+    "amount": 23.89,
+    "description": "Cabo USB",
+    "merchant": {
+      "name": "Pichau",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-12-07T00:00:00Z",
+    "amount": 73.12,
+    "description": "Suplemento alimentar",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-09-24T00:00:00Z",
+    "amount": 30.24,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-02-12T00:00:00Z",
+    "amount": 41.12,
+    "description": "Carregador",
+    "merchant": {
+      "name": "Magazine Luiza",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-02-15T00:00:00Z",
+    "amount": 1274.36,
+    "description": "Tablet",
+    "merchant": {
+      "name": "Kabum",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-04-07T00:00:00Z",
+    "amount": 110.89,
+    "description": "Jaqueta",
+    "merchant": {
+      "name": "Renner",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-10-08T00:00:00Z",
+    "amount": 9.44,
+    "description": "Produtos de higiene",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-02-14T00:00:00Z",
+    "amount": 19767.18,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-01-26T00:00:00Z",
+    "amount": 52.67,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-09-19T00:00:00Z",
+    "amount": 22.34,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Subway",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-02-09T00:00:00Z",
+    "amount": 36.75,
+    "description": "Acessórios",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-08-17T00:00:00Z",
+    "amount": 177.3,
+    "description": "Consulta médica",
+    "merchant": {
+      "name": "Escola Municipal",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-10-07T00:00:00Z",
+    "amount": 10.97,
+    "description": "Café da manhã",
+    "merchant": {
+      "name": "Extra",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-06-21T00:00:00Z",
+    "amount": 77.67,
+    "description": "Abastecimento",
+    "merchant": {
+      "name": "Maria da Limpeza",
+      "category": "Serviços Domésticos"
+    }
+  },
+  {
+    "date": "2025-09-10T00:00:00Z",
+    "amount": 970.7,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-02-01T00:00:00Z",
+    "amount": 190.93,
+    "description": "Compra de mantimentos",
+    "merchant": {
+      "name": "Café do Brasil",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-09-15T00:00:00Z",
+    "amount": 32.52,
+    "description": "Medicamentos prescritos",
+    "merchant": {
+      "name": "Droga Raia",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-08T00:00:00Z",
+    "amount": 107.89,
+    "description": "Suplemento alimentar",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-08-01T00:00:00Z",
+    "amount": 33.04,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "Riachuelo",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-08-31T00:00:00Z",
+    "amount": 4903.33,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-03-28T00:00:00Z",
+    "amount": 552.86,
+    "description": "Mensalidade escolar",
+    "merchant": {
+      "name": "Maria da Limpeza",
+      "category": "Serviços Domésticos"
+    }
+  },
+  {
+    "date": "2025-05-18T00:00:00Z",
+    "amount": 441.02,
+    "description": "Fone de ouvido",
+    "merchant": {
+      "name": "Mercado Livre",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-09-17T00:00:00Z",
+    "amount": 874.05,
+    "description": "Monitor",
+    "merchant": {
+      "name": "Magazine Luiza",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-02-14T00:00:00Z",
+    "amount": 46515.64,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-12-14T00:00:00Z",
+    "amount": 37.46,
+    "description": "Pilhas recarregáveis",
+    "merchant": {
+      "name": "Americanas",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-04-09T00:00:00Z",
+    "amount": 27.11,
+    "description": "Shampoo e condicionador",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-05-22T00:00:00Z",
+    "amount": 33.08,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Café do Brasil",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-02-02T00:00:00Z",
+    "amount": 1631.23,
+    "description": "Smartphone",
+    "merchant": {
+      "name": "Submarino",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-04-13T00:00:00Z",
+    "amount": 56.07,
+    "description": "Pilhas recarregáveis",
+    "merchant": {
+      "name": "Americanas",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-03-11T00:00:00Z",
+    "amount": 99.14,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Escola Municipal",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-06-29T00:00:00Z",
+    "amount": 210.52,
+    "description": "Seguro do veículo",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-01-06T00:00:00Z",
+    "amount": 560.92,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Clínica São Lucas",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-05-11T00:00:00Z",
+    "amount": 274.2,
+    "description": "Mensalidade escolar",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-06-21T00:00:00Z",
+    "amount": 16.0,
+    "description": "Acessórios",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-03-15T00:00:00Z",
+    "amount": 115.13,
+    "description": "Compra de mantimentos",
+    "merchant": {
+      "name": "Starbucks",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-05-05T00:00:00Z",
+    "amount": 2541.43,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-11-29T00:00:00Z",
+    "amount": 35.63,
+    "description": "Produtos de higiene",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-02-26T00:00:00Z",
+    "amount": 118.05,
+    "description": "Vestido",
+    "merchant": {
+      "name": "Renner",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-05-29T00:00:00Z",
+    "amount": 12531.72,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-02-02T00:00:00Z",
+    "amount": 79.0,
+    "description": "Aula particular",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-10-25T00:00:00Z",
+    "amount": 1138.4,
+    "description": "Smartphone",
+    "merchant": {
+      "name": "Americanas",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-07-20T00:00:00Z",
+    "amount": 56.92,
+    "description": "Abastecimento",
+    "merchant": {
+      "name": "Colégio São José",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-03-09T00:00:00Z",
+    "amount": 47.88,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "Burger King",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-12-18T00:00:00Z",
+    "amount": 109903.59,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-04-19T00:00:00Z",
+    "amount": 57.01,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Carrefour",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-06-08T00:00:00Z",
+    "amount": 312.37,
+    "description": "Mensalidade escolar",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-03-11T00:00:00Z",
+    "amount": 44.3,
+    "description": "Carregador",
+    "merchant": {
+      "name": "Mercado Livre",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-07-01T00:00:00Z",
+    "amount": 10.73,
+    "description": "Acessórios",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-02-12T00:00:00Z",
+    "amount": 33447.75,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-02-25T00:00:00Z",
+    "amount": 50.81,
+    "description": "Vitamina C",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-03T00:00:00Z",
+    "amount": 17.81,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "C&A",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-06-26T00:00:00Z",
+    "amount": 37848.06,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-02-25T00:00:00Z",
+    "amount": 44.11,
+    "description": "Aula particular",
+    "merchant": {
+      "name": "Dr. João Silva",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-06-16T00:00:00Z",
+    "amount": 38.82,
+    "description": "Vitamina C",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-10-19T00:00:00Z",
+    "amount": 14.37,
+    "description": "Analgésico",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-05-09T00:00:00Z",
+    "amount": 21.02,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-05-15T00:00:00Z",
+    "amount": 1806.35,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-09-27T00:00:00Z",
+    "amount": 26.88,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-04-28T00:00:00Z",
+    "amount": 4222.03,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-12-29T00:00:00Z",
+    "amount": 653.07,
+    "description": "Mensalidade escolar",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-08-13T00:00:00Z",
+    "amount": 68.83,
+    "description": "Medicamentos prescritos",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-08-25T00:00:00Z",
+    "amount": 150.44,
+    "description": "Consulta médica",
+    "merchant": {
+      "name": "Clínica São Lucas",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-08-11T00:00:00Z",
+    "amount": 37.17,
+    "description": "Cabo USB",
+    "merchant": {
+      "name": "Casas Bahia",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-04-25T00:00:00Z",
+    "amount": 23.46,
+    "description": "Camiseta",
+    "merchant": {
+      "name": "Riachuelo",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-08-06T00:00:00Z",
+    "amount": 29.82,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Burger King",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-03-19T00:00:00Z",
+    "amount": 1020.48,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-10-04T00:00:00Z",
+    "amount": 2518.61,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-03-17T00:00:00Z",
+    "amount": 22.84,
+    "description": "Café da manhã",
+    "merchant": {
+      "name": "Starbucks",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-09-12T00:00:00Z",
+    "amount": 1948.95,
+    "description": "Smartphone",
+    "merchant": {
+      "name": "Mercado Livre",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-06-18T00:00:00Z",
+    "amount": 38989.26,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-10-10T00:00:00Z",
+    "amount": 2655.06,
+    "description": "Smartphone",
+    "merchant": {
+      "name": "Mercado Livre",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-06-14T00:00:00Z",
+    "amount": 33.72,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Subway",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-04-07T00:00:00Z",
+    "amount": 134.34,
+    "description": "Medicamentos prescritos",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-12-27T00:00:00Z",
+    "amount": 52.98,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "Riachuelo",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-04-08T00:00:00Z",
+    "amount": 20.73,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Subway",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-03-10T00:00:00Z",
+    "amount": 222.66,
+    "description": "Jaqueta",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-06-03T00:00:00Z",
+    "amount": 280.29,
+    "description": "Mensalidade escolar",
+    "merchant": {
+      "name": "Posto Shell",
+      "category": "Combustível"
+    }
+  },
+  {
+    "date": "2025-01-11T00:00:00Z",
+    "amount": 981.3,
+    "description": "Tablet",
+    "merchant": {
+      "name": "Americanas",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-04-23T00:00:00Z",
+    "amount": 15.69,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-04T00:00:00Z",
+    "amount": 86.2,
+    "description": "Fone de ouvido",
+    "merchant": {
+      "name": "Americanas",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-07-01T00:00:00Z",
+    "amount": 41.48,
+    "description": "Produtos de higiene",
+    "merchant": {
+      "name": "Droga Raia",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-06T00:00:00Z",
+    "amount": 6.71,
+    "description": "Analgésico",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-05-29T00:00:00Z",
+    "amount": 161932.29,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-11-22T00:00:00Z",
+    "amount": 717.78,
+    "description": "Monitor",
+    "merchant": {
+      "name": "Casas Bahia",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-08-01T00:00:00Z",
+    "amount": 47220.19,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-11-12T00:00:00Z",
+    "amount": 28.96,
+    "description": "Shampoo e condicionador",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-02-09T00:00:00Z",
+    "amount": 275.26,
+    "description": "Mensalidade escolar",
+    "merchant": {
+      "name": "Posto Shell",
+      "category": "Combustível"
+    }
+  },
+  {
+    "date": "2025-08-23T00:00:00Z",
+    "amount": 70.11,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Pão de Açúcar",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-02-20T00:00:00Z",
+    "amount": 18.58,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Extra",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-03-26T00:00:00Z",
+    "amount": 47.44,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "Subway",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-07-05T00:00:00Z",
+    "amount": 35.22,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "Starbucks",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-04-12T00:00:00Z",
+    "amount": 60.03,
+    "description": "Aula particular",
+    "merchant": {
+      "name": "Clínica São Lucas",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-01-05T00:00:00Z",
+    "amount": 83.76,
+    "description": "Jantar em família",
+    "merchant": {
+      "name": "Subway",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-11-11T00:00:00Z",
+    "amount": 4349.49,
+    "description": "Notebook",
+    "merchant": {
+      "name": "Amazon",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-07-25T00:00:00Z",
+    "amount": 1963.19,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-03-21T00:00:00Z",
+    "amount": 918.87,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-04-17T00:00:00Z",
+    "amount": 45.93,
+    "description": "Protetor solar",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-05-26T00:00:00Z",
+    "amount": 143.17,
+    "description": "Seguro do veículo",
+    "merchant": {
+      "name": "Maria da Limpeza",
+      "category": "Serviços Domésticos"
+    }
+  },
+  {
+    "date": "2025-08-24T00:00:00Z",
+    "amount": 599.9,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Posto Shell",
+      "category": "Combustível"
+    }
+  },
+  {
+    "date": "2025-09-03T00:00:00Z",
+    "amount": 76.12,
+    "description": "Exame laboratorial",
+    "merchant": {
+      "name": "Maria da Limpeza",
+      "category": "Serviços Domésticos"
+    }
+  },
+  {
+    "date": "2025-02-28T00:00:00Z",
+    "amount": 46.1,
+    "description": "Acessórios",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-02-12T00:00:00Z",
+    "amount": 34789.6,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-04-26T00:00:00Z",
+    "amount": 210.58,
+    "description": "Jaqueta",
+    "merchant": {
+      "name": "C&A",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-04-12T00:00:00Z",
+    "amount": 806.99,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-08-01T00:00:00Z",
+    "amount": 178.45,
+    "description": "Seguro do veículo",
+    "merchant": {
+      "name": "Escola Municipal",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-10-19T00:00:00Z",
+    "amount": 16.42,
+    "description": "Shampoo e condicionador",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-01-16T00:00:00Z",
+    "amount": 47.31,
+    "description": "Cabo USB",
+    "merchant": {
+      "name": "Submarino",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-05-19T00:00:00Z",
+    "amount": 19.62,
+    "description": "Lanche rápido",
+    "merchant": {
+      "name": "Carrefour",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-06-13T00:00:00Z",
+    "amount": 63.06,
+    "description": "Jantar em família",
+    "merchant": {
+      "name": "Burger King",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-10-23T00:00:00Z",
+    "amount": 303.63,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Clínica São Lucas",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-05-08T00:00:00Z",
+    "amount": 109.48,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Maria da Limpeza",
+      "category": "Serviços Domésticos"
+    }
+  },
+  {
+    "date": "2025-04-06T00:00:00Z",
+    "amount": 55.38,
+    "description": "Aula particular",
+    "merchant": {
+      "name": "Clínica São Lucas",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-02-16T00:00:00Z",
+    "amount": 47.48,
+    "description": "Aula particular",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-06-06T00:00:00Z",
+    "amount": 44125.66,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-09-04T00:00:00Z",
+    "amount": 107.95,
+    "description": "Vestido",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-07-14T00:00:00Z",
+    "amount": 36.17,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "Riachuelo",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-10-28T00:00:00Z",
+    "amount": 188.35,
+    "description": "Consulta médica",
+    "merchant": {
+      "name": "Posto Shell",
+      "category": "Combustível"
+    }
+  },
+  {
+    "date": "2025-12-15T00:00:00Z",
+    "amount": 100.13,
+    "description": "Exame laboratorial",
+    "merchant": {
+      "name": "Dr. João Silva",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-12-10T00:00:00Z",
+    "amount": 2027.46,
+    "description": "Smartphone",
+    "merchant": {
+      "name": "Kabum",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-04-11T00:00:00Z",
+    "amount": 69.47,
+    "description": "Exame laboratorial",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-04-09T00:00:00Z",
+    "amount": 7.21,
+    "description": "Lanche rápido",
+    "merchant": {
+      "name": "Subway",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-07-20T00:00:00Z",
+    "amount": 47806.66,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-08-26T00:00:00Z",
+    "amount": 92.06,
+    "description": "Medicamentos prescritos",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-02-11T00:00:00Z",
+    "amount": 22.14,
+    "description": "Analgésico",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-09-02T00:00:00Z",
+    "amount": 42.35,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-05-10T00:00:00Z",
+    "amount": 85.75,
+    "description": "Compra de mantimentos",
+    "merchant": {
+      "name": "Carrefour",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-01-20T00:00:00Z",
+    "amount": 230.55,
+    "description": "Seguro do veículo",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-10-13T00:00:00Z",
+    "amount": 28.77,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Pão de Açúcar",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-12-16T00:00:00Z",
+    "amount": 1905.14,
+    "description": "Notebook",
+    "merchant": {
+      "name": "Amazon",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-01-08T00:00:00Z",
+    "amount": 174368.91,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-11-14T00:00:00Z",
+    "amount": 102.51,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-08-23T00:00:00Z",
+    "amount": 207.35,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-11-20T00:00:00Z",
+    "amount": 41319.41,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-12-26T00:00:00Z",
+    "amount": 30.11,
+    "description": "Pilhas recarregáveis",
+    "merchant": {
+      "name": "Pichau",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-08-09T00:00:00Z",
+    "amount": 529.14,
+    "description": "Monitor",
+    "merchant": {
+      "name": "Pichau",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-11-17T00:00:00Z",
+    "amount": 729.64,
+    "description": "Mensalidade escolar",
+    "merchant": {
+      "name": "Escola Municipal",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-02-03T00:00:00Z",
+    "amount": 984.3,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-03-13T00:00:00Z",
+    "amount": 71.9,
+    "description": "Aula particular",
+    "merchant": {
+      "name": "Colégio São José",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-06-29T00:00:00Z",
+    "amount": 97.68,
+    "description": "Abastecimento",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-02-06T00:00:00Z",
+    "amount": 78.16,
+    "description": "Aula particular",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-12-19T00:00:00Z",
+    "amount": 14.93,
+    "description": "Cabo USB",
+    "merchant": {
+      "name": "Amazon",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-11-28T00:00:00Z",
+    "amount": 96.31,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Colégio São José",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-02-14T00:00:00Z",
+    "amount": 14.95,
+    "description": "Lanche rápido",
+    "merchant": {
+      "name": "McDonald's",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-03-07T00:00:00Z",
+    "amount": 24054.27,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-02-05T00:00:00Z",
+    "amount": 29.76,
+    "description": "Pilhas recarregáveis",
+    "merchant": {
+      "name": "Submarino",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-08-23T00:00:00Z",
+    "amount": 160236.99,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-08-16T00:00:00Z",
+    "amount": 2558.61,
+    "description": "Smartphone",
+    "merchant": {
+      "name": "Magazine Luiza",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-10-06T00:00:00Z",
+    "amount": 42.63,
+    "description": "Pilhas recarregáveis",
+    "merchant": {
+      "name": "Submarino",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-04-02T00:00:00Z",
+    "amount": 90.91,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-05-16T00:00:00Z",
+    "amount": 135.4,
+    "description": "Jaqueta",
+    "merchant": {
+      "name": "Zara",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-04-17T00:00:00Z",
+    "amount": 1435.4,
+    "description": "Tablet",
+    "merchant": {
+      "name": "Casas Bahia",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-10-22T00:00:00Z",
+    "amount": 82843.2,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-10-07T00:00:00Z",
+    "amount": 43.57,
+    "description": "Protetor solar",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-04-11T00:00:00Z",
+    "amount": 41.08,
+    "description": "Mouse sem fio",
+    "merchant": {
+      "name": "Mercado Livre",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-10-14T00:00:00Z",
+    "amount": 23306.64,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-12-07T00:00:00Z",
+    "amount": 54.97,
+    "description": "Roupa de cama",
+    "merchant": {
+      "name": "Riachuelo",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-12-23T00:00:00Z",
+    "amount": 2269.89,
+    "description": "Smartphone",
+    "merchant": {
+      "name": "Amazon",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-06-22T00:00:00Z",
+    "amount": 63.04,
+    "description": "Suplemento alimentar",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-09-22T00:00:00Z",
+    "amount": 30.39,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "Café do Brasil",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-01-26T00:00:00Z",
+    "amount": 80.25,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-09-01T00:00:00Z",
+    "amount": 1766.7,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-08-31T00:00:00Z",
+    "amount": 2897.93,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-05-31T00:00:00Z",
+    "amount": 56.3,
+    "description": "Protetor solar",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-02-26T00:00:00Z",
+    "amount": 15169.77,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-10-28T00:00:00Z",
+    "amount": 108.92,
+    "description": "Suplemento alimentar",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-10-26T00:00:00Z",
+    "amount": 37.13,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-01-05T00:00:00Z",
+    "amount": 71.48,
+    "description": "Compra de mantimentos",
+    "merchant": {
+      "name": "Burger King",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-09-29T00:00:00Z",
+    "amount": 22510.72,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-08-04T00:00:00Z",
+    "amount": 115861.72,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-11-12T00:00:00Z",
+    "amount": 68617.33,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-05-17T00:00:00Z",
+    "amount": 16.63,
+    "description": "Lanche rápido",
+    "merchant": {
+      "name": "Café do Brasil",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-09-19T00:00:00Z",
+    "amount": 60309.94,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-09-03T00:00:00Z",
+    "amount": 701.18,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-04-04T00:00:00Z",
+    "amount": 37.27,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "McDonald's",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-08-24T00:00:00Z",
+    "amount": 288.63,
+    "description": "Seguro do veículo",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-11-11T00:00:00Z",
+    "amount": 102.44,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-12-01T00:00:00Z",
+    "amount": 178.08,
+    "description": "Compra de mantimentos",
+    "merchant": {
+      "name": "Extra",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-09-07T00:00:00Z",
+    "amount": 111.76,
+    "description": "Exame laboratorial",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-04-27T00:00:00Z",
+    "amount": 177921.77,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-01-21T00:00:00Z",
+    "amount": 80.55,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-03-09T00:00:00Z",
+    "amount": 110.88,
+    "description": "Vestido",
+    "merchant": {
+      "name": "Zara",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-05-06T00:00:00Z",
+    "amount": 45.34,
+    "description": "Pilhas recarregáveis",
+    "merchant": {
+      "name": "Mercado Livre",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-02-22T00:00:00Z",
+    "amount": 330.53,
+    "description": "Teclado mecânico",
+    "merchant": {
+      "name": "Kabum",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-10-02T00:00:00Z",
+    "amount": 695.8,
+    "description": "Mensalidade escolar",
+    "merchant": {
+      "name": "Escola Municipal",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-10-06T00:00:00Z",
+    "amount": 64.56,
+    "description": "Roupa de cama",
+    "merchant": {
+      "name": "Riachuelo",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-06-12T00:00:00Z",
+    "amount": 1685.25,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-03-02T00:00:00Z",
+    "amount": 124.66,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "Zara",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-12-28T00:00:00Z",
+    "amount": 1633.03,
+    "description": "Notebook",
+    "merchant": {
+      "name": "Pichau",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-04-29T00:00:00Z",
+    "amount": 400.39,
+    "description": "Fone de ouvido",
+    "merchant": {
+      "name": "Pichau",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-06-20T00:00:00Z",
+    "amount": 85.91,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Colégio São José",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-07-18T00:00:00Z",
+    "amount": 64.94,
+    "description": "Aula particular",
+    "merchant": {
+      "name": "Escola Municipal",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-10-05T00:00:00Z",
+    "amount": 65.1,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Dr. João Silva",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-11-06T00:00:00Z",
+    "amount": 541.93,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Maria da Limpeza",
+      "category": "Serviços Domésticos"
+    }
+  },
+  {
+    "date": "2025-06-04T00:00:00Z",
+    "amount": 35.26,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Carrefour",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-11-08T00:00:00Z",
+    "amount": 1726.78,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-11-10T00:00:00Z",
+    "amount": 308.63,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-01-30T00:00:00Z",
+    "amount": 323.25,
+    "description": "Teclado mecânico",
+    "merchant": {
+      "name": "Pichau",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-03-31T00:00:00Z",
+    "amount": 12639.7,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-06-06T00:00:00Z",
+    "amount": 217.19,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Dr. João Silva",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-04-05T00:00:00Z",
+    "amount": 48.44,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "Subway",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-07-28T00:00:00Z",
+    "amount": 92.93,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-07-26T00:00:00Z",
+    "amount": 30.53,
+    "description": "Shampoo e condicionador",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-01-30T00:00:00Z",
+    "amount": 24.86,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-01-16T00:00:00Z",
+    "amount": 70.59,
+    "description": "Camiseta",
+    "merchant": {
+      "name": "Zara",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-12-05T00:00:00Z",
+    "amount": 35242.84,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-07-12T00:00:00Z",
+    "amount": 1687.95,
+    "description": "Smartphone",
+    "merchant": {
+      "name": "Submarino",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-02-06T00:00:00Z",
+    "amount": 135.9,
+    "description": "Medicamentos prescritos",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-23T00:00:00Z",
+    "amount": 187.75,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "C&A",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-07-25T00:00:00Z",
+    "amount": 112.91,
+    "description": "Jantar em família",
+    "merchant": {
+      "name": "Burger King",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-01-26T00:00:00Z",
+    "amount": 13.01,
+    "description": "Café da manhã",
+    "merchant": {
+      "name": "Café do Brasil",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-12-03T00:00:00Z",
+    "amount": 58.25,
+    "description": "Jantar em família",
+    "merchant": {
+      "name": "Burger King",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-01-24T00:00:00Z",
+    "amount": 56.22,
+    "description": "Roupa de cama",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-07-31T00:00:00Z",
+    "amount": 47.31,
+    "description": "Acessórios",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-09-27T00:00:00Z",
+    "amount": 65.21,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Clínica São Lucas",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-11-27T00:00:00Z",
+    "amount": 546.76,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Posto Shell",
+      "category": "Combustível"
+    }
+  },
+  {
+    "date": "2025-01-17T00:00:00Z",
+    "amount": 19.99,
+    "description": "Analgésico",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-09-30T00:00:00Z",
+    "amount": 32.35,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "Carrefour",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-08-28T00:00:00Z",
+    "amount": 106.24,
+    "description": "Vestido",
+    "merchant": {
+      "name": "Zara",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-11-19T00:00:00Z",
+    "amount": 47.45,
+    "description": "Vitamina C",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-12-25T00:00:00Z",
+    "amount": 19.44,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "Carrefour",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-06-06T00:00:00Z",
+    "amount": 159497.4,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-10-11T00:00:00Z",
+    "amount": 371.47,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Clínica São Lucas",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-01-14T00:00:00Z",
+    "amount": 82.25,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Colégio São José",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-03-05T00:00:00Z",
+    "amount": 1085.14,
+    "description": "Monitor",
+    "merchant": {
+      "name": "Casas Bahia",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-10-10T00:00:00Z",
+    "amount": 107.97,
+    "description": "Consulta médica",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-03-01T00:00:00Z",
+    "amount": 584.09,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Maria da Limpeza",
+      "category": "Serviços Domésticos"
+    }
+  },
+  {
+    "date": "2025-09-07T00:00:00Z",
+    "amount": 1263.89,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-02-19T00:00:00Z",
+    "amount": 363.55,
+    "description": "Mensalidade escolar",
+    "merchant": {
+      "name": "Maria da Limpeza",
+      "category": "Serviços Domésticos"
+    }
+  },
+  {
+    "date": "2025-12-30T00:00:00Z",
+    "amount": 81.75,
+    "description": "Consulta médica",
+    "merchant": {
+      "name": "Dr. João Silva",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-05-14T00:00:00Z",
+    "amount": 166.65,
+    "description": "Jaqueta",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-05-24T00:00:00Z",
+    "amount": 16.92,
+    "description": "Lanche rápido",
+    "merchant": {
+      "name": "Subway",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-12-26T00:00:00Z",
+    "amount": 11170.45,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-09-04T00:00:00Z",
+    "amount": 1910.1,
+    "description": "Notebook",
+    "merchant": {
+      "name": "Mercado Livre",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-09-17T00:00:00Z",
+    "amount": 25960.9,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-09-13T00:00:00Z",
+    "amount": 83.15,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Posto Shell",
+      "category": "Combustível"
+    }
+  },
+  {
+    "date": "2025-06-10T00:00:00Z",
+    "amount": 257.94,
+    "description": "Jaqueta",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-02-20T00:00:00Z",
+    "amount": 377.12,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Escola Municipal",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-03-21T00:00:00Z",
+    "amount": 194.82,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Posto Shell",
+      "category": "Combustível"
+    }
+  },
+  {
+    "date": "2025-09-22T00:00:00Z",
+    "amount": 175.26,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-08-23T00:00:00Z",
+    "amount": 124.98,
+    "description": "Medicamentos prescritos",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-04-15T00:00:00Z",
+    "amount": 40.49,
+    "description": "Cabo USB",
+    "merchant": {
+      "name": "Casas Bahia",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-05-23T00:00:00Z",
+    "amount": 23.32,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-01-28T00:00:00Z",
+    "amount": 69.93,
+    "description": "Carregador",
+    "merchant": {
+      "name": "Casas Bahia",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-08-14T00:00:00Z",
+    "amount": 86.39,
+    "description": "Consulta médica",
+    "merchant": {
+      "name": "Clínica São Lucas",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-08-14T00:00:00Z",
+    "amount": 2302.56,
+    "description": "Notebook",
+    "merchant": {
+      "name": "Pichau",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-05-17T00:00:00Z",
+    "amount": 38.39,
+    "description": "Vitamina C",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-11T00:00:00Z",
+    "amount": 21.94,
+    "description": "Shampoo e condicionador",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-04-03T00:00:00Z",
+    "amount": 28.23,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "Café do Brasil",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-03-29T00:00:00Z",
+    "amount": 937.11,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-01-04T00:00:00Z",
+    "amount": 23.76,
+    "description": "Pilhas recarregáveis",
+    "merchant": {
+      "name": "Casas Bahia",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-10-18T00:00:00Z",
+    "amount": 85.05,
+    "description": "Roupa de cama",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-11-17T00:00:00Z",
+    "amount": 26.41,
+    "description": "Shampoo e condicionador",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-07-14T00:00:00Z",
+    "amount": 38659.25,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-01-04T00:00:00Z",
+    "amount": 40.93,
+    "description": "Vitamina C",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-07-18T00:00:00Z",
+    "amount": 25.28,
+    "description": "Vitamina C",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-02-17T00:00:00Z",
+    "amount": 13.64,
+    "description": "Analgésico",
+    "merchant": {
+      "name": "Droga Raia",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-05-07T00:00:00Z",
+    "amount": 69.56,
+    "description": "Roupa de cama",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-02-01T00:00:00Z",
+    "amount": 34.46,
+    "description": "Roupa de cama",
+    "merchant": {
+      "name": "Zara",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-07-01T00:00:00Z",
+    "amount": 27.4,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Burger King",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-04-16T00:00:00Z",
+    "amount": 13.51,
+    "description": "Café da manhã",
+    "merchant": {
+      "name": "Pão de Açúcar",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-01-17T00:00:00Z",
+    "amount": 135.7,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "Renner",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-01-18T00:00:00Z",
+    "amount": 45.28,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Extra",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-05-06T00:00:00Z",
+    "amount": 62.61,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Maria da Limpeza",
+      "category": "Serviços Domésticos"
+    }
+  },
+  {
+    "date": "2025-08-04T00:00:00Z",
+    "amount": 81.44,
+    "description": "Suplemento alimentar",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-02-21T00:00:00Z",
+    "amount": 26.25,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "Carrefour",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-08-27T00:00:00Z",
+    "amount": 265.02,
+    "description": "Fone de ouvido",
+    "merchant": {
+      "name": "Magazine Luiza",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-08-01T00:00:00Z",
+    "amount": 17.59,
+    "description": "Lanche rápido",
+    "merchant": {
+      "name": "Starbucks",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-06-29T00:00:00Z",
+    "amount": 20.06,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Subway",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-10-24T00:00:00Z",
+    "amount": 1229.31,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-05-26T00:00:00Z",
+    "amount": 27.74,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "Burger King",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-03-09T00:00:00Z",
+    "amount": 39.15,
+    "description": "Jantar em família",
+    "merchant": {
+      "name": "Extra",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-05-04T00:00:00Z",
+    "amount": 131.38,
+    "description": "Seguro do veículo",
+    "merchant": {
+      "name": "Posto Shell",
+      "category": "Combustível"
+    }
+  },
+  {
+    "date": "2025-03-27T00:00:00Z",
+    "amount": 33.03,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "McDonald's",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-05-20T00:00:00Z",
+    "amount": 67.66,
+    "description": "Roupa de cama",
+    "merchant": {
+      "name": "Riachuelo",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-02-28T00:00:00Z",
+    "amount": 138.43,
+    "description": "Abastecimento",
+    "merchant": {
+      "name": "Escola Municipal",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-12-20T00:00:00Z",
+    "amount": 16.82,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "Carrefour",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-04-22T00:00:00Z",
+    "amount": 34.6,
+    "description": "Protetor solar",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-03-30T00:00:00Z",
+    "amount": 71.61,
+    "description": "Jantar em família",
+    "merchant": {
+      "name": "Extra",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-05-16T00:00:00Z",
+    "amount": 41.01,
+    "description": "Vestido",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-07-17T00:00:00Z",
+    "amount": 465.14,
+    "description": "Fone de ouvido",
+    "merchant": {
+      "name": "Casas Bahia",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-09-09T00:00:00Z",
+    "amount": 111.04,
+    "description": "Tênis esportivo",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-07-18T00:00:00Z",
+    "amount": 87.74,
+    "description": "Abastecimento",
+    "merchant": {
+      "name": "Posto Shell",
+      "category": "Combustível"
+    }
+  },
+  {
+    "date": "2025-12-12T00:00:00Z",
+    "amount": 29.03,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Mercado Central",
+      "category": "Feira"
+    }
+  },
+  {
+    "date": "2025-03-06T00:00:00Z",
+    "amount": 13.0,
+    "description": "Lanche rápido",
+    "merchant": {
+      "name": "Starbucks",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-09-17T00:00:00Z",
+    "amount": 169.15,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "Renner",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-10-15T00:00:00Z",
+    "amount": 12.52,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "Café do Brasil",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-09-29T00:00:00Z",
+    "amount": 55.19,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "Mercado Central",
+      "category": "Feira"
+    }
+  },
+  {
+    "date": "2025-04-22T00:00:00Z",
+    "amount": 107.62,
+    "description": "Jantar em família",
+    "merchant": {
+      "name": "Supermercado BH",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-01-22T00:00:00Z",
+    "amount": 115.42,
+    "description": "Consulta médica",
+    "merchant": {
+      "name": "Clínica São Lucas",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-02-02T00:00:00Z",
+    "amount": 1844.81,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-02-01T00:00:00Z",
+    "amount": 53.25,
+    "description": "Roupa de cama",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-01-18T00:00:00Z",
+    "amount": 48.3,
+    "description": "Pilhas recarregáveis",
+    "merchant": {
+      "name": "Amazon",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-12-18T00:00:00Z",
+    "amount": 19.29,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-03-03T00:00:00Z",
+    "amount": 105.17,
+    "description": "Mouse sem fio",
+    "merchant": {
+      "name": "Mercado Livre",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-03-16T00:00:00Z",
+    "amount": 34.61,
+    "description": "Vitamina C",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-02-28T00:00:00Z",
+    "amount": 14.77,
+    "description": "Cabo USB",
+    "merchant": {
+      "name": "Americanas",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-03-02T00:00:00Z",
+    "amount": 24.8,
+    "description": "Carregador",
+    "merchant": {
+      "name": "Submarino",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-04-24T00:00:00Z",
+    "amount": 424.74,
+    "description": "Monitor",
+    "merchant": {
+      "name": "Mercado Livre",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-02-09T00:00:00Z",
+    "amount": 24416.32,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-08-15T00:00:00Z",
+    "amount": 274.66,
+    "description": "Mensalidade escolar",
+    "merchant": {
+      "name": "Posto Shell",
+      "category": "Combustível"
+    }
+  },
+  {
+    "date": "2025-01-16T00:00:00Z",
+    "amount": 637.64,
+    "description": "Tablet",
+    "merchant": {
+      "name": "Magazine Luiza",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-03-04T00:00:00Z",
+    "amount": 153.22,
+    "description": "Jaqueta",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-03-22T00:00:00Z",
+    "amount": 2232.11,
+    "description": "Smartphone",
+    "merchant": {
+      "name": "Casas Bahia",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-09-27T00:00:00Z",
+    "amount": 135827.72,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-11-06T00:00:00Z",
+    "amount": 48.45,
+    "description": "Protetor solar",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-05-05T00:00:00Z",
+    "amount": 55.32,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-07-25T00:00:00Z",
+    "amount": 755.79,
+    "description": "Mensalidade escolar",
+    "merchant": {
+      "name": "Clínica São Lucas",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-08-09T00:00:00Z",
+    "amount": 13.25,
+    "description": "Cabo USB",
+    "merchant": {
+      "name": "Pichau",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-02-18T00:00:00Z",
+    "amount": 793.41,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-01-17T00:00:00Z",
+    "amount": 67.56,
+    "description": "Camiseta",
+    "merchant": {
+      "name": "Riachuelo",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-12-07T00:00:00Z",
+    "amount": 8851.36,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-03-10T00:00:00Z",
+    "amount": 186.23,
+    "description": "Tênis esportivo",
+    "merchant": {
+      "name": "Zara",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-01-01T00:00:00Z",
+    "amount": 248.84,
+    "description": "Tênis esportivo",
+    "merchant": {
+      "name": "Zara",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-02-01T00:00:00Z",
+    "amount": 137.2,
+    "description": "Abastecimento",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-03-29T00:00:00Z",
+    "amount": 559.02,
+    "description": "Mensalidade escolar",
+    "merchant": {
+      "name": "Colégio São José",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-10-21T00:00:00Z",
+    "amount": 148.53,
+    "description": "Mouse sem fio",
+    "merchant": {
+      "name": "Americanas",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-05-11T00:00:00Z",
+    "amount": 153012.83,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-06-15T00:00:00Z",
+    "amount": 55.66,
+    "description": "Compra de mantimentos",
+    "merchant": {
+      "name": "Café do Brasil",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-10-23T00:00:00Z",
+    "amount": 662.76,
+    "description": "Tablet",
+    "merchant": {
+      "name": "Kabum",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-09-23T00:00:00Z",
+    "amount": 29.02,
+    "description": "Produtos de higiene",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-07-27T00:00:00Z",
+    "amount": 135.98,
+    "description": "Vestido",
+    "merchant": {
+      "name": "Riachuelo",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-04-09T00:00:00Z",
+    "amount": 34.09,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Pão de Açúcar",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-09-16T00:00:00Z",
+    "amount": 148.84,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-05-22T00:00:00Z",
+    "amount": 414.28,
+    "description": "Mensalidade escolar",
+    "merchant": {
+      "name": "Maria da Limpeza",
+      "category": "Serviços Domésticos"
+    }
+  },
+  {
+    "date": "2025-09-06T00:00:00Z",
+    "amount": 192.65,
+    "description": "Tênis esportivo",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-06-24T00:00:00Z",
+    "amount": 24.12,
+    "description": "Shampoo e condicionador",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-02-06T00:00:00Z",
+    "amount": 25.2,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Droga Raia",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-09-04T00:00:00Z",
+    "amount": 6.19,
+    "description": "Analgésico",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-08-20T00:00:00Z",
+    "amount": 53.15,
+    "description": "Medicamentos prescritos",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-01-31T00:00:00Z",
+    "amount": 22.4,
+    "description": "Produtos de higiene",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-03T00:00:00Z",
+    "amount": 119.78,
+    "description": "Mouse sem fio",
+    "merchant": {
+      "name": "Magazine Luiza",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-08-11T00:00:00Z",
+    "amount": 447.42,
+    "description": "Fone de ouvido",
+    "merchant": {
+      "name": "Americanas",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-08-09T00:00:00Z",
+    "amount": 202.31,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-09-26T00:00:00Z",
+    "amount": 126.57,
+    "description": "Consulta médica",
+    "merchant": {
+      "name": "Dr. João Silva",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-05-07T00:00:00Z",
+    "amount": 385.37,
+    "description": "Fone de ouvido",
+    "merchant": {
+      "name": "Magazine Luiza",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-06-16T00:00:00Z",
+    "amount": 54.05,
+    "description": "Protetor solar",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-01-17T00:00:00Z",
+    "amount": 41.42,
+    "description": "Protetor solar",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-08T00:00:00Z",
+    "amount": 10.51,
+    "description": "Lanche rápido",
+    "merchant": {
+      "name": "Pão de Açúcar",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-02-17T00:00:00Z",
+    "amount": 202.07,
+    "description": "Jaqueta",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-05-21T00:00:00Z",
+    "amount": 101.64,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Colégio São José",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-03-09T00:00:00Z",
+    "amount": 992.9,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-06-19T00:00:00Z",
+    "amount": 12.94,
+    "description": "Produtos de higiene",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-16T00:00:00Z",
+    "amount": 35.35,
+    "description": "Camiseta",
+    "merchant": {
+      "name": "C&A",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-05-07T00:00:00Z",
+    "amount": 61.61,
+    "description": "Roupa de cama",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-02-14T00:00:00Z",
+    "amount": 66.69,
+    "description": "Exame laboratorial",
+    "merchant": {
+      "name": "Escola Municipal",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-06-27T00:00:00Z",
+    "amount": 181.42,
+    "description": "Jaqueta",
+    "merchant": {
+      "name": "C&A",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-06-02T00:00:00Z",
+    "amount": 18.64,
+    "description": "Analgésico",
+    "merchant": {
+      "name": "Droga Raia",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-03-20T00:00:00Z",
+    "amount": 15.81,
+    "description": "Café da manhã",
+    "merchant": {
+      "name": "Supermercado BH",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-07-23T00:00:00Z",
+    "amount": 29.82,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Droga Raia",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-09-10T00:00:00Z",
+    "amount": 71043.51,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-07-28T00:00:00Z",
+    "amount": 48.49,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-02-09T00:00:00Z",
+    "amount": 40.33,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-07-06T00:00:00Z",
+    "amount": 96.03,
+    "description": "Exame laboratorial",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-02-22T00:00:00Z",
+    "amount": 35.06,
+    "description": "Exame laboratorial",
+    "merchant": {
+      "name": "Escola Municipal",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-04-14T00:00:00Z",
+    "amount": 916.02,
+    "description": "Smartphone",
+    "merchant": {
+      "name": "Pichau",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-06-18T00:00:00Z",
+    "amount": 234.67,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Colégio São José",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-04-12T00:00:00Z",
+    "amount": 89639.28,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-01-31T00:00:00Z",
+    "amount": 109.14,
+    "description": "Medicamentos prescritos",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-08T00:00:00Z",
+    "amount": 2605.45,
+    "description": "Smartphone",
+    "merchant": {
+      "name": "Amazon",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-01-12T00:00:00Z",
+    "amount": 51.18,
+    "description": "Abastecimento",
+    "merchant": {
+      "name": "Dr. João Silva",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-12-11T00:00:00Z",
+    "amount": 49.46,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "McDonald's",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-04-19T00:00:00Z",
+    "amount": 2501.01,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-03-17T00:00:00Z",
+    "amount": 82.22,
+    "description": "Exame laboratorial",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-04-01T00:00:00Z",
+    "amount": 22.87,
+    "description": "Analgésico",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-08-27T00:00:00Z",
+    "amount": 36.79,
+    "description": "Exame laboratorial",
+    "merchant": {
+      "name": "Colégio São José",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-12-30T00:00:00Z",
+    "amount": 7.86,
+    "description": "Lanche rápido",
+    "merchant": {
+      "name": "McDonald's",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-01-22T00:00:00Z",
+    "amount": 141570.58,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-09-13T00:00:00Z",
+    "amount": 77.21,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Carrefour",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-01-05T00:00:00Z",
+    "amount": 120.65,
+    "description": "Mouse sem fio",
+    "merchant": {
+      "name": "Amazon",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-08-31T00:00:00Z",
+    "amount": 16901.4,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-10-19T00:00:00Z",
+    "amount": 258.61,
+    "description": "Mensalidade escolar",
+    "merchant": {
+      "name": "Colégio São José",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-08-20T00:00:00Z",
+    "amount": 25.66,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "McDonald's",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-06-19T00:00:00Z",
+    "amount": 24.77,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-11-14T00:00:00Z",
+    "amount": 34.06,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Mercado Central",
+      "category": "Feira"
+    }
+  },
+  {
+    "date": "2025-01-03T00:00:00Z",
+    "amount": 101.5,
+    "description": "Suplemento alimentar",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-03-01T00:00:00Z",
+    "amount": 7.67,
+    "description": "Lanche rápido",
+    "merchant": {
+      "name": "Subway",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-05-03T00:00:00Z",
+    "amount": 35.09,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-02-12T00:00:00Z",
+    "amount": 20639.42,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-02-10T00:00:00Z",
+    "amount": 699.85,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-01-19T00:00:00Z",
+    "amount": 34.56,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "McDonald's",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-03-04T00:00:00Z",
+    "amount": 1770.26,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-01-07T00:00:00Z",
+    "amount": 13.58,
+    "description": "Analgésico",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-11-10T00:00:00Z",
+    "amount": 28.94,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Burger King",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-08-23T00:00:00Z",
+    "amount": 363.58,
+    "description": "Tênis esportivo",
+    "merchant": {
+      "name": "Renner",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-08-05T00:00:00Z",
+    "amount": 19417.25,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-10-07T00:00:00Z",
+    "amount": 102.56,
+    "description": "Suplemento alimentar",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-12-15T00:00:00Z",
+    "amount": 28.63,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "C&A",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-10-30T00:00:00Z",
+    "amount": 163.51,
+    "description": "Teclado mecânico",
+    "merchant": {
+      "name": "Pichau",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-11-02T00:00:00Z",
+    "amount": 31.56,
+    "description": "Produtos de higiene",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-05-28T00:00:00Z",
+    "amount": 53.8,
+    "description": "Suplemento alimentar",
+    "merchant": {
+      "name": "Droga Raia",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-01-20T00:00:00Z",
+    "amount": 16.88,
+    "description": "Shampoo e condicionador",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-11-02T00:00:00Z",
+    "amount": 98.89,
+    "description": "Medicamentos prescritos",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-12-16T00:00:00Z",
+    "amount": 46.24,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "Café do Brasil",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-11-04T00:00:00Z",
+    "amount": 22533.47,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-08-16T00:00:00Z",
+    "amount": 27.68,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "Extra",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-04-16T00:00:00Z",
+    "amount": 82.86,
+    "description": "Suplemento alimentar",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-24T00:00:00Z",
+    "amount": 25.2,
+    "description": "Cabo USB",
+    "merchant": {
+      "name": "Kabum",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-03-28T00:00:00Z",
+    "amount": 4442.2,
+    "description": "Notebook",
+    "merchant": {
+      "name": "Amazon",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-11-15T00:00:00Z",
+    "amount": 135.46,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-07-29T00:00:00Z",
+    "amount": 524.69,
+    "description": "Tablet",
+    "merchant": {
+      "name": "Amazon",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-07-16T00:00:00Z",
+    "amount": 61.88,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-04-24T00:00:00Z",
+    "amount": 277.77,
+    "description": "Tênis esportivo",
+    "merchant": {
+      "name": "Riachuelo",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-08-27T00:00:00Z",
+    "amount": 148.17,
+    "description": "Medicamentos prescritos",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-02-21T00:00:00Z",
+    "amount": 795.6,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-01-08T00:00:00Z",
+    "amount": 110.25,
+    "description": "Abastecimento",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-08-08T00:00:00Z",
+    "amount": 47.28,
+    "description": "Cabo USB",
+    "merchant": {
+      "name": "Pichau",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-10-07T00:00:00Z",
+    "amount": 42.27,
+    "description": "Suplemento alimentar",
+    "merchant": {
+      "name": "Droga Raia",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-08-30T00:00:00Z",
+    "amount": 498.66,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-09-25T00:00:00Z",
+    "amount": 52.04,
+    "description": "Aula particular",
+    "merchant": {
+      "name": "Colégio São José",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-02-12T00:00:00Z",
+    "amount": 70.96,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "C&A",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-02-16T00:00:00Z",
+    "amount": 449.55,
+    "description": "Monitor",
+    "merchant": {
+      "name": "Kabum",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-10-17T00:00:00Z",
+    "amount": 54.08,
+    "description": "Pilhas recarregáveis",
+    "merchant": {
+      "name": "Submarino",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-06-17T00:00:00Z",
+    "amount": 13303.58,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-05-17T00:00:00Z",
+    "amount": 59.67,
+    "description": "Aula particular",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-08-24T00:00:00Z",
+    "amount": 54.65,
+    "description": "Pilhas recarregáveis",
+    "merchant": {
+      "name": "Kabum",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-07-08T00:00:00Z",
+    "amount": 23.44,
+    "description": "Analgésico",
+    "merchant": {
+      "name": "Droga Raia",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-11-05T00:00:00Z",
+    "amount": 21616.02,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-06-02T00:00:00Z",
+    "amount": 141.93,
+    "description": "Fone de ouvido",
+    "merchant": {
+      "name": "Amazon",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-11-15T00:00:00Z",
+    "amount": 187.33,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "Zara",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-04-07T00:00:00Z",
+    "amount": 151.12,
+    "description": "Compra de mantimentos",
+    "merchant": {
+      "name": "Pão de Açúcar",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-07-02T00:00:00Z",
+    "amount": 36.09,
+    "description": "Cabo USB",
+    "merchant": {
+      "name": "Pichau",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-12-15T00:00:00Z",
+    "amount": 182784.49,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-12-13T00:00:00Z",
+    "amount": 49.81,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "McDonald's",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-04-04T00:00:00Z",
+    "amount": 30475.1,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-06-19T00:00:00Z",
+    "amount": 154.86,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "Riachuelo",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-05-07T00:00:00Z",
+    "amount": 22.83,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "Extra",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-11-16T00:00:00Z",
+    "amount": 46.78,
+    "description": "Jantar em família",
+    "merchant": {
+      "name": "Carrefour",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-07-24T00:00:00Z",
+    "amount": 421.43,
+    "description": "Mensalidade escolar",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-08-04T00:00:00Z",
+    "amount": 71.29,
+    "description": "Suplemento alimentar",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-10-27T00:00:00Z",
+    "amount": 97.55,
+    "description": "Roupa de cama",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-02-26T00:00:00Z",
+    "amount": 125.37,
+    "description": "Teclado mecânico",
+    "merchant": {
+      "name": "Casas Bahia",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-01-13T00:00:00Z",
+    "amount": 10.53,
+    "description": "Lanche rápido",
+    "merchant": {
+      "name": "Carrefour",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-02-05T00:00:00Z",
+    "amount": 139.8,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-04-09T00:00:00Z",
+    "amount": 1416.63,
+    "description": "Tablet",
+    "merchant": {
+      "name": "Kabum",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-01-12T00:00:00Z",
+    "amount": 18.55,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Supermercado BH",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-07-09T00:00:00Z",
+    "amount": 53.46,
+    "description": "Vitamina C",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-01T00:00:00Z",
+    "amount": 49.94,
+    "description": "Exame laboratorial",
+    "merchant": {
+      "name": "Posto Shell",
+      "category": "Combustível"
+    }
+  },
+  {
+    "date": "2025-09-27T00:00:00Z",
+    "amount": 50.51,
+    "description": "Protetor solar",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-11-17T00:00:00Z",
+    "amount": 245.37,
+    "description": "Seguro do veículo",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-06-09T00:00:00Z",
+    "amount": 2734.68,
+    "description": "Notebook",
+    "merchant": {
+      "name": "Casas Bahia",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-04-26T00:00:00Z",
+    "amount": 133012.13,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-03-24T00:00:00Z",
+    "amount": 34.26,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "Subway",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-02-13T00:00:00Z",
+    "amount": 1373.56,
+    "description": "Tablet",
+    "merchant": {
+      "name": "Casas Bahia",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-01-13T00:00:00Z",
+    "amount": 65.5,
+    "description": "Suplemento alimentar",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-09-14T00:00:00Z",
+    "amount": 17.9,
+    "description": "Lanche rápido",
+    "merchant": {
+      "name": "Mercado Central",
+      "category": "Feira"
+    }
+  },
+  {
+    "date": "2025-12-04T00:00:00Z",
+    "amount": 19541.03,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-06-20T00:00:00Z",
+    "amount": 35.33,
+    "description": "Carregador",
+    "merchant": {
+      "name": "Amazon",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-03-21T00:00:00Z",
+    "amount": 176693.99,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-04-28T00:00:00Z",
+    "amount": 19.72,
+    "description": "Shampoo e condicionador",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-07-02T00:00:00Z",
+    "amount": 8.57,
+    "description": "Café da manhã",
+    "merchant": {
+      "name": "Extra",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-01-20T00:00:00Z",
+    "amount": 52.79,
+    "description": "Vestido",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-01-31T00:00:00Z",
+    "amount": 55.3,
+    "description": "Pilhas recarregáveis",
+    "merchant": {
+      "name": "Kabum",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-08-08T00:00:00Z",
+    "amount": 1914.39,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-10-15T00:00:00Z",
+    "amount": 75.99,
+    "description": "Protetor solar",
+    "merchant": {
+      "name": "Droga Raia",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-07T00:00:00Z",
+    "amount": 109.61,
+    "description": "Consulta médica",
+    "merchant": {
+      "name": "Colégio São José",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-04-23T00:00:00Z",
+    "amount": 24.14,
+    "description": "Pilhas recarregáveis",
+    "merchant": {
+      "name": "Kabum",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-07-18T00:00:00Z",
+    "amount": 199.63,
+    "description": "Seguro do veículo",
+    "merchant": {
+      "name": "Maria da Limpeza",
+      "category": "Serviços Domésticos"
+    }
+  },
+  {
+    "date": "2025-03-04T00:00:00Z",
+    "amount": 74.73,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-07-10T00:00:00Z",
+    "amount": 129.53,
+    "description": "Mouse sem fio",
+    "merchant": {
+      "name": "Kabum",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-02-13T00:00:00Z",
+    "amount": 67.41,
+    "description": "Aula particular",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-04-15T00:00:00Z",
+    "amount": 24610.75,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-01-09T00:00:00Z",
+    "amount": 13507.52,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-05-29T00:00:00Z",
+    "amount": 69.96,
+    "description": "Compra de mantimentos",
+    "merchant": {
+      "name": "Café do Brasil",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-10-29T00:00:00Z",
+    "amount": 20906.69,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-11-27T00:00:00Z",
+    "amount": 318.82,
+    "description": "Mensalidade escolar",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-11-08T00:00:00Z",
+    "amount": 96.21,
+    "description": "Roupa de cama",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-01-16T00:00:00Z",
+    "amount": 49.12,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Droga Raia",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-02-04T00:00:00Z",
+    "amount": 620.22,
+    "description": "Tablet",
+    "merchant": {
+      "name": "Amazon",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-10-10T00:00:00Z",
+    "amount": 1059.7,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-01-12T00:00:00Z",
+    "amount": 49.63,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-08-23T00:00:00Z",
+    "amount": 9277.79,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-11-14T00:00:00Z",
+    "amount": 164.93,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Clínica São Lucas",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-11-01T00:00:00Z",
+    "amount": 8.16,
+    "description": "Lanche rápido",
+    "merchant": {
+      "name": "Burger King",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-11-05T00:00:00Z",
+    "amount": 106.56,
+    "description": "Consulta médica",
+    "merchant": {
+      "name": "Maria da Limpeza",
+      "category": "Serviços Domésticos"
+    }
+  },
+  {
+    "date": "2025-08-25T00:00:00Z",
+    "amount": 5.56,
+    "description": "Lanche rápido",
+    "merchant": {
+      "name": "Supermercado BH",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-08-22T00:00:00Z",
+    "amount": 16505.42,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-03-11T00:00:00Z",
+    "amount": 1646.52,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-08-09T00:00:00Z",
+    "amount": 1972.95,
+    "description": "Smartphone",
+    "merchant": {
+      "name": "Submarino",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-01-27T00:00:00Z",
+    "amount": 262.54,
+    "description": "Tênis esportivo",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-09-28T00:00:00Z",
+    "amount": 82.87,
+    "description": "Suplemento alimentar",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-03-31T00:00:00Z",
+    "amount": 1532.6,
+    "description": "Notebook",
+    "merchant": {
+      "name": "Magazine Luiza",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-02-23T00:00:00Z",
+    "amount": 128487.31,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-05-23T00:00:00Z",
+    "amount": 282.98,
+    "description": "Fone de ouvido",
+    "merchant": {
+      "name": "Kabum",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-08-22T00:00:00Z",
+    "amount": 73555.39,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-11-11T00:00:00Z",
+    "amount": 16.37,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Starbucks",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-03-23T00:00:00Z",
+    "amount": 53.26,
+    "description": "Aula particular",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-07-26T00:00:00Z",
+    "amount": 260.51,
+    "description": "Tênis esportivo",
+    "merchant": {
+      "name": "Riachuelo",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-06-07T00:00:00Z",
+    "amount": 86.84,
+    "description": "Aula particular",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-02-19T00:00:00Z",
+    "amount": 179.57,
+    "description": "Consulta médica",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-07-25T00:00:00Z",
+    "amount": 6.89,
+    "description": "Analgésico",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-02-18T00:00:00Z",
+    "amount": 65.12,
+    "description": "Roupa de cama",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-01-09T00:00:00Z",
+    "amount": 395.34,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-07-08T00:00:00Z",
+    "amount": 111738.24,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-08-17T00:00:00Z",
+    "amount": 154.53,
+    "description": "Consulta médica",
+    "merchant": {
+      "name": "Clínica São Lucas",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-06-14T00:00:00Z",
+    "amount": 24.73,
+    "description": "Shampoo e condicionador",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-05-15T00:00:00Z",
+    "amount": 40.99,
+    "description": "Protetor solar",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-03-05T00:00:00Z",
+    "amount": 42.67,
+    "description": "Produtos de higiene",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-09-15T00:00:00Z",
+    "amount": 1707.47,
+    "description": "Smartphone",
+    "merchant": {
+      "name": "Casas Bahia",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-10-10T00:00:00Z",
+    "amount": 259.18,
+    "description": "Teclado mecânico",
+    "merchant": {
+      "name": "Americanas",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-12-30T00:00:00Z",
+    "amount": 2972.61,
+    "description": "Notebook",
+    "merchant": {
+      "name": "Casas Bahia",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-07-24T00:00:00Z",
+    "amount": 174.07,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-11-11T00:00:00Z",
+    "amount": 100.49,
+    "description": "Roupa de cama",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-01-07T00:00:00Z",
+    "amount": 29130.03,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-06-27T00:00:00Z",
+    "amount": 76.49,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Clínica São Lucas",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-02-11T00:00:00Z",
+    "amount": 74.48,
+    "description": "Abastecimento",
+    "merchant": {
+      "name": "Maria da Limpeza",
+      "category": "Serviços Domésticos"
+    }
+  },
+  {
+    "date": "2025-06-27T00:00:00Z",
+    "amount": 48.66,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "Café do Brasil",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-10-27T00:00:00Z",
+    "amount": 100897.31,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-05-26T00:00:00Z",
+    "amount": 107.99,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Clínica São Lucas",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-04-17T00:00:00Z",
+    "amount": 530.2,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-03-27T00:00:00Z",
+    "amount": 146.43,
+    "description": "Tênis esportivo",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-05-22T00:00:00Z",
+    "amount": 20.33,
+    "description": "Café da manhã",
+    "merchant": {
+      "name": "Extra",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-10-11T00:00:00Z",
+    "amount": 322.68,
+    "description": "Tênis esportivo",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-11-16T00:00:00Z",
+    "amount": 683.33,
+    "description": "Mensalidade escolar",
+    "merchant": {
+      "name": "Escola Municipal",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-11-11T00:00:00Z",
+    "amount": 232.85,
+    "description": "Mensalidade escolar",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-06-07T00:00:00Z",
+    "amount": 416.79,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Posto Shell",
+      "category": "Combustível"
+    }
+  },
+  {
+    "date": "2025-09-19T00:00:00Z",
+    "amount": 48.47,
+    "description": "Camiseta",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-05-13T00:00:00Z",
+    "amount": 111.27,
+    "description": "Tênis esportivo",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-04-19T00:00:00Z",
+    "amount": 485.77,
+    "description": "Manutenção do carro",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-06-17T00:00:00Z",
+    "amount": 19.29,
+    "description": "Acessórios",
+    "merchant": {
+      "name": "Zara",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-07-17T00:00:00Z",
+    "amount": 60.64,
+    "description": "Protetor solar",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-01-16T00:00:00Z",
+    "amount": 141371.64,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-07-03T00:00:00Z",
+    "amount": 78.86,
+    "description": "Jantar em família",
+    "merchant": {
+      "name": "Starbucks",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-05-11T00:00:00Z",
+    "amount": 17.71,
+    "description": "Produtos de higiene",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-11-20T00:00:00Z",
+    "amount": 14.33,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "Café do Brasil",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-05-16T00:00:00Z",
+    "amount": 69.14,
+    "description": "Medicamentos prescritos",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-11-25T00:00:00Z",
+    "amount": 37.52,
+    "description": "Acessórios",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-11-02T00:00:00Z",
+    "amount": 19.7,
+    "description": "Analgésico",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-12T00:00:00Z",
+    "amount": 29.42,
+    "description": "Shampoo e condicionador",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-03-18T00:00:00Z",
+    "amount": 42.91,
+    "description": "Vitamina C",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-12-23T00:00:00Z",
+    "amount": 4691.17,
+    "description": "Notebook",
+    "merchant": {
+      "name": "Mercado Livre",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-08-29T00:00:00Z",
+    "amount": 79.51,
+    "description": "Exame laboratorial",
+    "merchant": {
+      "name": "Dr. João Silva",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-05-19T00:00:00Z",
+    "amount": 106.53,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-08-26T00:00:00Z",
+    "amount": 101.81,
+    "description": "Roupa de cama",
+    "merchant": {
+      "name": "Zara",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-02-19T00:00:00Z",
+    "amount": 190.86,
+    "description": "Seguro do veículo",
+    "merchant": {
+      "name": "Posto Shell",
+      "category": "Combustível"
+    }
+  },
+  {
+    "date": "2025-06-16T00:00:00Z",
+    "amount": 42.15,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-01-20T00:00:00Z",
+    "amount": 50.82,
+    "description": "Medicamentos prescritos",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-08-15T00:00:00Z",
+    "amount": 62.51,
+    "description": "Mouse sem fio",
+    "merchant": {
+      "name": "Mercado Livre",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-06-12T00:00:00Z",
+    "amount": 19.1,
+    "description": "Acessórios",
+    "merchant": {
+      "name": "Riachuelo",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-10-29T00:00:00Z",
+    "amount": 114485.09,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-05-27T00:00:00Z",
+    "amount": 168.17,
+    "description": "Consulta médica",
+    "merchant": {
+      "name": "Dr. João Silva",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-10-22T00:00:00Z",
+    "amount": 84.3,
+    "description": "Mouse sem fio",
+    "merchant": {
+      "name": "Mercado Livre",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-03-07T00:00:00Z",
+    "amount": 1688.19,
+    "description": "Móveis para casa",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-09-30T00:00:00Z",
+    "amount": 240.52,
+    "description": "Teclado mecânico",
+    "merchant": {
+      "name": "Casas Bahia",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-10-25T00:00:00Z",
+    "amount": 30.42,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "Starbucks",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-08-25T00:00:00Z",
+    "amount": 80478.07,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-07-06T00:00:00Z",
+    "amount": 31.91,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "Starbucks",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-02-22T00:00:00Z",
+    "amount": 836.18,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-03-28T00:00:00Z",
+    "amount": 15.47,
+    "description": "Cabo USB",
+    "merchant": {
+      "name": "Submarino",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-05-22T00:00:00Z",
+    "amount": 139845.32,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-10-13T00:00:00Z",
+    "amount": 13864.65,
+    "description": "Compra de moto",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-02-09T00:00:00Z",
+    "amount": 84.46,
+    "description": "Compra de mantimentos",
+    "merchant": {
+      "name": "Café do Brasil",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-10-07T00:00:00Z",
+    "amount": 1941.5,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-09-01T00:00:00Z",
+    "amount": 10.88,
+    "description": "Produtos de higiene",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-04-25T00:00:00Z",
+    "amount": 26.09,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "Starbucks",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-11-20T00:00:00Z",
+    "amount": 16.64,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "Zara",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-07-26T00:00:00Z",
+    "amount": 2771.58,
+    "description": "Notebook",
+    "merchant": {
+      "name": "Americanas",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-09-26T00:00:00Z",
+    "amount": 852.73,
+    "description": "Monitor",
+    "merchant": {
+      "name": "Mercado Livre",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-04-17T00:00:00Z",
+    "amount": 124346.78,
+    "description": "Compra de carro",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-01-16T00:00:00Z",
+    "amount": 51.3,
+    "description": "Vestido",
+    "merchant": {
+      "name": "Zara",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-10-16T00:00:00Z",
+    "amount": 28.68,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Subway",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-11-07T00:00:00Z",
+    "amount": 99.89,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Colégio São José",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-12-23T00:00:00Z",
+    "amount": 23.46,
+    "description": "Protetor solar",
+    "merchant": {
+      "name": "Farmácia São Paulo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-01-29T00:00:00Z",
+    "amount": 210.79,
+    "description": "Jaqueta",
+    "merchant": {
+      "name": "Zara",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-11-08T00:00:00Z",
+    "amount": 13.64,
+    "description": "Shampoo e condicionador",
+    "merchant": {
+      "name": "Droga Raia",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-01-16T00:00:00Z",
+    "amount": 26.55,
+    "description": "Acessórios",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-09-02T00:00:00Z",
+    "amount": 80463.23,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-03-14T00:00:00Z",
+    "amount": 31.06,
+    "description": "Cabo USB",
+    "merchant": {
+      "name": "Americanas",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-03-04T00:00:00Z",
+    "amount": 116.32,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Clínica São Lucas",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-09-16T00:00:00Z",
+    "amount": 31.28,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "Starbucks",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-01-23T00:00:00Z",
+    "amount": 126.1,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-11-07T00:00:00Z",
+    "amount": 663.15,
+    "description": "Mensalidade escolar",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-01-18T00:00:00Z",
+    "amount": 33.94,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Pão de Açúcar",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-04-24T00:00:00Z",
+    "amount": 295.06,
+    "description": "Tênis esportivo",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-07-03T00:00:00Z",
+    "amount": 97.66,
+    "description": "Aula particular",
+    "merchant": {
+      "name": "Escola Municipal",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-11-04T00:00:00Z",
+    "amount": 54.43,
+    "description": "Exame laboratorial",
+    "merchant": {
+      "name": "Oficina Mecânica Silva",
+      "category": "Automotivo"
+    }
+  },
+  {
+    "date": "2025-08-20T00:00:00Z",
+    "amount": 117.4,
+    "description": "Seguro do veículo",
+    "merchant": {
+      "name": "Maria da Limpeza",
+      "category": "Serviços Domésticos"
+    }
+  },
+  {
+    "date": "2025-04-12T00:00:00Z",
+    "amount": 67.54,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-04-06T00:00:00Z",
+    "amount": 122.46,
+    "description": "Calça jeans",
+    "merchant": {
+      "name": "Nike",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-11-09T00:00:00Z",
+    "amount": 1251.86,
+    "description": "Smartphone",
+    "merchant": {
+      "name": "Magazine Luiza",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-01-18T00:00:00Z",
+    "amount": 43.57,
+    "description": "Protetor solar",
+    "merchant": {
+      "name": "Farmácia Araújo",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-11-13T00:00:00Z",
+    "amount": 33.83,
+    "description": "Cabo USB",
+    "merchant": {
+      "name": "Amazon",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-10-05T00:00:00Z",
+    "amount": 23.31,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "McDonald's",
+      "category": "Fast Food"
+    }
+  },
+  {
+    "date": "2025-02-13T00:00:00Z",
+    "amount": 19.31,
+    "description": "Produtos para bebê",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-02-10T00:00:00Z",
+    "amount": 33.07,
+    "description": "Produtos de higiene",
+    "merchant": {
+      "name": "Droga Raia",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-03-08T00:00:00Z",
+    "amount": 1974.98,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Imobiliária Central",
+      "category": "Imóveis"
+    }
+  },
+  {
+    "date": "2025-08-28T00:00:00Z",
+    "amount": 55.14,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "C&A",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-09-16T00:00:00Z",
+    "amount": 423.43,
+    "description": "Eletrodomésticos",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-08-15T00:00:00Z",
+    "amount": 1281.24,
+    "description": "Tablet",
+    "merchant": {
+      "name": "Magazine Luiza",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-03-27T00:00:00Z",
+    "amount": 76.13,
+    "description": "Diária da faxina",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-03-23T00:00:00Z",
+    "amount": 213.8,
+    "description": "Jaqueta",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-11-17T00:00:00Z",
+    "amount": 78.48,
+    "description": "Vestido",
+    "merchant": {
+      "name": "Adidas",
+      "category": "Esportes"
+    }
+  },
+  {
+    "date": "2025-02-25T00:00:00Z",
+    "amount": 106.42,
+    "description": "Suplemento alimentar",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-06-21T00:00:00Z",
+    "amount": 213.96,
+    "description": "Seguro do veículo",
+    "merchant": {
+      "name": "Clínica São Lucas",
+      "category": "Saúde"
+    }
+  },
+  {
+    "date": "2025-02-07T00:00:00Z",
+    "amount": 53.25,
+    "description": "Protetor solar",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-12-31T00:00:00Z",
+    "amount": 32.1,
+    "description": "Cabo USB",
+    "merchant": {
+      "name": "Kabum",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-04-27T00:00:00Z",
+    "amount": 33.1,
+    "description": "Produtos de higiene",
+    "merchant": {
+      "name": "Ultrafarma",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-07-08T00:00:00Z",
+    "amount": 34.36,
+    "description": "Produtos de padaria",
+    "merchant": {
+      "name": "Mercado Central",
+      "category": "Feira"
+    }
+  },
+  {
+    "date": "2025-07-18T00:00:00Z",
+    "amount": 21.09,
+    "description": "Shampoo e condicionador",
+    "merchant": {
+      "name": "Farmácia Pague Menos",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-12-31T00:00:00Z",
+    "amount": 97377.4,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-07-28T00:00:00Z",
+    "amount": 1150.27,
+    "description": "Smartphone",
+    "merchant": {
+      "name": "Mercado Livre",
+      "category": "E-commerce"
+    }
+  },
+  {
+    "date": "2025-01-21T00:00:00Z",
+    "amount": 100365.31,
+    "description": "Entrada de casa",
+    "merchant": {
+      "name": "Honda Motos",
+      "category": "Motocicletas"
+    }
+  },
+  {
+    "date": "2025-09-04T00:00:00Z",
+    "amount": 65.37,
+    "description": "Abastecimento",
+    "merchant": {
+      "name": "Construtora ABC",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-09-11T00:00:00Z",
+    "amount": 11.23,
+    "description": "Produtos de higiene",
+    "merchant": {
+      "name": "Droga Raia",
+      "category": "Farmácia"
+    }
+  },
+  {
+    "date": "2025-05-28T00:00:00Z",
+    "amount": 2350.68,
+    "description": "Smartphone",
+    "merchant": {
+      "name": "Kabum",
+      "category": "Eletrônicos"
+    }
+  },
+  {
+    "date": "2025-03-07T00:00:00Z",
+    "amount": 25.56,
+    "description": "Compra de frutas e verduras",
+    "merchant": {
+      "name": "Pão de Açúcar",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-09-04T00:00:00Z",
+    "amount": 25687.14,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Concessionária Ford",
+      "category": "Automóveis"
+    }
+  },
+  {
+    "date": "2025-02-23T00:00:00Z",
+    "amount": 49.94,
+    "description": "Aula particular",
+    "merchant": {
+      "name": "Escola Municipal",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-07-01T00:00:00Z",
+    "amount": 31.31,
+    "description": "Almoço no restaurante",
+    "merchant": {
+      "name": "Starbucks",
+      "category": "Cafeteria"
+    }
+  },
+  {
+    "date": "2025-10-14T00:00:00Z",
+    "amount": 74.14,
+    "description": "Compra de mantimentos",
+    "merchant": {
+      "name": "Carrefour",
+      "category": "Supermercado"
+    }
+  },
+  {
+    "date": "2025-07-11T00:00:00Z",
+    "amount": 50.32,
+    "description": "Exame laboratorial",
+    "merchant": {
+      "name": "Colégio São José",
+      "category": "Educação"
+    }
+  },
+  {
+    "date": "2025-01-13T00:00:00Z",
+    "amount": 45703.69,
+    "description": "Reforma da casa",
+    "merchant": {
+      "name": "Construtora Horizonte",
+      "category": "Construção"
+    }
+  },
+  {
+    "date": "2025-02-16T00:00:00Z",
+    "amount": 22.26,
+    "description": "Roupa íntima",
+    "merchant": {
+      "name": "H&M",
+      "category": "Vestuário"
+    }
+  },
+  {
+    "date": "2025-04-01T00:00:00Z",
+    "amount": 22.94,
+    "description": "Compra de bebidas",
+    "merchant": {
+      "name": "Carrefour",
+      "category": "Supermercado"
+    }
+  }
+]
