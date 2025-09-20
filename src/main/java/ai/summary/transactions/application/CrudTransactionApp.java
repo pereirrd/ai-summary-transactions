@@ -15,14 +15,14 @@ import java.util.Optional;
 @Slf4j
 @Singleton
 @RequiredArgsConstructor
-public class TransactionCrudApplication {
+public class CrudTransactionApp {
 
     private final TransactionService transactionService;
     private final TransactionMapper transactionMapper;
 
-    public Optional<List<TransactionApiResponse>> getAllTransactions(int limit, int offset) {
+    public Optional<List<TransactionApiResponse>> getAll(int limit, int offset) {
         try {
-            var domainTransactions = transactionService.getAllTransactions(limit, offset);
+            var domainTransactions = transactionService.getAll(limit, offset);
 
             if (domainTransactions.isEmpty()) {
                 return Optional.empty();
@@ -36,9 +36,9 @@ public class TransactionCrudApplication {
         }
     }
 
-    public Optional<TransactionApiResponse> getTransactionById(String id) {
+    public Optional<TransactionApiResponse> getById(String id) {
         try {
-            var domainTransaction = transactionService.getTransactionById(id);
+            var domainTransaction = transactionService.getById(id);
 
             if (domainTransaction.isEmpty()) {
                 return Optional.empty();
@@ -52,10 +52,10 @@ public class TransactionCrudApplication {
         }
     }
 
-    public TransactionApiResponse createTransaction(CreateTransactionRequest createTransactionRequest) {
+    public TransactionApiResponse create(CreateTransactionRequest createTransactionRequest) {
         try {
             var domainTransaction = transactionMapper.toDomain(createTransactionRequest);
-            var createdTransaction = transactionService.createTransaction(domainTransaction);
+            var createdTransaction = transactionService.create(domainTransaction);
 
             return transactionMapper.toApi(createdTransaction);
         } catch (Exception exception) {
@@ -64,11 +64,11 @@ public class TransactionCrudApplication {
         }
     }
 
-    public Optional<TransactionApiResponse> updateTransaction(String id,
+    public Optional<TransactionApiResponse> update(String id,
             UpdateTransactionRequest updateTransactionRequest) {
         try {
             var domainTransaction = transactionMapper.toDomain(updateTransactionRequest);
-            var updatedTransaction = transactionService.updateTransaction(id, domainTransaction);
+            var updatedTransaction = transactionService.update(id, domainTransaction);
 
             if (updatedTransaction.isEmpty()) {
                 return Optional.empty();
@@ -81,9 +81,9 @@ public class TransactionCrudApplication {
         }
     }
 
-    public void deleteTransaction(String id) {
+    public void delete(String id) {
         try {
-            transactionService.deleteTransaction(id);
+            transactionService.delete(id);
         } catch (Exception e) {
             log.error("Error deleting transaction with id: {}", id, e);
             throw new RuntimeException("Failed to delete transaction", e);
