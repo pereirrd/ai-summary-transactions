@@ -122,7 +122,7 @@ date,amount,description,merchant_name,merchant_category
   - Validação das regras de negócio
 
 ### 3. Arquivo de Metadados
-- **Nome**: `test_data_metadata.json`
+- **Nome**: `test_data_metadata.csv`
 - **Localização**: `/test/resources/`
 - **Conteúdo**:
   - Data de geração
