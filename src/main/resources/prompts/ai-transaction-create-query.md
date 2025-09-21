@@ -623,17 +623,16 @@ Para busca de texto, SEMPRE use `wildcard` com padrão `*texto*` nos TRÊS campo
 **✅ CORRETO**: Retornar apenas o JSON válido que pode ser executado diretamente no OpenSearch.
 
 **❌ INCORRETO**: 
-```
 Aqui está a query para buscar transações de supermercado:
+
 ```json
 {
   "query": { ... }
 }
 ```
-```
 
 **✅ CORRETO**:
-```
+```json
 {
   "query": {
     "bool": {
