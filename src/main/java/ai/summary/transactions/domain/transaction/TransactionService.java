@@ -6,15 +6,15 @@ import java.util.Optional;
 
 public interface TransactionService {
 
-    Optional<Transaction> getTransactionById(String id);
+    Optional<Transaction> getById(String id);
 
-    Optional<List<Transaction>> getAllTransactions(int limit, int offset);
+    Optional<List<Transaction>> getAll(int limit, int offset);
 
-    Transaction createTransaction(Transaction transaction);
+    Transaction create(Transaction transaction);
 
-    Optional<Transaction> updateTransaction(String id, Transaction transaction);
+    Optional<Transaction> update(String id, Transaction transaction);
 
-    void deleteTransaction(String id);
+    void delete(String id);
 
-    Optional<List<Transaction>> searchTransactionsByDsl(String dslQuery);
+    Optional<List<Transaction>> searchByDsl(String dslQuery);
 }

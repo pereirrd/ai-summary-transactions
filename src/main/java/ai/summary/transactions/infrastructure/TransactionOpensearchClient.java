@@ -26,7 +26,7 @@ public class TransactionOpensearchClient {
 
     private final OpenSearchConfig openSearchConfig;
 
-    public Optional<List<Transaction>> searchTransactionsByDsl(String dslQuery) {
+    public Optional<List<Transaction>> searchByDsl(String dslQuery) {
         try {
             log.info("Executing DSL search query: {}", dslQuery);
 

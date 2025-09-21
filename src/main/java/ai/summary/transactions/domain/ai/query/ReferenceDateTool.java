@@ -1,4 +1,4 @@
-package ai.summary.transactions.domain.ai;
+package ai.summary.transactions.domain.ai.query;
 
 import java.time.LocalDate;
 

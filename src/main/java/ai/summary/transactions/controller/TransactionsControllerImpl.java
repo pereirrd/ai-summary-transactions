@@ -4,7 +4,7 @@ import ai.summary.transactions.model.CreateTransactionRequest;
 import ai.summary.transactions.model.GetAllTransactions200Response;
 import ai.summary.transactions.model.TransactionApiResponse;
 import ai.summary.transactions.model.UpdateTransactionRequest;
-import ai.summary.transactions.application.TransactionCrudApplication;
+import ai.summary.transactions.application.CrudTransactionApp;
 import io.micronaut.http.HttpResponse;
 import io.micronaut.http.annotation.Controller;
 import jakarta.validation.Valid;
@@ -17,12 +17,12 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor
 public class TransactionsControllerImpl implements TransactionsApi {
 
-    private final TransactionCrudApplication transactionsCrudApplication;
+    private final CrudTransactionApp transactionsCrudApplication;
 
     @Override
     public HttpResponse<@Valid GetAllTransactions200Response> getAllTransactions(Integer limit, Integer offset) {
         try {
-            var apiTransactions = transactionsCrudApplication.getAllTransactions(limit, offset);
+            var apiTransactions = transactionsCrudApplication.getAll(limit, offset);
 
             if (apiTransactions.isEmpty()) {
                 return HttpResponse.notFound();
@@ -35,8 +35,8 @@ public class TransactionsControllerImpl implements TransactionsApi {
                     .offset(offset);
 
             return HttpResponse.ok(response);
-        } catch (Exception e) {
-            log.error("Error retrieving all transactions", e);
+        } catch (Exception exception) {
+            log.error("Error retrieving all transactions", exception);
             return HttpResponse.serverError();
         }
     }
@@ -45,10 +45,10 @@ public class TransactionsControllerImpl implements TransactionsApi {
     public HttpResponse<@Valid TransactionApiResponse> createTransaction(
             @NotNull @Valid CreateTransactionRequest createTransactionRequest) {
         try {
-            var apiTransaction = transactionsCrudApplication.createTransaction(createTransactionRequest);
+            var apiTransaction = transactionsCrudApplication.create(createTransactionRequest);
             return HttpResponse.created(apiTransaction);
-        } catch (Exception e) {
-            log.error("Error creating transaction", e);
+        } catch (Exception exception) {
+            log.error("Error creating transaction", exception);
             return HttpResponse.badRequest();
         }
     }
@@ -56,15 +56,15 @@ public class TransactionsControllerImpl implements TransactionsApi {
     @Override
     public HttpResponse<@Valid TransactionApiResponse> getTransactionById(@NotNull String id) {
         try {
-            var apiTransaction = transactionsCrudApplication.getTransactionById(id);
+            var apiTransaction = transactionsCrudApplication.getById(id);
 
             if (apiTransaction.isEmpty()) {
                 return HttpResponse.notFound();
             }
 
             return HttpResponse.ok(apiTransaction.get());
-        } catch (Exception e) {
-            log.error("Error retrieving transaction with id: {}", id, e);
+        } catch (Exception exception) {
+            log.error("Error retrieving transaction with id: {}", id, exception);
             return HttpResponse.serverError();
         }
     }
@@ -73,15 +73,15 @@ public class TransactionsControllerImpl implements TransactionsApi {
     public HttpResponse<@Valid TransactionApiResponse> updateTransaction(@NotNull String id,
             @NotNull @Valid UpdateTransactionRequest updateTransactionRequest) {
         try {
-            var apiTransaction = transactionsCrudApplication.updateTransaction(id, updateTransactionRequest);
+            var apiTransaction = transactionsCrudApplication.update(id, updateTransactionRequest);
 
             if (apiTransaction.isEmpty()) {
                 return HttpResponse.notFound();
             }
 
             return HttpResponse.ok(apiTransaction.get());
-        } catch (Exception e) {
-            log.error("Error updating transaction with id: {}", id, e);
+        } catch (Exception exception) {
+            log.error("Error updating transaction with id: {}", id, exception);
             return HttpResponse.serverError();
         }
     }
@@ -89,10 +89,10 @@ public class TransactionsControllerImpl implements TransactionsApi {
     @Override
     public HttpResponse<Void> deleteTransaction(@NotNull String id) {
         try {
-            transactionsCrudApplication.deleteTransaction(id);
+            transactionsCrudApplication.delete(id);
             return HttpResponse.noContent();
-        } catch (Exception e) {
-            log.error("Error deleting transaction with id: {}", id, e);
+        } catch (Exception exception) {
+            log.error("Error deleting transaction with id: {}", id, exception);
             return HttpResponse.serverError();
         }
     }

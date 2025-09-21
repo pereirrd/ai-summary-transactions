@@ -31,7 +31,7 @@ public class TransactionServiceImpl implements TransactionService {
     private final OpenSearchTransactionMapper openSearchTransactionMapper;
 
     @Override
-    public Optional<List<Transaction>> getAllTransactions(int limit, int offset) {
+    public Optional<List<Transaction>> getAll(int limit, int offset) {
         try {
             var searchRequest = SearchRequest.of(transactions -> transactions
                     .index(openSearchConfig.getTransactionsIndex())
@@ -53,7 +53,7 @@ public class TransactionServiceImpl implements TransactionService {
     }
 
     @Override
-    public Optional<Transaction> getTransactionById(String id) {
+    public Optional<Transaction> getById(String id) {
         try {
             var getRequest = GetRequest.of(transactions -> transactions
                     .index(openSearchConfig.getTransactionsIndex())
@@ -74,7 +74,7 @@ public class TransactionServiceImpl implements TransactionService {
     }
 
     @Override
-    public Transaction createTransaction(Transaction transaction) {
+    public Transaction create(Transaction transaction) {
         try {
             // Gerar ID se não fornecido
             var transactionId = transaction.id() != null ? transaction.id().toString()
@@ -107,10 +107,10 @@ public class TransactionServiceImpl implements TransactionService {
     }
 
     @Override
-    public Optional<Transaction> updateTransaction(String id, Transaction transaction) {
+    public Optional<Transaction> update(String id, Transaction transaction) {
         try {
             // Verificar se a transação existe
-            var existingTransaction = getTransactionById(id);
+            var existingTransaction = getById(id);
             if (existingTransaction.isEmpty()) {
                 log.warn("Transaction with id {} not found for update", id);
                 return Optional.empty();
@@ -145,7 +145,7 @@ public class TransactionServiceImpl implements TransactionService {
     }
 
     @Override
-    public void deleteTransaction(String id) {
+    public void delete(String id) {
         try {
             var deleteRequest = DeleteRequest.of(transaction -> transaction
                     .index(openSearchConfig.getTransactionsIndex())
@@ -167,8 +167,9 @@ public class TransactionServiceImpl implements TransactionService {
     }
 
     @Override
-    public Optional<List<Transaction>> searchTransactionsByDsl(String dslQuery) {
-        return transactionOpensearchClient.searchTransactionsByDsl(dslQuery);
+    public Optional<List<Transaction>> searchByDsl(String query) {
+        var dslQuery = query.replace("```json", "").replace("```", "");
+        return transactionOpensearchClient.searchByDsl(dslQuery);
     }
 
 }
