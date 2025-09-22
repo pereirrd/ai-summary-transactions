@@ -1,14 +1,11 @@
 openapi: 3.0.0
 info:
-  title: Summary Transactions API
+  title: AI Summary Transactions API
   description: It allows you to summarize transactions using AI.
   version: 1.0.0
   license:
     name: Apache-2.0
     url: "https://www.apache.org/licenses/LICENSE-2.0.html"
-tags:
-  - name: transactions
-    description: Summarize transactions using AI
 
 servers:
   - url: http://localhost:8080
@@ -246,13 +243,24 @@ paths:
                   error:
                     type: string
                     example: "Internal server error"
-  /ai/transactions:
+  /ai/{source}/transactions:
     post:
       tags:
         - AI transactions
-      summary: Process AI transaction query
-      description: Process a natural language query about transactions using AI
+      summary: AI process transaction by generated query
+      description: Process a natural language and generate a query to search for transactions using AI
       operationId: processAITransaction
+      parameters:
+        - name: source
+          in: path
+          required: true
+          description: Source of transactions
+          schema:
+            type: string
+            example: "query"
+            enum:
+              - query
+              - list
       requestBody:
         required: true
         content:

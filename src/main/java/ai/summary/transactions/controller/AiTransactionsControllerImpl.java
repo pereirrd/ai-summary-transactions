@@ -2,6 +2,7 @@ package ai.summary.transactions.controller;
 
 import ai.summary.transactions.model.ProcessAITransaction200Response;
 import ai.summary.transactions.model.ProcessAITransactionRequest;
+import ai.summary.transactions.model.ProcessAITransactionSourceParameter;
 import ai.summary.transactions.application.AISummaryTransactionApp;
 import io.micronaut.http.HttpResponse;
 import io.micronaut.http.annotation.Controller;
@@ -19,18 +20,29 @@ public class AiTransactionsControllerImpl implements AiTransactionsApi {
 
     @Override
     public HttpResponse<@Valid ProcessAITransaction200Response> processAITransaction(
+            @NotNull ProcessAITransactionSourceParameter source,
             @NotNull @Valid ProcessAITransactionRequest processAITransactionRequest) {
         try {
-            String result = aiTransactionApplication
-                    .process(processAITransactionRequest.getQuestion());
+            String result;
+
+            if (source == ProcessAITransactionSourceParameter.QUERY) {
+                result = aiTransactionApplication
+                        .processByQuery(processAITransactionRequest.getQuestion());
+            } else if (source == ProcessAITransactionSourceParameter.LIST) {
+                result = aiTransactionApplication
+                        .processByList(processAITransactionRequest.getQuestion());
+            } else {
+                log.error("Invalid source parameter: {}", source);
+                return HttpResponse.badRequest();
+            }
 
             var response = new ProcessAITransaction200Response()
                     .result(result);
 
             return HttpResponse.ok(response);
         } catch (Exception exception) {
-            log.error("Error processing AI transaction query: {}", processAITransactionRequest.getQuestion(),
-                    exception);
+            log.error("Error processing AI transaction with source {}: {}",
+                    source, processAITransactionRequest.getQuestion(), exception);
             return HttpResponse.serverError();
         }
     }
