@@ -16,6 +16,7 @@ import org.opensearch.client.opensearch._types.query_dsl.Query;
 import org.opensearch.client.opensearch.core.*;
 import java.io.IOException;
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
@@ -58,7 +59,7 @@ public class TransactionServiceImpl implements TransactionService {
         try {
             // Converter LocalDate para LocalDateTime para busca
             var startDateTime = startDate.atStartOfDay();
-            var endDateTime = endDate.atTime(23, 59, 59, 999_999_999);
+            var endDateTime = endDate.atTime(LocalTime.MAX);
 
             var searchRequest = SearchRequest.of(transactions -> transactions
                     .index(openSearchConfig.getTransactionsIndex())

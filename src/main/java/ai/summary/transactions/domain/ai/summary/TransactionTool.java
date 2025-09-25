@@ -19,14 +19,18 @@ public class TransactionTool {
 
     private final TransactionService transactionService;
 
-    @Tool("Essa é a lista de transações bancárias e deve ser usada para responder a pergunta do cliente. As datas serão passadas como parâmetros da função via prompt.")
+    @Tool("Essa é a lista de transações bancárias e deve ser usada para responder a pergunta do cliente.")
     public List<Transaction> getTransactions() {
         var startDate = getStartDate();
         var endDate = getEndDate();
         log.info("Getting transactions for startDate: {} and endDate: {}", startDate, endDate);
 
-        return transactionService.findByDateRange(startDate, endDate, 100, 0)
+        var transactions = transactionService.findByDateRange(startDate, endDate, 100, 0)
                 .orElse(Collections.emptyList());
+
+        log.info("Transactions found: {}", transactions.size());
+
+        return transactions;
     }
 
     private LocalDate getStartDate() {

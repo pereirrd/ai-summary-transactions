@@ -24,7 +24,6 @@ public class AiTransactionsControllerImpl implements AiTransactionsApi {
     public HttpResponse<@Valid ProcessAITransactionSummary200Response> processAITransactionSummary(
             @NotNull LocalDate startDate, @NotNull LocalDate endDate,
             @NotNull @Valid ProcessAITransactionSummaryRequest processAITransactionSummaryRequest) {
-        // TODO Auto-generated method stub
         try {
             String result = aiTransactionApplication
                     .processByList(processAITransactionSummaryRequest.getQuestion());

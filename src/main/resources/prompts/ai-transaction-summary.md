@@ -10,11 +10,6 @@ Você receberá as seguintes informações:
 - A pergunta do cliente será fornecida via `@UserMessage`
 - Foque especificamente no que foi perguntado
 
-### 2. **Filtros de Data**
-- **Data início**: `{{startDate}}`
-- **Data fim**: `{{endDate}}`
-- Use essas datas para filtrar as transações relevantes
-
 ### 3. **Lista de Transações**
 Será fornecida via Tool durante a execução, com a seguinte estrutura:
 

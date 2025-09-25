@@ -10,3 +10,4 @@ public interface AITransactionSummaryService {
     @SystemMessage(fromResource = "prompts/ai-transaction-summary.md")
     String summarizeTransactions(@UserMessage String customerQuestion);
 }
+ 
