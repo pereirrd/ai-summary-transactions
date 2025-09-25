@@ -243,24 +243,30 @@ paths:
                   error:
                     type: string
                     example: "Internal server error"
-  /ai/{source}/transactions:
+  /ai/transactions/summary:
     post:
       tags:
         - AI transactions
       summary: AI process transaction by generated query
       description: Process a natural language and generate a query to search for transactions using AI
-      operationId: processAITransaction
+      operationId: processAITransactionSummary
       parameters:
-        - name: source
-          in: path
+        - name: startDate
+          in: query
           required: true
-          description: Source of transactions
+          description: Start date for filtering transactions
           schema:
             type: string
-            example: "query"
-            enum:
-              - query
-              - list
+            format: date
+            example: "2025-01-01"
+        - name: endDate
+          in: query
+          required: true
+          description: End date for filtering transactions
+          schema:
+            type: string
+            format: date
+            example: "2025-01-31"
       requestBody:
         required: true
         content:

@@ -4,17 +4,18 @@ import ai.summary.transactions.core.config.OpenSearchConfig;
 import ai.summary.transactions.domain.transaction.TransactionService;
 import ai.summary.transactions.domain.transaction.mapper.OpenSearchTransactionMapper;
 import ai.summary.transactions.domain.transaction.model.Transaction;
-import ai.summary.transactions.infrastructure.TransactionOpensearchClient;
 import jakarta.inject.Singleton;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 import org.opensearch.client.opensearch.OpenSearchClient;
+import org.opensearch.client.json.JsonData;
 import org.opensearch.client.opensearch._types.Result;
 import org.opensearch.client.opensearch._types.SortOrder;
 import org.opensearch.client.opensearch._types.query_dsl.Query;
 import org.opensearch.client.opensearch.core.*;
 import java.io.IOException;
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
@@ -26,7 +27,6 @@ import java.util.stream.Collectors;
 public class TransactionServiceImpl implements TransactionService {
 
     private final OpenSearchClient openSearchClient;
-    private final TransactionOpensearchClient transactionOpensearchClient;
     private final OpenSearchConfig openSearchConfig;
     private final OpenSearchTransactionMapper openSearchTransactionMapper;
 
@@ -49,6 +49,36 @@ public class TransactionServiceImpl implements TransactionService {
         } catch (IOException exception) {
             log.error("Error retrieving all transactions", exception);
             throw new RuntimeException("Failed to retrieve transactions", exception);
+        }
+    }
+
+    @Override
+    public Optional<List<Transaction>> findByDateRange(LocalDate startDate, LocalDate endDate, int limit,
+            int offset) {
+        try {
+            // Converter LocalDate para LocalDateTime para busca
+            var startDateTime = startDate.atStartOfDay();
+            var endDateTime = endDate.atTime(23, 59, 59, 999_999_999);
+
+            var searchRequest = SearchRequest.of(transactions -> transactions
+                    .index(openSearchConfig.getTransactionsIndex())
+                    .query(Query.of(query -> query.range(range -> range
+                            .field("date")
+                            .gte(JsonData.of(startDateTime.toString()))
+                            .lte(JsonData.of(endDateTime.toString())))))
+                    .from(offset)
+                    .size(limit)
+                    .sort(sort -> sort.field(
+                            f -> f.field("date").order(SortOrder.Desc))));
+
+            var response = openSearchClient.search(searchRequest, Object.class);
+
+            return Optional.of(response.hits().hits().stream()
+                    .map(hit -> openSearchTransactionMapper.fromOpenSearchObject(hit.source()))
+                    .collect(Collectors.toList()));
+        } catch (IOException exception) {
+            log.error("Error retrieving transactions by date range from {} to {}", startDate, endDate, exception);
+            throw new RuntimeException("Failed to retrieve transactions by date range", exception);
         }
     }
 
@@ -164,12 +194,6 @@ public class TransactionServiceImpl implements TransactionService {
             log.error("Error deleting transaction with id: {}", id, exception);
             throw new RuntimeException("Failed to delete transaction", exception);
         }
-    }
-
-    @Override
-    public Optional<List<Transaction>> searchByDsl(String query) {
-        var dslQuery = query.replace("```json", "").replace("```", "");
-        return transactionOpensearchClient.searchByDsl(dslQuery);
     }
 
 }

@@ -1,6 +1,7 @@
 package ai.summary.transactions.domain.transaction;
 
 import ai.summary.transactions.domain.transaction.model.Transaction;
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
@@ -10,11 +11,11 @@ public interface TransactionService {
 
     Optional<List<Transaction>> getAll(int limit, int offset);
 
+    Optional<List<Transaction>> findByDateRange(LocalDate startDate, LocalDate endDate, int limit, int offset);
+
     Transaction create(Transaction transaction);
 
     Optional<Transaction> update(String id, Transaction transaction);
 
     void delete(String id);
-
-    Optional<List<Transaction>> searchByDsl(String dslQuery);
 }
