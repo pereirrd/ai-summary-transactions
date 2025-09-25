@@ -1,7 +1,10 @@
 package ai.summary.transactions.controller;
 
-import ai.summary.transactions.model.ProcessAITransaction200Response;
-import ai.summary.transactions.model.ProcessAITransactionRequest;
+import ai.summary.transactions.model.ProcessAITransactionSummary200Response;
+import ai.summary.transactions.model.ProcessAITransactionSummaryRequest;
+
+import java.time.LocalDate;
+
 import ai.summary.transactions.application.AISummaryTransactionApp;
 import io.micronaut.http.HttpResponse;
 import io.micronaut.http.annotation.Controller;
@@ -18,20 +21,22 @@ public class AiTransactionsControllerImpl implements AiTransactionsApi {
     private final AISummaryTransactionApp aiTransactionApplication;
 
     @Override
-    public HttpResponse<@Valid ProcessAITransaction200Response> processAITransaction(
-            @NotNull @Valid ProcessAITransactionRequest processAITransactionRequest) {
+    public HttpResponse<@Valid ProcessAITransactionSummary200Response> processAITransactionSummary(
+            @NotNull LocalDate startDate, @NotNull LocalDate endDate,
+            @NotNull @Valid ProcessAITransactionSummaryRequest processAITransactionSummaryRequest) {
         try {
             String result = aiTransactionApplication
-                    .process(processAITransactionRequest.getQuestion());
+                    .processByList(processAITransactionSummaryRequest.getQuestion());
 
-            var response = new ProcessAITransaction200Response()
+            var response = new ProcessAITransactionSummary200Response()
                     .result(result);
 
             return HttpResponse.ok(response);
         } catch (Exception exception) {
-            log.error("Error processing AI transaction query: {}", processAITransactionRequest.getQuestion(),
-                    exception);
+            log.error("Error processing AI transaction with startDate {}: endDate {}: {}",
+                    startDate, endDate, processAITransactionSummaryRequest.getQuestion(), exception);
             return HttpResponse.serverError();
         }
     }
+
 }
