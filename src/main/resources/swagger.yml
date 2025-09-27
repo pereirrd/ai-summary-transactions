@@ -22,21 +22,35 @@ paths:
       parameters:
         - name: limit
           in: query
-          required: false
+          required: true
           description: Maximum number of transactions to return
           schema:
             type: integer
             minimum: 1
             maximum: 100
-            default: 20
         - name: offset
           in: query
-          required: false
+          required: true
           description: Number of transactions to skip
           schema:
             type: integer
             minimum: 0
-            default: 0
+        - name: startDate
+          in: query
+          required: false
+          description: Start date for filtering transactions
+          schema:
+            type: string
+            format: date
+            example: "2025-01-01"
+        - name: endDate
+          in: query
+          required: false
+          description: End date for filtering transactions
+          schema:
+            type: string
+            format: date
+            example: "2025-01-31"
       responses:
         "200":
           description: List of transactions retrieved successfully

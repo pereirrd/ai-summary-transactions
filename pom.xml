@@ -153,9 +153,6 @@
       <plugin>
         <groupId>io.micronaut.maven</groupId>
         <artifactId>micronaut-maven-plugin</artifactId>
-        <configuration>
-          <configFile>aot-${packaging}.properties</configFile>
-        </configuration>
         <executions>
           <execution>
             <id>default-generate-openapi-generic</id>

@@ -12,6 +12,8 @@ import jakarta.validation.constraints.NotNull;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
+import java.time.LocalDate;
+
 @Slf4j
 @Controller
 @RequiredArgsConstructor
@@ -20,9 +22,11 @@ public class TransactionsControllerImpl implements TransactionsApi {
     private final CrudTransactionApp transactionsCrudApplication;
 
     @Override
-    public HttpResponse<@Valid GetAllTransactions200Response> getAllTransactions(Integer limit, Integer offset) {
+    public HttpResponse<@Valid GetAllTransactions200Response> getAllTransactions(@NotNull Integer limit,
+            @NotNull Integer offset,
+            LocalDate startDate, LocalDate endDate) {
         try {
-            var apiTransactions = transactionsCrudApplication.getAll(limit, offset);
+            var apiTransactions = transactionsCrudApplication.findByFilters(startDate, endDate, limit, offset);
 
             if (apiTransactions.isEmpty()) {
                 return HttpResponse.notFound();

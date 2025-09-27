@@ -9,9 +9,7 @@ public interface TransactionService {
 
     Optional<Transaction> getById(String id);
 
-    Optional<List<Transaction>> getAll(int limit, int offset);
-
-    Optional<List<Transaction>> findByDateRange(LocalDate startDate, LocalDate endDate, int limit, int offset);
+    Optional<List<Transaction>> findByFilters(LocalDate startDate, LocalDate endDate, int limit, int offset);
 
     Transaction create(Transaction transaction);
 
