@@ -9,6 +9,7 @@ import jakarta.inject.Singleton;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
@@ -20,9 +21,10 @@ public class CrudTransactionApp {
     private final TransactionService transactionService;
     private final TransactionMapper transactionMapper;
 
-    public Optional<List<TransactionApiResponse>> getAll(int limit, int offset) {
+    public Optional<List<TransactionApiResponse>> findByFilters(LocalDate startDate, LocalDate endDate, int limit,
+            int offset) {
         try {
-            var domainTransactions = transactionService.getAll(limit, offset);
+            var domainTransactions = transactionService.findByFilters(startDate, endDate, limit, offset);
 
             if (domainTransactions.isEmpty()) {
                 return Optional.empty();
@@ -31,7 +33,7 @@ public class CrudTransactionApp {
             var apiTransactions = transactionMapper.toApi(domainTransactions.get());
             return Optional.of(apiTransactions);
         } catch (Exception exception) {
-            log.error("Error retrieving all transactions", exception);
+            log.error("Error retrieving transactions with filters", exception);
             throw new RuntimeException("Failed to retrieve transactions", exception);
         }
     }

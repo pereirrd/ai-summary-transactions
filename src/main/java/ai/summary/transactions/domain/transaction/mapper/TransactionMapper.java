@@ -14,22 +14,16 @@ import ai.summary.transactions.model.UpdateTransactionRequest;
 @Mapper(componentModel = "jsr330")
 public interface TransactionMapper {
 
-    Transaction toDomain(TransactionApiResponse transactionApiResponse);
-
     TransactionApiResponse toApi(Transaction transaction);
-
-    List<Transaction> toDomain(List<TransactionApiResponse> transactionApiResponses);
 
     List<TransactionApiResponse> toApi(List<Transaction> transactions);
 
-    // Métodos para converter de objetos de requisição para domínio
     @Mapping(target = "id", ignore = true)
     Transaction toDomain(CreateTransactionRequest createTransactionRequest);
 
     @Mapping(target = "id", ignore = true)
     Transaction toDomain(UpdateTransactionRequest updateTransactionRequest);
 
-    // MapStruct precisa de ajuda para mapear LocalDateTime <-> ZonedDateTime
     default ZonedDateTime map(LocalDateTime value) {
         return value == null ? null : value.atZone(java.time.ZoneId.systemDefault());
     }

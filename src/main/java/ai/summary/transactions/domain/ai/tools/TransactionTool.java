@@ -1,4 +1,4 @@
-package ai.summary.transactions.domain.ai.summary;
+package ai.summary.transactions.domain.ai.tools;
 
 import java.time.LocalDate;
 import java.util.Collections;
@@ -25,7 +25,7 @@ public class TransactionTool {
         var endDate = getEndDate();
         log.info("Getting transactions for startDate: {} and endDate: {}", startDate, endDate);
 
-        var transactions = transactionService.findByDateRange(startDate, endDate, 100, 0)
+        var transactions = transactionService.findByFilters(startDate, endDate, 100, 0)
                 .orElse(Collections.emptyList());
 
         log.info("Transactions found: {}", transactions.size());

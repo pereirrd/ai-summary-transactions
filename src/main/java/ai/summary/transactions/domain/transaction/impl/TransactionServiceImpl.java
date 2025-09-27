@@ -32,11 +32,41 @@ public class TransactionServiceImpl implements TransactionService {
     private final OpenSearchTransactionMapper openSearchTransactionMapper;
 
     @Override
-    public Optional<List<Transaction>> getAll(int limit, int offset) {
+    public Optional<List<Transaction>> findByFilters(LocalDate startDate, LocalDate endDate, int limit, int offset) {
         try {
+            Query query;
+
+            if (startDate != null && endDate != null) {
+                // Buscar transações no intervalo entre as duas datas
+                var startDateTime = startDate.atStartOfDay();
+                var endDateTime = endDate.atTime(LocalTime.MAX);
+
+                query = Query.of(q -> q.range(range -> range
+                        .field("date")
+                        .gte(JsonData.of(startDateTime.toString()))
+                        .lte(JsonData.of(endDateTime.toString()))));
+            } else if (startDate != null) {
+                // Buscar transações a partir da data de início
+                var startDateTime = startDate.atStartOfDay();
+
+                query = Query.of(q -> q.range(range -> range
+                        .field("date")
+                        .gte(JsonData.of(startDateTime.toString()))));
+            } else if (endDate != null) {
+                // Buscar transações até a data de fim
+                var endDateTime = endDate.atTime(LocalTime.MAX);
+
+                query = Query.of(q -> q.range(range -> range
+                        .field("date")
+                        .lte(JsonData.of(endDateTime.toString()))));
+            } else {
+                // Buscar todas as transações se não houver filtro de data
+                query = Query.of(q -> q.matchAll(m -> m));
+            }
+
             var searchRequest = SearchRequest.of(transactions -> transactions
                     .index(openSearchConfig.getTransactionsIndex())
-                    .query(Query.of(query -> query.matchAll(m -> m)))
+                    .query(query)
                     .from(offset)
                     .size(limit)
                     .sort(sort -> sort.field(
@@ -48,38 +78,8 @@ public class TransactionServiceImpl implements TransactionService {
                     .map(hit -> openSearchTransactionMapper.fromOpenSearchObject(hit.source()))
                     .collect(Collectors.toList()));
         } catch (IOException exception) {
-            log.error("Error retrieving all transactions", exception);
+            log.error("Error retrieving transactions with filters", exception);
             throw new RuntimeException("Failed to retrieve transactions", exception);
-        }
-    }
-
-    @Override
-    public Optional<List<Transaction>> findByDateRange(LocalDate startDate, LocalDate endDate, int limit,
-            int offset) {
-        try {
-            // Converter LocalDate para LocalDateTime para busca
-            var startDateTime = startDate.atStartOfDay();
-            var endDateTime = endDate.atTime(LocalTime.MAX);
-
-            var searchRequest = SearchRequest.of(transactions -> transactions
-                    .index(openSearchConfig.getTransactionsIndex())
-                    .query(Query.of(query -> query.range(range -> range
-                            .field("date")
-                            .gte(JsonData.of(startDateTime.toString()))
-                            .lte(JsonData.of(endDateTime.toString())))))
-                    .from(offset)
-                    .size(limit)
-                    .sort(sort -> sort.field(
-                            f -> f.field("date").order(SortOrder.Desc))));
-
-            var response = openSearchClient.search(searchRequest, Object.class);
-
-            return Optional.of(response.hits().hits().stream()
-                    .map(hit -> openSearchTransactionMapper.fromOpenSearchObject(hit.source()))
-                    .collect(Collectors.toList()));
-        } catch (IOException exception) {
-            log.error("Error retrieving transactions by date range from {} to {}", startDate, endDate, exception);
-            throw new RuntimeException("Failed to retrieve transactions by date range", exception);
         }
     }
 
