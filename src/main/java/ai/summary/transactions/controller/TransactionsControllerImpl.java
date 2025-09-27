@@ -22,11 +22,15 @@ public class TransactionsControllerImpl implements TransactionsApi {
     private final CrudTransactionApp transactionsCrudApplication;
 
     @Override
-    public HttpResponse<@Valid GetAllTransactions200Response> getAllTransactions(@NotNull Integer limit,
-            @NotNull Integer offset,
+    public HttpResponse<@Valid GetAllTransactions200Response> getAllTransactions(Integer limit,
+            Integer offset,
             LocalDate startDate, LocalDate endDate) {
         try {
-            var apiTransactions = transactionsCrudApplication.findByFilters(startDate, endDate, limit, offset);
+            var finalLimit = limit != null ? limit : 20;
+            var finalOffset = offset != null ? offset : 0;
+
+            var apiTransactions = transactionsCrudApplication.findByFilters(startDate, endDate, finalLimit,
+                    finalOffset);
 
             if (apiTransactions.isEmpty()) {
                 return HttpResponse.notFound();
@@ -35,8 +39,8 @@ public class TransactionsControllerImpl implements TransactionsApi {
             var response = new GetAllTransactions200Response()
                     .transactions(apiTransactions.get())
                     .total(apiTransactions.get().size())
-                    .limit(limit)
-                    .offset(offset);
+                    .limit(finalLimit)
+                    .offset(finalOffset);
 
             return HttpResponse.ok(response);
         } catch (Exception exception) {

@@ -229,20 +229,22 @@ components:
     Limit:
       name: limit
       in: query
-      required: true
+      required: false
       description: Maximum number of transactions to return
       schema:
         type: integer
         minimum: 1
         maximum: 100
+        default: 20
     Offset:
       name: offset
       in: query
-      required: true
+      required: false
       description: Number of transactions to skip
       schema:
         type: integer
         minimum: 0
+        default: 0
     Scenario:
       name: scenario
       in: path
@@ -251,7 +253,7 @@ components:
       schema:
         type: string
         enum: [Fechada, Aberta, Futura]
-        example: "financial_analysis"
+        example: "Fechada"
 
   responses:
     BadRequest:
