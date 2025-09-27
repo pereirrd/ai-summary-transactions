@@ -26,11 +26,10 @@ public class AiTransactionsControllerImpl implements AiTransactionsApi {
             @NotNull LocalDate startDate, @NotNull LocalDate endDate,
             @NotNull @Valid ProcessAITransactionSummaryRequest processAITransactionSummaryRequest) {
         try {
-            String result = aiTransactionApplication
-                    .processByList(processAITransactionSummaryRequest.getQuestion());
+            var summary = aiTransactionApplication.processByList(
+                    processAITransactionSummaryRequest.getQuestion());
 
-            var response = new AIResultResponse()
-                    .result(result);
+            var response = new AIResultResponse().result(summary);
 
             return HttpResponse.ok(response);
         } catch (Exception exception) {
@@ -44,8 +43,16 @@ public class AiTransactionsControllerImpl implements AiTransactionsApi {
     public HttpResponse<@Valid AIResultResponse> getAITransactionInsights(
             @NotNull GetAITransactionInsightsScenarioParameter scenario, @NotNull LocalDate startDate,
             @NotNull LocalDate endDate) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getAITransactionInsights'");
+        try {
+            var insights = aiTransactionApplication.processByInsights(scenario.getValue(), startDate, endDate);
+            var response = new AIResultResponse().result(insights);
+
+            return HttpResponse.ok(response);
+        } catch (Exception exception) {
+            log.error("Error processing AI transaction insights. Scenario: {}, Start Date: {}, End Date: {}",
+                    scenario, startDate, endDate, exception);
+            return HttpResponse.serverError();
+        }
     }
 
 }

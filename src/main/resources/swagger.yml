@@ -133,7 +133,7 @@ paths:
         "500":
           $ref: "#/components/responses/InternalServerError"
   /ai/transactions/summary:
-    get:
+    post:
       tags:
         - AI transactions
       summary: AI process transaction by generated query
@@ -163,7 +163,7 @@ paths:
         "500":
           $ref: "#/components/responses/InternalServerError"
   /ai/transactions/insights/{scenario}:
-    get:
+    post:
       tags:
         - AI transactions
       summary: Get AI insights for transactions by scenario
@@ -250,7 +250,7 @@ components:
       description: The scenario type for generating insights
       schema:
         type: string
-        enum: [close_invoice, open_invoice, future_invoice]
+        enum: [Fechada, Aberta, Futura]
         example: "financial_analysis"
 
   responses:

@@ -51,6 +51,11 @@
 
     <!-- AI dependencies -->
     <dependency>
+      <groupId>dev.langchain4j</groupId>
+      <artifactId>langchain4j-open-ai</artifactId>
+      <version>1.6.0</version>
+    </dependency>
+    <dependency>
       <groupId>io.micronaut.langchain4j</groupId>
       <artifactId>micronaut-langchain4j-openai</artifactId>
     </dependency>
