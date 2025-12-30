@@ -1,21 +1,15 @@
 package ai.summary.transactions.domain.ai.tools;
 
 import java.time.LocalDate;
-
 import dev.langchain4j.agent.tool.Tool;
-import jakarta.inject.Singleton;
-import lombok.extern.slf4j.Slf4j;
 
-@Slf4j
-@Singleton
-public class ReferenceDateTool {
+public interface ReferenceDateTool {
 
-    @Tool("Essa é a data atual e deve ser usada como referencia para responder a pergunta do cliente.")
-    public LocalDate referenceDate() {
-        var today = LocalDate.now();
-
-        log.info("Getting reference date: {}", today);
-
-        return today;
-    }
+    @Tool("""
+            Essa é a data atual e deve ser usada como referência para responder a pergunta do cliente.
+            Use esta tool quando precisar saber qual é a data de hoje para cálculos relativos de tempo,
+            como "últimos 30 dias", "este mês", "mês passado", etc.
+            Retorna a data atual no formato LocalDate.
+            """)
+    LocalDate referenceDate();
 }

@@ -17,7 +17,7 @@
                 "showReuseMessage": true,
                 "clear": false
             },
-            "envFile": "${workspaceFolder}/.env"
+            "envFile": "${workspaceFolder}/src/main/resources/.env"
         }
     ]
 }
