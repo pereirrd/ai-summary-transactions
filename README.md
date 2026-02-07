@@ -1,166 +1,168 @@
+[Português](README.pt-br.md) | [Español](README.es.md)
+
 # AI Summary Transactions
 
-Projeto desenvolvido para aprendizado e exploração do **LangChain4J** utilizando um cenário fictício de transações de cartões de crédito. O projeto demonstra como integrar inteligência artificial (OpenAI) com armazenamento e busca em OpenSearch para gerar resumos e insights de transações financeiras.
+Project developed for learning and exploring **LangChain4J** using a fictional credit card transaction scenario. The project demonstrates how to integrate artificial intelligence (OpenAI) with storage and search in OpenSearch to generate summaries and insights of financial transactions.
 
-## Tecnologias
+## Technologies
 
-- **Java 21** - Linguagem de programação
-- **Maven** - Gerenciador de dependências e build
-- **Micronaut 4.9.1** - Framework Java moderno e reativo
-- **LangChain4J** - Biblioteca para integração com modelos de linguagem
-- **OpenAI GPT-4o-mini** - Modelo de IA para geração de resumos e insights
-- **OpenSearch 3** - Motor de busca e análise de dados
-- **OpenSearch Dashboards** - Interface de visualização e análise
-- **MapStruct** - Mapeamento de objetos
-- **Lombok** - Redução de boilerplate
+- **Java 21** - Programming language
+- **Maven** - Dependency manager and build tool
+- **Micronaut 4.9.1** - Modern and reactive Java framework
+- **LangChain4J** - Library for integration with language models
+- **OpenAI GPT-4o-mini** - AI model for generating summaries and insights
+- **OpenSearch 3** - Search engine and data analysis
+- **OpenSearch Dashboards** - Visualization and analysis interface
+- **MapStruct** - Object mapping
+- **Lombok** - Boilerplate reduction
 
-## Estrutura do Projeto
+## Project Structure
 
-O projeto segue uma arquitetura em camadas com os seguintes pacotes principais:
+The project follows a layered architecture with the following main packages:
 
-- `ai.summary.transactions.application` - Casos de uso da aplicação
-- `ai.summary.transactions.controller` - Controllers REST (gerados via OpenAPI)
-- `ai.summary.transactions.core` - Configurações e factories
-- `ai.summary.transactions.domain` - Entidades de domínio e serviços de IA
-- `ai.summary.transactions.model` - Modelos de dados (gerados via OpenAPI)
+- `ai.summary.transactions.application` - Application use cases
+- `ai.summary.transactions.controller` - REST controllers (generated via OpenAPI)
+- `ai.summary.transactions.core` - Configurations and factories
+- `ai.summary.transactions.domain` - Domain entities and AI services
+- `ai.summary.transactions.model` - Data models (generated via OpenAPI)
 
 ## OpenSearch
 
-O projeto utiliza **OpenSearch** rodando em containers Docker para armazenar e buscar transações. A configuração inclui um cluster com dois nós e o OpenSearch Dashboards para visualização.
+The project uses **OpenSearch** running in Docker containers to store and search transactions. The configuration includes a cluster with two nodes and OpenSearch Dashboards for visualization.
 
-### Inicialização dos Containers
+### Container Initialization
 
-Para iniciar os containers do OpenSearch:
+To start the OpenSearch containers:
 
 ```bash
 docker-compose up -d
 ```
 
-Isso iniciará:
-- **OpenSearch Node 1** na porta `9200`
-- **OpenSearch Node 2** (nó secundário)
-- **OpenSearch Dashboards** na porta `5601`
+This will start:
+- **OpenSearch Node 1** on port `9200`
+- **OpenSearch Node 2** (secondary node)
+- **OpenSearch Dashboards** on port `5601`
 
-### Variáveis de Ambiente Necessárias
+### Required Environment Variables
 
-Antes de iniciar os containers, defina a variável de ambiente:
+Before starting the containers, set the environment variable:
 
 ```bash
-export OPENSEARCH_INITIAL_ADMIN_PASSWORD=seu_password_aqui
+export OPENSEARCH_INITIAL_ADMIN_PASSWORD=your_password_here
 ```
 
-### Acessando o OpenSearch Dashboards
+### Accessing OpenSearch Dashboards
 
-Após iniciar os containers, acesse o OpenSearch Dashboards em:
+After starting the containers, access OpenSearch Dashboards at:
 - **URL**: http://localhost:5601
 
-O OpenSearch está configurado sem segurança para facilitar o desenvolvimento local.
+OpenSearch is configured without security to facilitate local development.
 
-### Geração de Massa de Dados para Testes
+### Test Data Generation
 
-O projeto inclui um prompt detalhado para geração de massa de dados de teste no arquivo `chats/criando_massa_teste.md`. Este prompt pode ser executado com uma IA (como ChatGPT, Claude, etc.) para gerar um arquivo CSV com transações fictícias de cartão de crédito.
+The project includes a detailed prompt for generating test data in the file `chats/criando_massa_teste.md`. This prompt can be executed with an AI (such as ChatGPT, Claude, etc.) to generate a CSV file with fictional credit card transactions.
 
-O arquivo CSV gerado deve ser importado via **API própria do projeto** utilizando a automação do Postman. A collection do Postman já possui configurado um **Collection Runner** na pasta "CRUD Transactions > Runner" que permite importar automaticamente os dados do CSV através do endpoint `POST /transactions`.
+The generated CSV file should be imported via the **project's own API** using Postman automation. The Postman collection already has a **Collection Runner** configured in the "CRUD Transactions > Runner" folder that allows automatic import of CSV data through the `POST /transactions` endpoint.
 
-O prompt especifica:
+The prompt specifies:
 
-- **1000 transações** distribuídas ao longo de 2025
-- **Categorias realistas** de estabelecimentos brasileiros
-- **Distribuição de valores** seguindo padrões do mercado
-- **Formato CSV** padronizado para importação
+- **1000 transactions** distributed throughout 2025
+- **Realistic categories** of Brazilian establishments
+- **Value distribution** following market patterns
+- **Standardized CSV format** for import
 
-**Como importar os dados:**
+**How to import the data:**
 
-1. Gere o arquivo CSV usando o prompt em `chats/criando_massa_teste.md`
-2. Abra a collection do Postman no aplicativo
-3. Execute o **Collection Runner** na pasta "CRUD Transactions > Runner"
-4. Configure o arquivo CSV como fonte de dados no Runner
-5. O Postman irá executar automaticamente as requisições para criar as transações via API
+1. Generate the CSV file using the prompt in `chats/criando_massa_teste.md`
+2. Open the Postman collection in the application
+3. Run the **Collection Runner** in the "CRUD Transactions > Runner" folder
+4. Configure the CSV file as the data source in the Runner
+5. Postman will automatically execute the requests to create transactions via API
 
-Isso populará o índice `transactions` no OpenSearch com dados de teste através da própria API do projeto.
+This will populate the `transactions` index in OpenSearch with test data through the project's own API.
 
 ## LangChain4J
 
-O projeto utiliza o **LangChain4J** para integrar com a API da OpenAI e gerar resumos e insights inteligentes sobre transações de cartão de crédito. O cenário fictício permite explorar:
+The project uses **LangChain4J** to integrate with the OpenAI API and generate intelligent summaries and insights about credit card transactions. The fictional scenario allows exploring:
 
-- Geração de resumos de transações usando IA
-- Análise de padrões e insights de gastos
-- Integração de prompts estruturados com modelos de linguagem
+- Transaction summary generation using AI
+- Pattern analysis and spending insights
+- Integration of structured prompts with language models
 
-A configuração do LangChain4J está em `application.yml` e utiliza o modelo `gpt-4o-mini` da OpenAI.
+LangChain4J configuration is in `application.yml` and uses the `gpt-4o-mini` model from OpenAI.
 
-## Como Rodar Localmente
+## How to Run Locally
 
-### Pré-requisitos
+### Prerequisites
 
-- Java 21 instalado
-- Maven instalado
-- Docker e Docker Compose instalados
-- Chave de API da OpenAI
+- Java 21 installed
+- Maven installed
+- Docker and Docker Compose installed
+- OpenAI API key
 
-### Passos para Execução
+### Execution Steps
 
-1. **Clone o repositório** (se ainda não tiver feito):
+1. **Clone the repository** (if you haven't already):
    ```bash
-   git clone <url-do-repositorio>
+   git clone <repository-url>
    cd ai-summary-transactions
    ```
 
-2. **Configure a chave de API da OpenAI**:
+2. **Configure the OpenAI API key**:
    
-   Crie um arquivo `.env` na raiz do projeto ou exporte a variável de ambiente:
+   Create a `.env` file in the project root or export the environment variable:
    ```bash
-   export OPENAI_API_KEY=sua_chave_api_openai_aqui
+   export OPENAI_API_KEY=your_openai_api_key_here
    ```
    
-   Você pode obter uma chave de API em: https://platform.openai.com/api-keys
+   You can obtain an API key at: https://platform.openai.com/api-keys
 
-3. **Configure a senha do OpenSearch**:
+3. **Configure the OpenSearch password**:
    ```bash
    export OPENSEARCH_INITIAL_ADMIN_PASSWORD=admin123
    ```
 
-4. **Inicie os containers do OpenSearch**:
+4. **Start the OpenSearch containers**:
    ```bash
    docker-compose up -d
    ```
 
-5. **Aguarde os containers estarem prontos** (pode levar alguns segundos):
+5. **Wait for the containers to be ready** (may take a few seconds):
    ```bash
    docker-compose ps
    ```
 
-6. **Compile e execute a aplicação**:
+6. **Compile and run the application**:
    ```bash
    ./mvnw clean install
    ./mvnw mn:run
    ```
 
-   Ou usando Maven diretamente:
+   Or using Maven directly:
    ```bash
    mvn clean install
    mvn mn:run
    ```
 
-7. **Acesse a aplicação**:
+7. **Access the application**:
    - API: http://localhost:8080
    - Swagger UI: http://localhost:8080/swagger-ui
    - OpenSearch Dashboards: http://localhost:5601
 
-## Collection do Postman
+## Postman Collection
 
-O projeto inclui uma collection do Postman salva em:
+The project includes a Postman collection saved at:
 ```
 src/main/resources/collections/AI Summary Transactions.postman_collection.json
 ```
 
-Importe esta collection no Postman para testar os endpoints da API facilmente.
+Import this collection into Postman to easily test the API endpoints.
 
-## Desenvolvimento
+## Development
 
-Este projeto foi desenvolvido utilizando o **Cursor IDE** como auxílio durante o desenvolvimento. O diretório `chats/` contém o histórico dos principais chats durante as implementações, documentando as decisões técnicas e o processo de desenvolvimento.
+This project was developed using **Cursor IDE** as an aid during development. The `chats/` directory contains the history of the main chats during implementations, documenting technical decisions and the development process.
 
-## Documentação Adicional
+## Additional Documentation
 
 - [Micronaut 4.9.1 User Guide](https://docs.micronaut.io/4.9.1/guide/index.html)
 - [Micronaut API Reference](https://docs.micronaut.io/4.9.1/api/index.html)
